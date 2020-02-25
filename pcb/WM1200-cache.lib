@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# WM1200_A1200_trapdoor_connector
+# WM1200:A1200_trapdoor_connector
 #
-DEF WM1200_A1200_trapdoor_connector X 0 40 Y Y 4 L N
+DEF WM1200:A1200_trapdoor_connector X 0 40 Y Y 4 L N
 F0 "X" 0 200 50 H V C CNN
-F1 "WM1200_A1200_trapdoor_connector" 0 100 50 H V C CNN
+F1 "WM1200:A1200_trapdoor_connector" 0 100 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -170,11 +170,11 @@ X Reserved 95 1100 400 100 L 50 50 4 1 N
 ENDDRAW
 ENDDEF
 #
-# WM1200_clockport_connector
+# WM1200:clockport_connector
 #
-DEF WM1200_clockport_connector X 0 40 Y Y 1 F N
+DEF WM1200:clockport_connector X 0 40 Y Y 1 F N
 F0 "X" 0 650 50 H V C CNN
-F1 "WM1200_clockport_connector" 0 800 50 H V C CNN
+F1 "WM1200:clockport_connector" 0 800 50 H V C CNN
 F2 "" 0 650 50 H I C CNN
 F3 "" 0 650 50 H I C CNN
 DRAW

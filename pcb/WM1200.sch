@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:WM1200-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -39,13 +40,13 @@ $EndSheet
 $Sheet
 S 6000 1000 1500 1000
 U 5E5B89F7
-F0 "buffers_1" 50
+F0 "buffers_data" 50
 F1 "buffers_1.sch" 50
 $EndSheet
 $Sheet
 S 6000 2500 1500 1000
 U 5E5B8B5B
-F0 "buffers_2" 50
+F0 "buffers_addr" 50
 F1 "buffers_2.sch" 50
 $EndSheet
 Wire Bus Line
@@ -56,7 +57,7 @@ Connection ~ 2750 1250
 Wire Bus Line
 	2750 1250 3250 1250
 $Sheet
-S 6000 4000 1500 1000
+S 6000 5000 1500 1000
 U 5E5B9D2E
 F0 "open_collector" 50
 F1 "open_collector.sch" 50
@@ -87,5 +88,11 @@ S 3500 5000 1500 1000
 U 5E5BC361
 F0 "audio" 50
 F1 "audio.sch" 50
+$EndSheet
+$Sheet
+S 6000 3850 1500 850 
+U 5E556990
+F0 "buffers_amiga_zorro" 50
+F1 "buffers_3.sch" 50
 $EndSheet
 $EndSCHEMATC
