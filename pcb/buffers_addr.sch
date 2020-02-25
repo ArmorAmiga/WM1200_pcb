@@ -57,7 +57,7 @@ F 3 "" H 8050 4900 50  0001 C CNN
 	2    8050 4900
 	1    0    0    -1  
 $EndComp
-Text HLabel 9950 6300 2    50   BiDi ~ 0
+Text HLabel 10400 6300 2    50   BiDi ~ 0
 FPGA
 Wire Bus Line
 	1750 1200 5850 1200
@@ -394,8 +394,6 @@ Wire Wire Line
 	8700 2550 10300 2550
 Wire Wire Line
 	10300 2650 8700 2650
-Wire Bus Line
-	1400 5800 3100 5800
 Wire Wire Line
 	3900 4400 4500 4400
 Wire Wire Line
@@ -774,61 +772,57 @@ A_BUFF_DIR
 $Comp
 L Device:R R?
 U 1 1 5E91CEB5
-P 3950 6300
+P 5600 4700
 AR Path="/5E5B89F7/5E91CEB5" Ref="R?"  Part="1" 
 AR Path="/5E78104B/5E91CEB5" Ref="R?"  Part="1" 
-F 0 "R?" V 3743 6300 50  0000 C CNN
-F 1 "4.7k" V 3834 6300 50  0000 C CNN
-F 2 "" V 3880 6300 50  0001 C CNN
-F 3 "~" H 3950 6300 50  0001 C CNN
-	1    3950 6300
+F 0 "R?" V 5393 4700 50  0000 C CNN
+F 1 "4.7k" V 5484 4700 50  0000 C CNN
+F 2 "" V 5530 4700 50  0001 C CNN
+F 3 "~" H 5600 4700 50  0001 C CNN
+	1    5600 4700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E91CEBB
-P 3950 7200
+P 5600 5600
 AR Path="/5E5B89F7/5E91CEBB" Ref="R?"  Part="1" 
 AR Path="/5E78104B/5E91CEBB" Ref="R?"  Part="1" 
-F 0 "R?" V 3743 7200 50  0000 C CNN
-F 1 "4.7k" V 3834 7200 50  0000 C CNN
-F 2 "" V 3880 7200 50  0001 C CNN
-F 3 "~" H 3950 7200 50  0001 C CNN
-	1    3950 7200
+F 0 "R?" V 5393 5600 50  0000 C CNN
+F 1 "4.7k" V 5484 5600 50  0000 C CNN
+F 2 "" V 5530 5600 50  0001 C CNN
+F 3 "~" H 5600 5600 50  0001 C CNN
+	1    5600 5600
 	0    1    1    0   
 $EndComp
 Entry Wire Line
-	3100 6200 3200 6300
+	4750 4600 4850 4700
 Entry Wire Line
-	3100 7100 3200 7200
+	4750 5500 4850 5600
 Entry Wire Line
-	4650 7200 4750 7300
+	6300 5600 6400 5700
 Entry Wire Line
-	4650 6300 4750 6400
+	6300 4700 6400 4800
 Wire Wire Line
-	3200 6300 3800 6300
+	4850 4700 5450 4700
 Wire Wire Line
-	3800 7200 3200 7200
+	5450 5600 4850 5600
 Wire Wire Line
-	4100 6300 4650 6300
+	5750 4700 6300 4700
 Wire Wire Line
-	4650 7200 4100 7200
-Text Label 4200 6300 0    50   ~ 0
+	6300 5600 5750 5600
+Text Label 4900 4700 0    50   ~ 0
 A_BUFF_DIR
-Text Label 4200 7200 0    50   ~ 0
+Text Label 4900 5600 0    50   ~ 0
 A_BUFF_OE
-Text Label 3200 7200 0    50   ~ 0
+Text Label 5800 5600 0    50   ~ 0
 +3V3_BUFFER
-Text Label 3250 6300 0    50   ~ 0
+Text Label 6100 4700 0    50   ~ 0
 GND
-Text Notes 3550 6950 0    50   ~ 0
+Text Notes 5200 5350 0    50   ~ 0
 Disable OE by default
-Text Notes 3250 6050 0    50   ~ 0
+Text Notes 4900 4450 0    50   ~ 0
 Data direction is B -> A by default
-Connection ~ 4750 6300
-Connection ~ 3100 5800
-Wire Bus Line
-	3100 5800 4600 5800
 Wire Bus Line
 	4750 6300 10400 6300
 $Comp
@@ -952,10 +946,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 3900 9700 3900
 Wire Bus Line
-	3100 5800 3100 7300
-Wire Bus Line
-	4750 6300 4750 7350
-Wire Bus Line
 	4600 4500 4600 5800
 Wire Bus Line
 	9600 4500 9600 5800
@@ -971,4 +961,6 @@ Wire Bus Line
 	5850 1200 5850 3800
 Wire Bus Line
 	4750 1650 4750 6300
+Wire Bus Line
+	1400 5800 4600 5800
 $EndSCHEMATC

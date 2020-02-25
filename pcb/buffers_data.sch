@@ -447,8 +447,6 @@ Wire Wire Line
 	8900 2550 9650 2550
 Wire Wire Line
 	9650 2650 8900 2650
-Wire Bus Line
-	1400 5800 3100 5800
 Wire Wire Line
 	3900 4400 4500 4400
 Wire Wire Line
@@ -672,10 +670,6 @@ Text Label 6550 4700 0    50   ~ 0
 GND
 Text Label 6550 4800 0    50   ~ 0
 GND
-Connection ~ 3100 5800
-Wire Bus Line
-	3100 5800 4600 5800
-Connection ~ 4750 6300
 Text Label 4000 4100 0    50   ~ 0
 D_BUFF_OE
 Text Label 4000 4200 0    50   ~ 0
@@ -683,52 +677,52 @@ D_BUFF_DIR
 $Comp
 L Device:R R?
 U 1 1 5E7D2869
-P 3950 6300
-F 0 "R?" V 3743 6300 50  0000 C CNN
-F 1 "4.7k" V 3834 6300 50  0000 C CNN
-F 2 "" V 3880 6300 50  0001 C CNN
-F 3 "~" H 3950 6300 50  0001 C CNN
-	1    3950 6300
+P 5600 4700
+F 0 "R?" V 5393 4700 50  0000 C CNN
+F 1 "4.7k" V 5484 4700 50  0000 C CNN
+F 2 "" V 5530 4700 50  0001 C CNN
+F 3 "~" H 5600 4700 50  0001 C CNN
+	1    5600 4700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E7D396E
-P 3950 7200
-F 0 "R?" V 3743 7200 50  0000 C CNN
-F 1 "4.7k" V 3834 7200 50  0000 C CNN
-F 2 "" V 3880 7200 50  0001 C CNN
-F 3 "~" H 3950 7200 50  0001 C CNN
-	1    3950 7200
+P 5600 5600
+F 0 "R?" V 5393 5600 50  0000 C CNN
+F 1 "4.7k" V 5484 5600 50  0000 C CNN
+F 2 "" V 5530 5600 50  0001 C CNN
+F 3 "~" H 5600 5600 50  0001 C CNN
+	1    5600 5600
 	0    1    1    0   
 $EndComp
 Entry Wire Line
-	3100 6200 3200 6300
+	4750 4600 4850 4700
 Entry Wire Line
-	3100 7100 3200 7200
+	4750 5500 4850 5600
 Entry Wire Line
-	4650 7200 4750 7300
+	6300 5600 6400 5700
 Entry Wire Line
-	4650 6300 4750 6400
+	6300 4700 6400 4800
 Wire Wire Line
-	3200 6300 3800 6300
+	4850 4700 5450 4700
 Wire Wire Line
-	3800 7200 3200 7200
+	5450 5600 4850 5600
 Wire Wire Line
-	4100 6300 4650 6300
+	5750 4700 6300 4700
 Wire Wire Line
-	4650 7200 4100 7200
-Text Label 4200 6300 0    50   ~ 0
+	6300 5600 5750 5600
+Text Label 4850 4700 0    50   ~ 0
 D_BUFF_DIR
-Text Label 4200 7200 0    50   ~ 0
+Text Label 4900 5600 0    50   ~ 0
 D_BUFF_OE
-Text Label 3200 7200 0    50   ~ 0
+Text Label 5800 5600 0    50   ~ 0
 +3V3_BUFFER
-Text Label 3250 6300 0    50   ~ 0
+Text Label 6100 4700 0    50   ~ 0
 GND
-Text Notes 3550 6950 0    50   ~ 0
+Text Notes 5200 5350 0    50   ~ 0
 Disable OE by default
-Text Notes 3250 6050 0    50   ~ 0
+Text Notes 4900 4450 0    50   ~ 0
 Data direction is B -> A by default
 Text Label 4000 2550 0    50   ~ 0
 D_BUFF_OE
@@ -742,10 +736,6 @@ Text Label 9050 4200 0    50   ~ 0
 D_BUFF_DIR
 Text Label 9050 4100 0    50   ~ 0
 D_BUFF_OE
-Wire Bus Line
-	3100 5800 3100 7500
-Wire Bus Line
-	4750 6300 4750 7500
 Wire Bus Line
 	4600 4500 4600 5800
 Wire Bus Line
@@ -762,4 +752,6 @@ Wire Bus Line
 	9750 1650 9750 6300
 Wire Bus Line
 	4750 1650 4750 6300
+Wire Bus Line
+	1400 5800 4600 5800
 $EndSCHEMATC
