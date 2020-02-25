@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -56,8 +56,6 @@ F1 "FPGA_devboard.sch" 50
 $EndSheet
 Wire Bus Line
 	5500 1150 5500 1650
-Wire Bus Line
-	8000 1000 8000 1750
 $Sheet
 S 3000 6000 1500 500 
 U 5E5BC361
@@ -145,7 +143,6 @@ Wire Bus Line
 	3200 1350 5750 1350
 Wire Bus Line
 	7450 1750 8000 1750
-Connection ~ 8000 1750
 Wire Bus Line
 	7500 2750 8000 2750
 Wire Bus Line
@@ -160,4 +157,15 @@ Wire Bus Line
 	4500 6250 8000 6250
 Wire Bus Line
 	8000 3750 8000 6250
+$Sheet
+S 1000 3500 1500 500 
+U 5E87139E
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
+Wire Bus Line
+	5750 1350 8250 1350
+Wire Bus Line
+	8250 1350 8250 2750
+Connection ~ 5750 1350
 $EndSCHEMATC
