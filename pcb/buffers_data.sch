@@ -150,13 +150,13 @@ Entry Wire Line
 Entry Wire Line
 	4650 3700 4750 3800
 Entry Wire Line
-	4250 4400 4350 4500
+	4500 4400 4600 4500
 Entry Wire Line
-	4250 4500 4350 4600
+	4500 4500 4600 4600
 Entry Wire Line
-	4250 4700 4350 4800
+	4500 4700 4600 4800
 Entry Wire Line
-	4250 4600 4350 4700
+	4500 4600 4600 4700
 Wire Wire Line
 	1850 1550 2600 1550
 Wire Wire Line
@@ -404,13 +404,13 @@ Entry Wire Line
 Entry Wire Line
 	9650 3700 9750 3800
 Entry Wire Line
-	9250 4400 9350 4500
+	9500 4400 9600 4500
 Entry Wire Line
-	9250 4500 9350 4600
+	9500 4500 9600 4600
 Entry Wire Line
-	9250 4700 9350 4800
+	9500 4700 9600 4800
 Entry Wire Line
-	9250 4600 9350 4700
+	9500 4600 9600 4700
 Wire Wire Line
 	8900 3800 9650 3800
 Wire Wire Line
@@ -434,10 +434,10 @@ Wire Wire Line
 Text HLabel 1150 5800 0    50   Input ~ 0
 POWER_GND
 Wire Bus Line
-	6400 5800 4350 5800
-Connection ~ 4350 5800
+	6400 5800 4600 5800
+Connection ~ 4600 5800
 Wire Bus Line
-	9350 5800 6400 5800
+	9600 5800 6400 5800
 Connection ~ 6400 5800
 Entry Wire Line
 	9650 2550 9750 2650
@@ -448,29 +448,29 @@ Wire Wire Line
 Wire Wire Line
 	9650 2650 8900 2650
 Wire Bus Line
-	1400 5800 4350 5800
+	1400 5800 3100 5800
 Wire Wire Line
-	3900 4400 4250 4400
+	3900 4400 4500 4400
 Wire Wire Line
-	4250 4500 3900 4500
+	4500 4500 3900 4500
 Wire Wire Line
-	3900 4600 4250 4600
+	3900 4600 4500 4600
 Wire Wire Line
-	4250 4700 3900 4700
+	4500 4700 3900 4700
 Wire Wire Line
-	8900 4400 9250 4400
+	8900 4400 9500 4400
 Wire Wire Line
-	9250 4500 8900 4500
+	9500 4500 8900 4500
 Wire Wire Line
-	8900 4600 9250 4600
+	8900 4600 9500 4600
 Wire Wire Line
-	9250 4700 8900 4700
+	9500 4700 8900 4700
 $Comp
 L Device:C C?
 U 1 1 5E78F0E1
 P 2900 5600
 F 0 "C?" V 3152 5600 50  0000 C CNN
-F 1 "C" V 3061 5600 50  0000 C CNN
+F 1 "10uF" V 3061 5600 50  0000 C CNN
 F 2 "" H 2938 5450 50  0001 C CNN
 F 3 "~" H 2900 5600 50  0001 C CNN
 	1    2900 5600
@@ -481,7 +481,7 @@ L Device:C C?
 U 1 1 5E78FE60
 P 2900 5200
 F 0 "C?" V 3152 5200 50  0000 C CNN
-F 1 "C" V 3061 5200 50  0000 C CNN
+F 1 "0.1uF" V 3061 5200 50  0000 C CNN
 F 2 "" H 2938 5050 50  0001 C CNN
 F 3 "~" H 2900 5200 50  0001 C CNN
 	1    2900 5200
@@ -492,7 +492,7 @@ L Device:C C?
 U 1 1 5E79CB26
 P 7950 5600
 F 0 "C?" V 8202 5600 50  0000 C CNN
-F 1 "C" V 8111 5600 50  0000 C CNN
+F 1 "10uF" V 8111 5600 50  0000 C CNN
 F 2 "" H 7988 5450 50  0001 C CNN
 F 3 "~" H 7950 5600 50  0001 C CNN
 	1    7950 5600
@@ -503,7 +503,7 @@ L Device:C C?
 U 1 1 5E79CB2C
 P 7950 5200
 F 0 "C?" V 8202 5200 50  0000 C CNN
-F 1 "C" V 8111 5200 50  0000 C CNN
+F 1 "0.1uF" V 8111 5200 50  0000 C CNN
 F 2 "" H 7988 5050 50  0001 C CNN
 F 3 "~" H 7950 5200 50  0001 C CNN
 	1    7950 5200
@@ -514,40 +514,242 @@ Entry Wire Line
 Entry Wire Line
 	1400 5500 1500 5600
 Entry Wire Line
-	4250 5200 4350 5300
+	4500 5200 4600 5300
 Entry Wire Line
-	4250 5600 4350 5700
+	4500 5600 4600 5700
 Entry Wire Line
 	6400 5100 6500 5200
 Entry Wire Line
 	6400 5500 6500 5600
 Entry Wire Line
-	9250 5200 9350 5300
+	9500 5200 9600 5300
 Entry Wire Line
-	9250 5600 9350 5700
+	9500 5600 9600 5700
 Wire Wire Line
 	1500 5200 2750 5200
 Wire Wire Line
 	2750 5600 1500 5600
 Wire Wire Line
-	3050 5200 4250 5200
+	3050 5200 4500 5200
 Wire Wire Line
-	4250 5600 3050 5600
+	4500 5600 3050 5600
 Wire Wire Line
 	6500 5200 7800 5200
 Wire Wire Line
 	7800 5600 6500 5600
 Wire Wire Line
-	8100 5200 9250 5200
+	8100 5200 9500 5200
 Wire Wire Line
-	9250 5600 8100 5600
+	9500 5600 8100 5600
 Wire Bus Line
 	1150 5800 1400 5800
 Connection ~ 1400 5800
+Text Label 1900 1550 0    50   ~ 0
+D31
+Text Label 1900 1650 0    50   ~ 0
+D30
+Text Label 1900 1750 0    50   ~ 0
+D29
+Text Label 1900 1850 0    50   ~ 0
+D28
+Text Label 1900 1950 0    50   ~ 0
+D27
+Text Label 1900 2050 0    50   ~ 0
+D26
+Text Label 1900 2250 0    50   ~ 0
+D24
+Text Label 1900 2150 0    50   ~ 0
+D25
+Text Label 1900 3200 0    50   ~ 0
+D23
+Text Label 1900 3300 0    50   ~ 0
+D22
+Text Label 1900 3400 0    50   ~ 0
+D21
+Text Label 1900 3500 0    50   ~ 0
+D20
+Text Label 1900 3600 0    50   ~ 0
+D19
+Text Label 1900 3700 0    50   ~ 0
+D18
+Text Label 1900 3800 0    50   ~ 0
+D17
+Text Label 1900 3900 0    50   ~ 0
+D16
+Text Label 6900 1550 0    50   ~ 0
+D15
+Text Label 6900 1650 0    50   ~ 0
+D14
+Text Label 6900 1750 0    50   ~ 0
+D13
+Text Label 6900 1850 0    50   ~ 0
+D12
+Text Label 6900 1950 0    50   ~ 0
+D11
+Text Label 6900 2050 0    50   ~ 0
+D10
+Text Label 6900 2150 0    50   ~ 0
+D9
+Text Label 6900 2250 0    50   ~ 0
+D8
+Text Label 6900 3200 0    50   ~ 0
+D7
+Text Label 6900 3300 0    50   ~ 0
+D6
+Text Label 6900 3400 0    50   ~ 0
+D5
+Text Label 6900 3500 0    50   ~ 0
+D4
+Text Label 6900 3600 0    50   ~ 0
+D3
+Text Label 6900 3700 0    50   ~ 0
+D2
+Text Label 6900 3800 0    50   ~ 0
+D1
+Text Label 6900 3900 0    50   ~ 0
+D0
+Text Label 4050 5200 0    50   ~ 0
+GND
+Text Label 4050 5600 0    50   ~ 0
+GND
+Text Label 9050 5200 0    50   ~ 0
+GND
+Text Label 9050 5600 0    50   ~ 0
+GND
+Text Label 3950 4400 0    50   ~ 0
++3V3_BUFFER
+Text Label 3950 4500 0    50   ~ 0
++3V3_BUFFER
+Text Label 3950 4600 0    50   ~ 0
++3V3_BUFFER
+Text Label 3950 4700 0    50   ~ 0
++3V3_BUFFER
+Text Label 1500 5200 0    50   ~ 0
++3V3_BUFFER
+Text Label 1500 5600 0    50   ~ 0
++3V3_BUFFER
+Text Label 6500 5200 0    50   ~ 0
++3V3_BUFFER
+Text Label 6500 5600 0    50   ~ 0
++3V3_BUFFER
+Text Label 9000 4400 0    50   ~ 0
++3V3_BUFFER
+Text Label 9000 4500 0    50   ~ 0
++3V3_BUFFER
+Text Label 9000 4600 0    50   ~ 0
++3V3_BUFFER
+Text Label 9000 4700 0    50   ~ 0
++3V3_BUFFER
+Text Label 1600 4100 0    50   ~ 0
+GND
+Text Label 1600 4200 0    50   ~ 0
+GND
+Text Label 1600 4300 0    50   ~ 0
+GND
+Text Label 1600 4400 0    50   ~ 0
+GND
+Text Label 1600 4500 0    50   ~ 0
+GND
+Text Label 1600 4600 0    50   ~ 0
+GND
+Text Label 1600 4700 0    50   ~ 0
+GND
+Text Label 1600 4800 0    50   ~ 0
+GND
+Text Label 6550 4100 0    50   ~ 0
+GND
+Text Label 6550 4200 0    50   ~ 0
+GND
+Text Label 6550 4300 0    50   ~ 0
+GND
+Text Label 6550 4400 0    50   ~ 0
+GND
+Text Label 6550 4500 0    50   ~ 0
+GND
+Text Label 6550 4600 0    50   ~ 0
+GND
+Text Label 6550 4700 0    50   ~ 0
+GND
+Text Label 6550 4800 0    50   ~ 0
+GND
+Connection ~ 3100 5800
 Wire Bus Line
-	4350 4500 4350 5800
+	3100 5800 4600 5800
+Connection ~ 4750 6300
+Text Label 4000 4100 0    50   ~ 0
+D_BUFF_OE
+Text Label 4000 4200 0    50   ~ 0
+D_BUFF_DIR
+$Comp
+L Device:R R?
+U 1 1 5E7D2869
+P 3950 6300
+F 0 "R?" V 3743 6300 50  0000 C CNN
+F 1 "4.7k" V 3834 6300 50  0000 C CNN
+F 2 "" V 3880 6300 50  0001 C CNN
+F 3 "~" H 3950 6300 50  0001 C CNN
+	1    3950 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E7D396E
+P 3950 7200
+F 0 "R?" V 3743 7200 50  0000 C CNN
+F 1 "4.7k" V 3834 7200 50  0000 C CNN
+F 2 "" V 3880 7200 50  0001 C CNN
+F 3 "~" H 3950 7200 50  0001 C CNN
+	1    3950 7200
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	3100 6200 3200 6300
+Entry Wire Line
+	3100 7100 3200 7200
+Entry Wire Line
+	4650 7200 4750 7300
+Entry Wire Line
+	4650 6300 4750 6400
+Wire Wire Line
+	3200 6300 3800 6300
+Wire Wire Line
+	3800 7200 3200 7200
+Wire Wire Line
+	4100 6300 4650 6300
+Wire Wire Line
+	4650 7200 4100 7200
+Text Label 4200 6300 0    50   ~ 0
+D_BUFF_DIR
+Text Label 4200 7200 0    50   ~ 0
+D_BUFF_OE
+Text Label 3200 7200 0    50   ~ 0
++3V3_BUFFER
+Text Label 3250 6300 0    50   ~ 0
+GND
+Text Notes 3550 6950 0    50   ~ 0
+Disable OE by default
+Text Notes 3250 6050 0    50   ~ 0
+Data direction is B -> A by default
+Text Label 4000 2550 0    50   ~ 0
+D_BUFF_OE
+Text Label 9100 2550 0    50   ~ 0
+D_BUFF_OE
+Text Label 4000 2650 0    50   ~ 0
+D_BUFF_DIR
+Text Label 9100 2650 0    50   ~ 0
+D_BUFF_DIR
+Text Label 9050 4200 0    50   ~ 0
+D_BUFF_DIR
+Text Label 9050 4100 0    50   ~ 0
+D_BUFF_OE
 Wire Bus Line
-	9350 4500 9350 5800
+	3100 5800 3100 7500
+Wire Bus Line
+	4750 6300 4750 7500
+Wire Bus Line
+	4600 4500 4600 5800
+Wire Bus Line
+	9600 4500 9600 5800
 Wire Bus Line
 	1400 4000 1400 5800
 Wire Bus Line

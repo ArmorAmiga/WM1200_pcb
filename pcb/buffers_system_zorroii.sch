@@ -16,67 +16,31 @@ $EndDescr
 $Comp
 L WM1200:74LVCH162245A D?
 U 1 1 5E552A9B
-P 3250 2750
-F 0 "D?" H 3250 3200 50  0000 C CNN
-F 1 "74LVCH162245A" H 3250 3100 50  0000 C CNN
-F 2 "" H 3250 2750 50  0001 C CNN
-F 3 "" H 3250 2750 50  0001 C CNN
-	1    3250 2750
+P 4150 2750
+F 0 "D?" H 4150 3200 50  0000 C CNN
+F 1 "74LVCH162245A" H 4150 3100 50  0000 C CNN
+F 2 "" H 4150 2750 50  0001 C CNN
+F 3 "" H 4150 2750 50  0001 C CNN
+	1    4150 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:74LVCH162245A D?
 U 2 1 5E556C63
-P 3250 4900
-F 0 "D?" H 3250 5850 50  0000 C CNN
-F 1 "74LVCH162245A" H 3250 5750 50  0000 C CNN
-F 2 "" H 3250 4900 50  0001 C CNN
-F 3 "" H 3250 4900 50  0001 C CNN
-	2    3250 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:74LVCH162245A D?
-U 1 1 5E5582DD
-P 8250 2750
-F 0 "D?" H 8250 3250 50  0000 C CNN
-F 1 "74LVCH162245A" H 8250 3150 50  0000 C CNN
-F 2 "" H 8250 2750 50  0001 C CNN
-F 3 "" H 8250 2750 50  0001 C CNN
-	1    8250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:74LVCH162245A D?
-U 2 1 5E55BDDA
-P 8250 4900
-F 0 "D?" H 8250 6165 50  0000 C CNN
-F 1 "74LVCH162245A" H 8250 6074 50  0000 C CNN
-F 2 "" H 8250 4900 50  0001 C CNN
-F 3 "" H 8250 4900 50  0001 C CNN
-	2    8250 4900
+P 4150 4900
+F 0 "D?" H 4150 5850 50  0000 C CNN
+F 1 "74LVCH162245A" H 4150 5750 50  0000 C CNN
+F 2 "" H 4150 4900 50  0001 C CNN
+F 3 "" H 4150 4900 50  0001 C CNN
+	2    4150 4900
 	1    0    0    -1  
 $EndComp
 Text HLabel 9950 6300 2    50   BiDi ~ 0
 FPGA
-Wire Bus Line
-	1750 1200 6750 1200
-Connection ~ 1750 1200
-Wire Bus Line
-	9950 6300 9750 6300
-Connection ~ 9750 6300
-Wire Bus Line
-	4750 6300 9750 6300
 Entry Wire Line
-	1750 1450 1850 1550
+	2000 1450 2100 1550
 Entry Wire Line
-	1750 1550 1850 1650
-Entry Wire Line
-	1750 1750 1850 1850
-Entry Wire Line
-	1750 1650 1850 1750
-Entry Wire Line
-	1750 2050 1850 2150
+	2000 1550 2100 1650
 Entry Wire Line
 	1400 4000 1500 4100
 Entry Wire Line
@@ -94,33 +58,21 @@ Entry Wire Line
 Entry Wire Line
 	1400 4700 1500 4800
 Entry Wire Line
-	4650 1550 4750 1650
+	6700 1550 6800 1650
 Entry Wire Line
-	4650 1650 4750 1750
+	6700 1650 6800 1750
 Entry Wire Line
-	4650 1750 4750 1850
+	6700 2550 6800 2650
 Entry Wire Line
-	4650 1850 4750 1950
+	6700 2650 6800 2750
 Entry Wire Line
-	4650 1950 4750 2050
+	6700 3200 6800 3300
 Entry Wire Line
-	4650 2050 4750 2150
+	6700 3300 6800 3400
 Entry Wire Line
-	4650 2150 4750 2250
+	6700 3400 6800 3500
 Entry Wire Line
-	4650 2250 4750 2350
-Entry Wire Line
-	4650 2550 4750 2650
-Entry Wire Line
-	4650 2650 4750 2750
-Entry Wire Line
-	4650 3200 4750 3300
-Entry Wire Line
-	4650 3300 4750 3400
-Entry Wire Line
-	4650 3400 4750 3500
-Entry Wire Line
-	4650 3500 4750 3600
+	6700 3500 6800 3600
 Entry Wire Line
 	1750 3100 1850 3200
 Entry Wire Line
@@ -138,339 +90,71 @@ Entry Wire Line
 Entry Wire Line
 	1750 3800 1850 3900
 Entry Wire Line
-	4650 3800 4750 3900
+	6700 3800 6800 3900
 Entry Wire Line
-	4650 3900 4750 4000
+	6700 3900 6800 4000
 Entry Wire Line
-	4650 3600 4750 3700
+	6700 3600 6800 3700
 Entry Wire Line
-	4650 4100 4750 4200
+	6700 4100 6800 4200
 Entry Wire Line
-	4650 4200 4750 4300
+	6700 4200 6800 4300
 Entry Wire Line
-	4650 3700 4750 3800
+	6700 3700 6800 3800
 Entry Wire Line
-	4250 4400 4350 4500
+	5400 4400 5500 4500
 Entry Wire Line
-	4250 4500 4350 4600
+	5400 4500 5500 4600
 Entry Wire Line
-	4250 4700 4350 4800
+	5400 4700 5500 4800
 Entry Wire Line
-	4250 4600 4350 4700
+	5400 4600 5500 4700
 Wire Wire Line
-	1850 1550 2600 1550
+	3500 4100 1500 4100
 Wire Wire Line
-	2600 1650 1850 1650
+	1500 4200 3500 4200
 Wire Wire Line
-	2600 1750 1850 1750
+	3500 4300 1500 4300
 Wire Wire Line
-	2600 1850 1850 1850
+	1500 4400 3500 4400
 Wire Wire Line
-	2600 1950 1850 1950
+	3500 4500 1500 4500
 Wire Wire Line
-	2600 2050 1850 2050
+	1500 4600 3500 4600
 Wire Wire Line
-	2600 2150 1850 2150
+	3500 4700 1500 4700
 Wire Wire Line
-	2600 2250 1850 2250
+	1500 4800 3500 4800
 Wire Wire Line
-	2600 4100 1500 4100
+	6700 4100 4800 4100
 Wire Wire Line
-	1500 4200 2600 4200
+	4800 4200 6700 4200
 Wire Wire Line
-	2600 4300 1500 4300
+	4800 2550 6700 2550
 Wire Wire Line
-	1500 4400 2600 4400
-Wire Wire Line
-	2600 4500 1500 4500
-Wire Wire Line
-	1500 4600 2600 4600
-Wire Wire Line
-	2600 4700 1500 4700
-Wire Wire Line
-	1500 4800 2600 4800
-Wire Wire Line
-	2600 3200 1850 3200
-Wire Wire Line
-	1850 3300 2600 3300
-Wire Wire Line
-	2600 3400 1850 3400
-Wire Wire Line
-	1850 3500 2600 3500
-Wire Wire Line
-	2600 3600 1850 3600
-Wire Wire Line
-	1850 3700 2600 3700
-Wire Wire Line
-	2600 3800 1850 3800
-Wire Wire Line
-	1850 3900 2600 3900
-Wire Wire Line
-	3900 3800 4650 3800
-Wire Wire Line
-	4650 3900 3900 3900
-Wire Wire Line
-	3900 3600 4650 3600
-Wire Wire Line
-	4650 4100 3900 4100
-Wire Wire Line
-	3900 4200 4650 4200
-Wire Wire Line
-	4650 3700 3900 3700
-Wire Wire Line
-	3900 1550 4650 1550
-Wire Wire Line
-	3900 1650 4650 1650
-Wire Wire Line
-	3900 1750 4650 1750
-Wire Wire Line
-	4650 1850 3900 1850
-Wire Wire Line
-	3900 1950 4650 1950
-Wire Wire Line
-	4650 2050 3900 2050
-Wire Wire Line
-	3900 2150 4650 2150
-Wire Wire Line
-	4650 2250 3900 2250
-Wire Wire Line
-	3900 2550 4650 2550
-Wire Wire Line
-	4650 2650 3900 2650
-Wire Wire Line
-	3900 3200 4650 3200
-Wire Wire Line
-	4650 3300 3900 3300
-Wire Wire Line
-	3900 3400 4650 3400
-Wire Wire Line
-	4650 3500 3900 3500
-Entry Wire Line
-	1750 1850 1850 1950
-Entry Wire Line
-	1750 1950 1850 2050
-Entry Wire Line
-	1750 2150 1850 2250
+	6700 2650 4800 2650
 Wire Bus Line
 	1500 1200 1750 1200
 Text HLabel 1500 1200 0    50   BiDi ~ 0
 TRPDR
-Entry Wire Line
-	6750 1450 6850 1550
-Entry Wire Line
-	6750 1550 6850 1650
-Entry Wire Line
-	6750 1750 6850 1850
-Entry Wire Line
-	6750 1650 6850 1750
-Entry Wire Line
-	6750 2050 6850 2150
-Wire Wire Line
-	6850 1550 7600 1550
-Wire Wire Line
-	7600 1650 6850 1650
-Wire Wire Line
-	7600 1750 6850 1750
-Wire Wire Line
-	7600 1850 6850 1850
-Wire Wire Line
-	7600 1950 6850 1950
-Wire Wire Line
-	7600 2050 6850 2050
-Wire Wire Line
-	7600 2150 6850 2150
-Wire Wire Line
-	7600 2250 6850 2250
-Entry Wire Line
-	6750 1850 6850 1950
-Entry Wire Line
-	6750 1950 6850 2050
-Entry Wire Line
-	6750 2150 6850 2250
-Entry Wire Line
-	9650 1550 9750 1650
-Entry Wire Line
-	9650 1650 9750 1750
-Entry Wire Line
-	9650 1750 9750 1850
-Entry Wire Line
-	9650 1850 9750 1950
-Entry Wire Line
-	9650 1950 9750 2050
-Entry Wire Line
-	9650 2050 9750 2150
-Entry Wire Line
-	9650 2150 9750 2250
-Entry Wire Line
-	9650 2250 9750 2350
-Wire Wire Line
-	8900 1550 9650 1550
-Wire Wire Line
-	8900 1650 9650 1650
-Wire Wire Line
-	8900 1750 9650 1750
-Wire Wire Line
-	9650 1850 8900 1850
-Wire Wire Line
-	8900 1950 9650 1950
-Wire Wire Line
-	9650 2050 8900 2050
-Wire Wire Line
-	8900 2150 9650 2150
-Wire Wire Line
-	9650 2250 8900 2250
-Entry Wire Line
-	6400 4000 6500 4100
-Entry Wire Line
-	6400 4100 6500 4200
-Entry Wire Line
-	6400 4200 6500 4300
-Entry Wire Line
-	6400 4300 6500 4400
-Entry Wire Line
-	6400 4400 6500 4500
-Entry Wire Line
-	6400 4500 6500 4600
-Entry Wire Line
-	6400 4600 6500 4700
-Entry Wire Line
-	6400 4700 6500 4800
-Entry Wire Line
-	6750 3100 6850 3200
-Entry Wire Line
-	6750 3200 6850 3300
-Entry Wire Line
-	6750 3300 6850 3400
-Entry Wire Line
-	6750 3400 6850 3500
-Entry Wire Line
-	6750 3500 6850 3600
-Entry Wire Line
-	6750 3600 6850 3700
-Entry Wire Line
-	6750 3700 6850 3800
-Entry Wire Line
-	6750 3800 6850 3900
-Wire Wire Line
-	7600 4100 6500 4100
-Wire Wire Line
-	6500 4200 7600 4200
-Wire Wire Line
-	7600 4300 6500 4300
-Wire Wire Line
-	6500 4400 7600 4400
-Wire Wire Line
-	7600 4500 6500 4500
-Wire Wire Line
-	6500 4600 7600 4600
-Wire Wire Line
-	7600 4700 6500 4700
-Wire Wire Line
-	6500 4800 7600 4800
-Wire Wire Line
-	7600 3200 6850 3200
-Wire Wire Line
-	6850 3300 7600 3300
-Wire Wire Line
-	7600 3400 6850 3400
-Wire Wire Line
-	6850 3500 7600 3500
-Wire Wire Line
-	7600 3600 6850 3600
-Wire Wire Line
-	6850 3700 7600 3700
-Wire Wire Line
-	7600 3800 6850 3800
-Wire Wire Line
-	6850 3900 7600 3900
-Entry Wire Line
-	9650 3200 9750 3300
-Entry Wire Line
-	9650 3300 9750 3400
-Entry Wire Line
-	9650 3400 9750 3500
-Entry Wire Line
-	9650 3500 9750 3600
-Entry Wire Line
-	9650 3800 9750 3900
-Entry Wire Line
-	9650 3900 9750 4000
-Entry Wire Line
-	9650 3600 9750 3700
-Entry Wire Line
-	9650 4100 9750 4200
-Entry Wire Line
-	9650 4200 9750 4300
-Entry Wire Line
-	9650 3700 9750 3800
-Entry Wire Line
-	9250 4400 9350 4500
-Entry Wire Line
-	9250 4500 9350 4600
-Entry Wire Line
-	9250 4700 9350 4800
-Entry Wire Line
-	9250 4600 9350 4700
-Wire Wire Line
-	8900 3800 9650 3800
-Wire Wire Line
-	9650 3900 8900 3900
-Wire Wire Line
-	8900 3600 9650 3600
-Wire Wire Line
-	9650 4100 8900 4100
-Wire Wire Line
-	8900 4200 9650 4200
-Wire Wire Line
-	9650 3700 8900 3700
-Wire Wire Line
-	8900 3200 9650 3200
-Wire Wire Line
-	9650 3300 8900 3300
-Wire Wire Line
-	8900 3400 9650 3400
-Wire Wire Line
-	9650 3500 8900 3500
 Text HLabel 1150 5800 0    50   Input ~ 0
 POWER_GND
 Wire Bus Line
-	6400 5800 4350 5800
-Connection ~ 4350 5800
-Wire Bus Line
-	9350 5800 6400 5800
-Connection ~ 6400 5800
-Entry Wire Line
-	9650 2550 9750 2650
-Entry Wire Line
-	9650 2650 9750 2750
+	1400 5800 3950 5800
 Wire Wire Line
-	8900 2550 9650 2550
+	4800 4400 5400 4400
 Wire Wire Line
-	9650 2650 8900 2650
-Wire Bus Line
-	1400 5800 4350 5800
+	5400 4500 4800 4500
 Wire Wire Line
-	3900 4400 4250 4400
+	4800 4600 5400 4600
 Wire Wire Line
-	4250 4500 3900 4500
-Wire Wire Line
-	3900 4600 4250 4600
-Wire Wire Line
-	4250 4700 3900 4700
-Wire Wire Line
-	8900 4400 9250 4400
-Wire Wire Line
-	9250 4500 8900 4500
-Wire Wire Line
-	8900 4600 9250 4600
-Wire Wire Line
-	9250 4700 8900 4700
+	5400 4700 4800 4700
 $Comp
 L Device:C C?
 U 1 1 5E78F0E1
 P 2900 5600
 F 0 "C?" V 3152 5600 50  0000 C CNN
-F 1 "C" V 3061 5600 50  0000 C CNN
+F 1 "10uF" V 3061 5600 50  0000 C CNN
 F 2 "" H 2938 5450 50  0001 C CNN
 F 3 "~" H 2900 5600 50  0001 C CNN
 	1    2900 5600
@@ -481,32 +165,10 @@ L Device:C C?
 U 1 1 5E78FE60
 P 2900 5200
 F 0 "C?" V 3152 5200 50  0000 C CNN
-F 1 "C" V 3061 5200 50  0000 C CNN
+F 1 "0.1uF" V 3061 5200 50  0000 C CNN
 F 2 "" H 2938 5050 50  0001 C CNN
 F 3 "~" H 2900 5200 50  0001 C CNN
 	1    2900 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E79CB26
-P 7950 5600
-F 0 "C?" V 8202 5600 50  0000 C CNN
-F 1 "C" V 8111 5600 50  0000 C CNN
-F 2 "" H 7988 5450 50  0001 C CNN
-F 3 "~" H 7950 5600 50  0001 C CNN
-	1    7950 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E79CB2C
-P 7950 5200
-F 0 "C?" V 8202 5200 50  0000 C CNN
-F 1 "C" V 8111 5200 50  0000 C CNN
-F 2 "" H 7988 5050 50  0001 C CNN
-F 3 "~" H 7950 5200 50  0001 C CNN
-	1    7950 5200
 	0    -1   -1   0   
 $EndComp
 Entry Wire Line
@@ -514,50 +176,622 @@ Entry Wire Line
 Entry Wire Line
 	1400 5500 1500 5600
 Entry Wire Line
-	4250 5200 4350 5300
+	5400 5200 5500 5300
 Entry Wire Line
-	4250 5600 4350 5700
-Entry Wire Line
-	6400 5100 6500 5200
-Entry Wire Line
-	6400 5500 6500 5600
-Entry Wire Line
-	9250 5200 9350 5300
-Entry Wire Line
-	9250 5600 9350 5700
+	5400 5600 5500 5700
 Wire Wire Line
 	1500 5200 2750 5200
 Wire Wire Line
 	2750 5600 1500 5600
 Wire Wire Line
-	3050 5200 4250 5200
+	3050 5200 5400 5200
 Wire Wire Line
-	4250 5600 3050 5600
-Wire Wire Line
-	6500 5200 7800 5200
-Wire Wire Line
-	7800 5600 6500 5600
-Wire Wire Line
-	8100 5200 9250 5200
-Wire Wire Line
-	9250 5600 8100 5600
+	5400 5600 3050 5600
 Wire Bus Line
 	1150 5800 1400 5800
 Connection ~ 1400 5800
 Wire Bus Line
-	4350 4500 4350 5800
+	6800 6300 9950 6300
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6A95DB
+P 2800 1600
+F 0 "X?" H 2800 1650 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 1750 50  0001 C CNN
+F 2 "" H 2950 1600 50  0001 C CNN
+F 3 "" H 2950 1600 50  0001 C CNN
+	1    2800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1550 2400 1550
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B210B
+P 2800 3250
+F 0 "X?" H 2800 3300 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 3400 50  0001 C CNN
+F 2 "" H 2950 3250 50  0001 C CNN
+F 3 "" H 2950 3250 50  0001 C CNN
+	1    2800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B2111
+P 2800 3350
+F 0 "X?" H 2800 3400 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 3500 50  0001 C CNN
+F 2 "" H 2950 3350 50  0001 C CNN
+F 3 "" H 2950 3350 50  0001 C CNN
+	1    2800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B2117
+P 2800 3450
+F 0 "X?" H 2800 3500 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 3600 50  0001 C CNN
+F 2 "" H 2950 3450 50  0001 C CNN
+F 3 "" H 2950 3450 50  0001 C CNN
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B211D
+P 2800 3550
+F 0 "X?" H 2800 3600 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 3700 50  0001 C CNN
+F 2 "" H 2950 3550 50  0001 C CNN
+F 3 "" H 2950 3550 50  0001 C CNN
+	1    2800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B2123
+P 2800 3650
+F 0 "X?" H 2800 3700 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 3800 50  0001 C CNN
+F 2 "" H 2950 3650 50  0001 C CNN
+F 3 "" H 2950 3650 50  0001 C CNN
+	1    2800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B2129
+P 2800 3750
+F 0 "X?" H 2800 3800 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 3900 50  0001 C CNN
+F 2 "" H 2950 3750 50  0001 C CNN
+F 3 "" H 2950 3750 50  0001 C CNN
+	1    2800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B212F
+P 2800 3850
+F 0 "X?" H 2800 3900 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 4000 50  0001 C CNN
+F 2 "" H 2950 3850 50  0001 C CNN
+F 3 "" H 2950 3850 50  0001 C CNN
+	1    2800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6B2135
+P 2800 3950
+F 0 "X?" H 2800 4000 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 4100 50  0001 C CNN
+F 2 "" H 2950 3950 50  0001 C CNN
+F 3 "" H 2950 3950 50  0001 C CNN
+	1    2800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1550 3500 1550
+Wire Wire Line
+	3500 1650 3200 1650
+Wire Wire Line
+	1850 3200 2400 3200
+Wire Wire Line
+	2400 3300 1850 3300
+Wire Wire Line
+	1850 3400 2400 3400
+Wire Wire Line
+	2400 3500 1850 3500
+Wire Wire Line
+	1850 3600 2400 3600
+Wire Wire Line
+	2400 3700 1850 3700
+Wire Wire Line
+	1850 3800 2400 3800
+Wire Wire Line
+	2400 3900 1850 3900
+Wire Wire Line
+	3500 3300 3200 3300
+Wire Wire Line
+	3200 3200 3500 3200
+Wire Wire Line
+	3200 3400 3500 3400
+Wire Wire Line
+	3500 3500 3200 3500
+Wire Wire Line
+	3200 3600 3500 3600
+Wire Wire Line
+	3500 3700 3200 3700
+Wire Wire Line
+	3200 3800 3500 3800
+Wire Wire Line
+	3500 3900 3200 3900
+Text Label 6400 1550 0    50   ~ 0
+_DSACK1
+Text Label 6400 1650 0    50   ~ 0
+_DSACK0
+Text Label 1900 3200 0    50   ~ 0
+_BERR
+Text Label 1900 3300 0    50   ~ 0
+_CPUCLK_A
+Text Label 1900 3400 0    50   ~ 0
+_HLT
+Text Label 1900 3500 0    50   ~ 0
+_IPL2
+Text Label 1900 3600 0    50   ~ 0
+_IPL1
+Text Label 1900 3700 0    50   ~ 0
+_IPL0
+Text Label 1900 3800 0    50   ~ 0
+_RST
+Text Label 1900 3900 0    50   ~ 0
+_KB_RESET
+$Comp
+L Device:R R?
+U 1 1 5E952C80
+P 4550 6300
+AR Path="/5E5B89F7/5E952C80" Ref="R?"  Part="1" 
+AR Path="/5E78B6EB/5E952C80" Ref="R?"  Part="1" 
+F 0 "R?" V 4343 6300 50  0000 C CNN
+F 1 "4.7k" V 4434 6300 50  0000 C CNN
+F 2 "" V 4480 6300 50  0001 C CNN
+F 3 "~" H 4550 6300 50  0001 C CNN
+	1    4550 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E952C86
+P 4550 7200
+AR Path="/5E5B89F7/5E952C86" Ref="R?"  Part="1" 
+AR Path="/5E78B6EB/5E952C86" Ref="R?"  Part="1" 
+F 0 "R?" V 4343 7200 50  0000 C CNN
+F 1 "4.7k" V 4434 7200 50  0000 C CNN
+F 2 "" V 4480 7200 50  0001 C CNN
+F 3 "~" H 4550 7200 50  0001 C CNN
+	1    4550 7200
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	3950 6200 4050 6300
+Entry Wire Line
+	3950 7100 4050 7200
+Entry Wire Line
+	5500 7200 5600 7300
+Entry Wire Line
+	5500 6300 5600 6400
+Wire Wire Line
+	4050 6300 4400 6300
+Wire Wire Line
+	4400 7200 4050 7200
+Wire Wire Line
+	4700 6300 5500 6300
+Wire Wire Line
+	5500 7200 4700 7200
+Text Label 4850 7200 0    50   ~ 0
+INONLY_BUFF_OE
+Text Label 4050 7200 0    50   ~ 0
+GND
+Text Label 4100 6300 0    50   ~ 0
+GND
+Text Notes 4400 6950 0    50   ~ 0
+Enable OE by default
+Text Notes 4100 6050 0    50   ~ 0
+Data direction is B -> A by default
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E6AA8F6
+P 2800 1700
+F 0 "X?" H 2800 1750 50  0000 C CNN
+F 1 "testpoint_cutline" H 2800 1850 50  0001 C CNN
+F 2 "" H 2950 1700 50  0001 C CNN
+F 3 "" H 2950 1700 50  0001 C CNN
+	1    2800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1650 2400 1650
 Wire Bus Line
-	9350 4500 9350 5800
+	2000 2950 6800 2950
+Connection ~ 6800 2950
+Text Notes 3450 1350 0    50   ~ 0
+A and B ports are swapped for _DSACK
+Wire Bus Line
+	1750 1200 6800 1200
+Connection ~ 1750 1200
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E96BD33
+P 5550 1600
+F 0 "X?" H 5550 1650 50  0000 C CNN
+F 1 "testpoint_cutline" H 5550 1750 50  0001 C CNN
+F 2 "" H 5700 1600 50  0001 C CNN
+F 3 "" H 5700 1600 50  0001 C CNN
+	1    5550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E96DC89
+P 2950 1700
+F 0 "X?" H 3000 1750 50  0000 C CNN
+F 1 "testpoint" H 2950 1850 50  0001 C CNN
+F 2 "" H 2950 1700 50  0001 C CNN
+F 3 "" H 2950 1700 50  0001 C CNN
+	1    2950 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E97030F
+P 2950 1800
+F 0 "X?" H 3000 1850 50  0000 C CNN
+F 1 "testpoint" H 2950 1950 50  0001 C CNN
+F 2 "" H 2950 1800 50  0001 C CNN
+F 3 "" H 2950 1800 50  0001 C CNN
+	1    2950 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E972706
+P 2950 1900
+F 0 "X?" H 3000 1950 50  0000 C CNN
+F 1 "testpoint" H 2950 2050 50  0001 C CNN
+F 2 "" H 2950 1900 50  0001 C CNN
+F 3 "" H 2950 1900 50  0001 C CNN
+	1    2950 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E974A69
+P 2950 2000
+F 0 "X?" H 3000 2050 50  0000 C CNN
+F 1 "testpoint" H 2950 2150 50  0001 C CNN
+F 2 "" H 2950 2000 50  0001 C CNN
+F 3 "" H 2950 2000 50  0001 C CNN
+	1    2950 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E976D83
+P 2950 2100
+F 0 "X?" H 3000 2150 50  0000 C CNN
+F 1 "testpoint" H 2950 2250 50  0001 C CNN
+F 2 "" H 2950 2100 50  0001 C CNN
+F 3 "" H 2950 2100 50  0001 C CNN
+	1    2950 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E979098
+P 2950 2200
+F 0 "X?" H 3000 2250 50  0000 C CNN
+F 1 "testpoint" H 2950 2350 50  0001 C CNN
+F 2 "" H 2950 2200 50  0001 C CNN
+F 3 "" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E97B7E8
+P 5400 1800
+F 0 "X?" H 5450 1850 50  0000 C CNN
+F 1 "testpoint" H 5400 1950 50  0001 C CNN
+F 2 "" H 5400 1800 50  0001 C CNN
+F 3 "" H 5400 1800 50  0001 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E96CD4A
+P 5550 1700
+F 0 "X?" H 5550 1750 50  0000 C CNN
+F 1 "testpoint_cutline" H 5550 1850 50  0001 C CNN
+F 2 "" H 5700 1700 50  0001 C CNN
+F 3 "" H 5700 1700 50  0001 C CNN
+	1    5550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E97E6F9
+P 5400 1900
+F 0 "X?" H 5450 1950 50  0000 C CNN
+F 1 "testpoint" H 5400 2050 50  0001 C CNN
+F 2 "" H 5400 1900 50  0001 C CNN
+F 3 "" H 5400 1900 50  0001 C CNN
+	1    5400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E98044A
+P 5400 2000
+F 0 "X?" H 5450 2050 50  0000 C CNN
+F 1 "testpoint" H 5400 2150 50  0001 C CNN
+F 2 "" H 5400 2000 50  0001 C CNN
+F 3 "" H 5400 2000 50  0001 C CNN
+	1    5400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E98214A
+P 5400 2100
+F 0 "X?" H 5450 2150 50  0000 C CNN
+F 1 "testpoint" H 5400 2250 50  0001 C CNN
+F 2 "" H 5400 2100 50  0001 C CNN
+F 3 "" H 5400 2100 50  0001 C CNN
+	1    5400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E983EE4
+P 5400 2200
+F 0 "X?" H 5450 2250 50  0000 C CNN
+F 1 "testpoint" H 5400 2350 50  0001 C CNN
+F 2 "" H 5400 2200 50  0001 C CNN
+F 3 "" H 5400 2200 50  0001 C CNN
+	1    5400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint X?
+U 1 1 5E985BCC
+P 5400 2300
+F 0 "X?" H 5450 2350 50  0000 C CNN
+F 1 "testpoint" H 5400 2450 50  0001 C CNN
+F 2 "" H 5400 2300 50  0001 C CNN
+F 3 "" H 5400 2300 50  0001 C CNN
+	1    5400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1750 3500 1750
+Wire Wire Line
+	3500 1850 3200 1850
+Wire Wire Line
+	3200 1950 3500 1950
+Wire Wire Line
+	3500 2050 3200 2050
+Wire Wire Line
+	3200 2150 3500 2150
+Wire Wire Line
+	3500 2250 3200 2250
+Wire Wire Line
+	5150 1550 4800 1550
+Wire Wire Line
+	4800 1650 5150 1650
+Wire Wire Line
+	5150 1750 4800 1750
+Wire Wire Line
+	4800 1850 5150 1850
+Wire Wire Line
+	5150 1950 4800 1950
+Wire Wire Line
+	4800 2050 5150 2050
+Wire Wire Line
+	5150 2150 4800 2150
+Wire Wire Line
+	4800 2250 5150 2250
+Wire Wire Line
+	5950 1550 6700 1550
+Wire Wire Line
+	6700 1650 5950 1650
+Text Label 6100 2550 0    50   ~ 0
+A_BUFF_OE
+Text Label 6100 2650 0    50   ~ 0
+A_BUFF_DIR
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0ED1
+P 5500 3250
+F 0 "X?" H 5500 3300 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 3400 50  0001 C CNN
+F 2 "" H 5650 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0ED7
+P 5500 3350
+F 0 "X?" H 5500 3400 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 3500 50  0001 C CNN
+F 2 "" H 5650 3350 50  0001 C CNN
+F 3 "" H 5650 3350 50  0001 C CNN
+	1    5500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0EDD
+P 5500 3450
+F 0 "X?" H 5500 3500 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 3600 50  0001 C CNN
+F 2 "" H 5650 3450 50  0001 C CNN
+F 3 "" H 5650 3450 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0EE3
+P 5500 3550
+F 0 "X?" H 5500 3600 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 3700 50  0001 C CNN
+F 2 "" H 5650 3550 50  0001 C CNN
+F 3 "" H 5650 3550 50  0001 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0EE9
+P 5500 3650
+F 0 "X?" H 5500 3700 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 3800 50  0001 C CNN
+F 2 "" H 5650 3650 50  0001 C CNN
+F 3 "" H 5650 3650 50  0001 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0EEF
+P 5500 3750
+F 0 "X?" H 5500 3800 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 3900 50  0001 C CNN
+F 2 "" H 5650 3750 50  0001 C CNN
+F 3 "" H 5650 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0EF5
+P 5500 3850
+F 0 "X?" H 5500 3900 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 4000 50  0001 C CNN
+F 2 "" H 5650 3850 50  0001 C CNN
+F 3 "" H 5650 3850 50  0001 C CNN
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline X?
+U 1 1 5E9C0EFB
+P 5500 3950
+F 0 "X?" H 5500 4000 50  0000 C CNN
+F 1 "testpoint_cutline" H 5500 4100 50  0001 C CNN
+F 2 "" H 5650 3950 50  0001 C CNN
+F 3 "" H 5650 3950 50  0001 C CNN
+	1    5500 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3200 5100 3200
+Wire Wire Line
+	5100 3300 4800 3300
+Wire Wire Line
+	4800 3400 5100 3400
+Wire Wire Line
+	5100 3500 4800 3500
+Wire Wire Line
+	4800 3600 5100 3600
+Wire Wire Line
+	5100 3700 4800 3700
+Wire Wire Line
+	4800 3800 5100 3800
+Wire Wire Line
+	5100 3900 4800 3900
+Wire Wire Line
+	5900 3200 6700 3200
+Wire Wire Line
+	6700 3300 5900 3300
+Wire Wire Line
+	5900 3400 6700 3400
+Wire Wire Line
+	6700 3500 5900 3500
+Wire Wire Line
+	5900 3600 6700 3600
+Wire Wire Line
+	6700 3700 5900 3700
+Wire Wire Line
+	5900 3800 6700 3800
+Wire Wire Line
+	6700 3900 5900 3900
+Wire Bus Line
+	6800 6300 5600 6300
+Connection ~ 6800 6300
+Text Label 5050 4100 0    50   ~ 0
+INONLY_BUFF_OE
+Text Label 5050 4200 0    50   ~ 0
+INONLY_BUFF_DIR
+Text Label 4850 6300 0    50   ~ 0
+INONLY_BUFF_DIR
+Text Label 1600 4100 0    50   ~ 0
+GND
+Text Label 1600 4200 0    50   ~ 0
+GND
+Text Label 1600 4300 0    50   ~ 0
+GND
+Text Label 1600 4400 0    50   ~ 0
+GND
+Text Label 1600 4500 0    50   ~ 0
+GND
+Text Label 1600 4600 0    50   ~ 0
+GND
+Text Label 1600 4700 0    50   ~ 0
+GND
+Text Label 1600 4800 0    50   ~ 0
+GND
+Text Label 4850 5200 0    50   ~ 0
+GND
+Text Label 4850 5600 0    50   ~ 0
+GND
+Connection ~ 3950 5800
+Wire Bus Line
+	3950 5800 5500 5800
+Text Label 4900 4400 0    50   ~ 0
++3V3_BUFFER
+Text Label 4900 4500 0    50   ~ 0
++3V3_BUFFER
+Text Label 4900 4600 0    50   ~ 0
++3V3_BUFFER
+Text Label 4900 4700 0    50   ~ 0
++3V3_BUFFER
+Text Label 1550 5200 0    50   ~ 0
++3V3_BUFFER
+Text Label 1550 5600 0    50   ~ 0
++3V3_BUFFER
+Wire Bus Line
+	6800 2650 6800 2950
+Wire Bus Line
+	2000 1450 2000 2950
+Wire Bus Line
+	6800 1200 6800 1750
+Wire Bus Line
+	3950 5800 3950 7500
+Wire Bus Line
+	5600 6300 5600 7500
+Wire Bus Line
+	5500 4500 5500 5800
 Wire Bus Line
 	1400 4000 1400 5800
 Wire Bus Line
-	6400 4000 6400 5800
-Wire Bus Line
 	1750 1200 1750 3800
 Wire Bus Line
-	6750 1200 6750 3800
-Wire Bus Line
-	9750 1650 9750 6300
-Wire Bus Line
-	4750 1650 4750 6300
+	6800 2950 6800 6300
 $EndSCHEMATC

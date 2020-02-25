@@ -727,6 +727,19 @@ Text HLabel 9750 3900 2    50   Output ~ 0
 POWER_GND
 Wire Bus Line
 	7900 3900 9750 3900
+Connection ~ 7900 3900
+Entry Wire Line
+	4900 1500 5000 1600
+Entry Wire Line
+	4900 1600 5000 1700
+Entry Wire Line
+	1000 5200 1100 5300
+Wire Wire Line
+	1100 5300 1550 5300
+Wire Wire Line
+	5000 1600 5450 1600
+Wire Wire Line
+	5450 1700 5000 1700
 Wire Bus Line
 	8400 600  8400 1400
 Wire Bus Line
@@ -741,5 +754,10 @@ Wire Bus Line
 	4100 700  4100 5300
 Wire Bus Line
 	1000 700  1000 5800
-Connection ~ 7900 3900
+Text Label 5000 1600 0    50   ~ 0
+CCKA
+Text Label 5000 1700 0    50   ~ 0
+_RESET
+Text Label 1100 5300 0    50   ~ 0
+E_CLOCK
 $EndSCHEMATC
