@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 10
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -13,24 +13,11 @@ Comment2 "Wishmaster ARM \\ JIT turbo board for Amiga"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 700  700  0    50   Input ~ 0
-A1
 $Comp
-L WM1200:A1200_trapdoor_connector X?
-U 1 1 5E62B199
-P 9550 2500
-F 0 "X?" H 9550 4165 50  0000 C CNN
-F 1 "A1200_trapdoor_connector" H 9550 4074 50  0000 C CNN
-F 2 "" H 9500 2500 50  0001 C CNN
-F 3 "" H 9500 2500 50  0001 C CNN
-	1    9550 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:A1200_trapdoor_connector X?
+L WM1200:A1200_trapdoor_connector X1
 U 3 1 5E6527FA
 P 5900 2900
-F 0 "X?" H 5900 4965 50  0000 C CNN
+F 0 "X1" H 5900 3850 50  0000 C CNN
 F 1 "A1200_trapdoor_connector" H 5900 4874 50  0000 C CNN
 F 2 "" H 5850 2900 50  0001 C CNN
 F 3 "" H 5850 2900 50  0001 C CNN
@@ -38,7 +25,7 @@ F 3 "" H 5850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	700  700  1000 700 
+	900  700  1000 700 
 Connection ~ 1000 700 
 Wire Bus Line
 	1000 700  4100 700 
@@ -394,10 +381,10 @@ Wire Wire Line
 Wire Wire Line
 	1550 5400 1100 5400
 $Comp
-L WM1200:A1200_trapdoor_connector X?
+L WM1200:A1200_trapdoor_connector X1
 U 2 1 5E64CEB2
 P 2650 6050
-F 0 "X?" H 2650 11265 50  0000 C CNN
+F 0 "X1" H 2650 8900 50  0000 C CNN
 F 1 "A1200_trapdoor_connector" H 2650 11174 50  0000 C CNN
 F 2 "" H 2600 6050 50  0001 C CNN
 F 3 "" H 2600 6050 50  0001 C CNN
@@ -436,52 +423,6 @@ Text Label 3800 5100 0    50   ~ 0
 D1
 Text Label 3800 5200 0    50   ~ 0
 D0
-Entry Wire Line
-	8000 1000 8100 1100
-Entry Wire Line
-	8000 1100 8100 1200
-Entry Wire Line
-	8000 1200 8100 1300
-Entry Wire Line
-	8000 1300 8100 1400
-Entry Wire Line
-	8000 1400 8100 1500
-Entry Wire Line
-	8000 1600 8100 1700
-Entry Wire Line
-	8000 1700 8100 1800
-Entry Wire Line
-	8000 1800 8100 1900
-Entry Wire Line
-	8000 1900 8100 2000
-Entry Wire Line
-	8000 2000 8100 2100
-Entry Wire Line
-	8000 2200 8100 2300
-Entry Wire Line
-	8000 2300 8100 2400
-Entry Wire Line
-	10900 1100 11000 1200
-Entry Wire Line
-	10900 1200 11000 1300
-Entry Wire Line
-	10900 1300 11000 1400
-Entry Wire Line
-	10900 1400 11000 1500
-Entry Wire Line
-	10900 1500 11000 1600
-Entry Wire Line
-	10900 1600 11000 1700
-Entry Wire Line
-	10900 1700 11000 1800
-Entry Wire Line
-	10900 1800 11000 1900
-Entry Wire Line
-	10900 1900 11000 2000
-Entry Wire Line
-	10900 2000 11000 2100
-Entry Wire Line
-	10900 2100 11000 2200
 Wire Wire Line
 	3750 1800 4000 1800
 Wire Wire Line
@@ -547,14 +488,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 5200 3750 5200
 Connection ~ 4250 700 
-Wire Bus Line
-	4250 700  7750 700 
-Connection ~ 7750 700 
-Wire Bus Line
-	7750 700  8000 700 
-Connection ~ 8000 700 
-Wire Bus Line
-	8000 700  11000 700 
 Entry Wire Line
 	4250 1200 4350 1300
 Entry Wire Line
@@ -603,104 +536,6 @@ Wire Wire Line
 	7000 2500 7650 2500
 Wire Wire Line
 	7000 2800 7650 2800
-Wire Wire Line
-	8100 1100 8450 1100
-Wire Wire Line
-	8450 1200 8100 1200
-Wire Wire Line
-	8100 1300 8450 1300
-Wire Wire Line
-	8450 1400 8100 1400
-Wire Wire Line
-	8100 1500 8450 1500
-Wire Wire Line
-	8100 1700 8450 1700
-Wire Wire Line
-	8450 1800 8100 1800
-Wire Wire Line
-	8100 1900 8450 1900
-Wire Wire Line
-	8450 2000 8100 2000
-Wire Wire Line
-	8100 2100 8450 2100
-Wire Wire Line
-	8100 2300 8450 2300
-Wire Wire Line
-	8450 2400 8100 2400
-Wire Wire Line
-	10650 1100 10900 1100
-Wire Wire Line
-	10900 1200 10650 1200
-Wire Wire Line
-	10650 1300 10900 1300
-Wire Wire Line
-	10900 1400 10650 1400
-Wire Wire Line
-	10650 1500 10900 1500
-Wire Wire Line
-	10900 1600 10650 1600
-Wire Wire Line
-	10650 1700 10900 1700
-Wire Wire Line
-	10900 1800 10650 1800
-Wire Wire Line
-	10650 1900 10900 1900
-Wire Wire Line
-	10900 2000 10650 2000
-Wire Wire Line
-	10650 2100 10900 2100
-Entry Wire Line
-	8000 1500 8100 1600
-Wire Wire Line
-	8100 1600 8450 1600
-Text Label 8150 1100 0    50   ~ 0
-GND
-Text Label 8150 1200 0    50   ~ 0
-GND
-Text Label 8150 1300 0    50   ~ 0
-GND
-Text Label 8150 1400 0    50   ~ 0
-GND
-Text Label 8150 1500 0    50   ~ 0
-GND
-Text Label 8150 1600 0    50   ~ 0
-GND
-Text Label 8150 1700 0    50   ~ 0
-GND
-Text Label 8150 1800 0    50   ~ 0
-GND
-Text Label 8150 1900 0    50   ~ 0
-GND
-Text Label 8150 2000 0    50   ~ 0
-GND
-Text Label 8150 2100 0    50   ~ 0
-GND
-Text Label 10650 1100 0    50   ~ 0
-+5VDC
-Text Label 10650 1200 0    50   ~ 0
-+5VDC
-Text Label 10650 1300 0    50   ~ 0
-+5VDC
-Text Label 10650 1400 0    50   ~ 0
-+5VDC
-Text Label 10650 1500 0    50   ~ 0
-+5VDC
-Text Label 10650 1600 0    50   ~ 0
-+5VDC
-Text Label 10650 1800 0    50   ~ 0
-+5VDC
-Text Label 10650 1700 0    50   ~ 0
-+5VDC
-Text Label 10650 1900 0    50   ~ 0
-+5VDC
-Text Label 10650 2000 0    50   ~ 0
-+5VDC
-Text Label 10650 2100 0    50   ~ 0
-+5VDC
-Text Label 8100 2300 0    50   ~ 0
-+12VDC
-Text Label 8100 2400 0    50   ~ 0
--12VDC
 Text Label 4350 1300 0    50   ~ 0
 _BOSS
 Text Label 4350 1900 0    50   ~ 0
@@ -725,10 +560,179 @@ Text Label 7150 2500 0    50   ~ 0
 _OVR
 Text Label 7150 2800 0    50   ~ 0
 _IOWR
+$Comp
+L WM1200:A1200_trapdoor_connector X1
+U 4 1 5E55669B
+P 9850 6350
+F 0 "X1" H 9850 6800 50  0000 C CNN
+F 1 "A1200_trapdoor_connector" H 9850 7424 50  0000 C CNN
+F 2 "" H 9800 6350 50  0001 C CNN
+F 3 "" H 9800 6350 50  0001 C CNN
+	4    9850 6350
+	1    0    0    -1  
+$EndComp
+Text HLabel 900  700  0    50   BiDi ~ 0
+TRPDR
+Text Label 10650 2100 0    50   ~ 0
++5VDC
+Text Label 10650 2000 0    50   ~ 0
++5VDC
+Text Label 10650 1900 0    50   ~ 0
++5VDC
+Text Label 10650 1700 0    50   ~ 0
++5VDC
+Text Label 10650 1800 0    50   ~ 0
++5VDC
+Text Label 10650 1600 0    50   ~ 0
++5VDC
+Text Label 10650 1500 0    50   ~ 0
++5VDC
+Text Label 10650 1400 0    50   ~ 0
++5VDC
+Text Label 10650 1300 0    50   ~ 0
++5VDC
+Text Label 10650 1200 0    50   ~ 0
++5VDC
+Text Label 10650 1100 0    50   ~ 0
++5VDC
+Text Label 8150 2100 0    50   ~ 0
+GND
+Text Label 8150 2000 0    50   ~ 0
+GND
+Text Label 8150 1900 0    50   ~ 0
+GND
+Text Label 8150 1800 0    50   ~ 0
+GND
+Text Label 8150 1700 0    50   ~ 0
+GND
+Text Label 8150 1600 0    50   ~ 0
+GND
+Text Label 8150 1500 0    50   ~ 0
+GND
+Text Label 8150 1400 0    50   ~ 0
+GND
+Text Label 8150 1300 0    50   ~ 0
+GND
+Text Label 8150 1200 0    50   ~ 0
+GND
+Text Label 8150 1100 0    50   ~ 0
+GND
+Wire Wire Line
+	8100 1600 8450 1600
+Entry Wire Line
+	8000 1500 8100 1600
+Wire Wire Line
+	10650 2100 10900 2100
+Wire Wire Line
+	10900 2000 10650 2000
+Wire Wire Line
+	10650 1900 10900 1900
+Wire Wire Line
+	10900 1800 10650 1800
+Wire Wire Line
+	10650 1700 10900 1700
+Wire Wire Line
+	10900 1600 10650 1600
+Wire Wire Line
+	10650 1500 10900 1500
+Wire Wire Line
+	10900 1400 10650 1400
+Wire Wire Line
+	10650 1300 10900 1300
+Wire Wire Line
+	10900 1200 10650 1200
+Wire Wire Line
+	10650 1100 10900 1100
+Wire Wire Line
+	8100 2100 8450 2100
+Wire Wire Line
+	8450 2000 8100 2000
+Wire Wire Line
+	8100 1900 8450 1900
+Wire Wire Line
+	8450 1800 8100 1800
+Wire Wire Line
+	8100 1700 8450 1700
+Wire Wire Line
+	8100 1500 8450 1500
+Wire Wire Line
+	8450 1400 8100 1400
+Wire Wire Line
+	8100 1300 8450 1300
+Wire Wire Line
+	8450 1200 8100 1200
+Wire Wire Line
+	8100 1100 8450 1100
 Wire Bus Line
-	4250 700  4250 2500
+	8000 700  11000 700 
+Entry Wire Line
+	10900 2100 11000 2200
+Entry Wire Line
+	10900 2000 11000 2100
+Entry Wire Line
+	10900 1900 11000 2000
+Entry Wire Line
+	10900 1800 11000 1900
+Entry Wire Line
+	10900 1700 11000 1800
+Entry Wire Line
+	10900 1600 11000 1700
+Entry Wire Line
+	10900 1500 11000 1600
+Entry Wire Line
+	10900 1400 11000 1500
+Entry Wire Line
+	10900 1300 11000 1400
+Entry Wire Line
+	10900 1200 11000 1300
+Entry Wire Line
+	10900 1100 11000 1200
+Entry Wire Line
+	8000 2000 8100 2100
+Entry Wire Line
+	8000 1900 8100 2000
+Entry Wire Line
+	8000 1800 8100 1900
+Entry Wire Line
+	8000 1700 8100 1800
+Entry Wire Line
+	8000 1600 8100 1700
+Entry Wire Line
+	8000 1400 8100 1500
+Entry Wire Line
+	8000 1300 8100 1400
+Entry Wire Line
+	8000 1200 8100 1300
+Entry Wire Line
+	8000 1100 8100 1200
+Entry Wire Line
+	8000 1000 8100 1100
+$Comp
+L WM1200:A1200_trapdoor_connector X1
+U 1 1 5E62B199
+P 9550 2500
+F 0 "X1" H 9550 3250 50  0000 C CNN
+F 1 "A1200_trapdoor_connector" H 9550 4074 50  0000 C CNN
+F 2 "" H 9500 2500 50  0001 C CNN
+F 3 "" H 9500 2500 50  0001 C CNN
+	1    9550 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 700 
 Wire Bus Line
-	7750 700  7750 2900
+	4250 3200 7750 3200
+Wire Bus Line
+	4250 700  8000 700 
+Wire Bus Line
+	7750 600  900  600 
+Text HLabel 900  600  0    50   Input ~ 0
+AUDIO
+Wire Bus Line
+	7750 600  7750 1400
+Wire Bus Line
+	7750 2100 7750 3200
+Wire Bus Line
+	4250 700  4250 3200
 Wire Bus Line
 	11000 700  11000 2200
 Wire Bus Line
