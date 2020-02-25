@@ -13,4 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1000 1500 0    50   Input ~ 0
+POWER_GND
+Text HLabel 1000 2000 0    50   BiDi ~ 0
+TRPDR
+Text HLabel 1000 2500 0    50   BiDi ~ 0
+FPGA
 $EndSCHEMATC

@@ -24,11 +24,6 @@ F 3 "" H 3250 3550 50  0001 C CNN
 	1    3250 2900
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1000 1000 1500 1000
-Wire Bus Line
-	1500 1000 5000 1000
-Connection ~ 1500 1000
 Entry Wire Line
 	1500 1500 1600 1600
 Entry Wire Line
@@ -155,10 +150,21 @@ Text Label 4500 2700 0    50   ~ 0
 A4
 Text Label 4500 2800 0    50   ~ 0
 A5
-Wire Bus Line
-	1500 1000 1500 4000
-Wire Bus Line
-	5000 1000 5000 4000
 Text HLabel 1000 1000 0    50   Input ~ 0
 TRPDR
+Text HLabel 1000 3000 0    50   Input ~ 0
+POWER_GND
+Wire Bus Line
+	1000 1000 1500 1000
+Connection ~ 1500 1000
+Wire Bus Line
+	1500 1000 5000 1000
+Wire Bus Line
+	1500 3000 1000 3000
+Wire Bus Line
+	1500 2400 1500 3000
+Wire Bus Line
+	1500 1000 1500 2200
+Wire Bus Line
+	5000 1000 5000 4000
 $EndSCHEMATC
