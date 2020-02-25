@@ -401,7 +401,7 @@ ENDDEF
 #
 # testpoint
 #
-DEF ~testpoint X 0 40 Y Y 1 F N
+DEF testpoint X 0 40 Y Y 1 F N
 F0 "X" 50 50 50 H V C CNN
 F1 "testpoint" 0 150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -414,7 +414,7 @@ ENDDEF
 #
 # testpoint_cutline
 #
-DEF ~testpoint_cutline X 0 40 Y Y 1 F N
+DEF testpoint_cutline X 0 40 Y Y 1 F N
 F0 "X" 0 -50 50 H V C CNN
 F1 "testpoint_cutline" 0 150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
