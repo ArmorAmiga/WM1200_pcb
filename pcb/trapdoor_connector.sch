@@ -740,6 +740,12 @@ Wire Wire Line
 	5000 1600 5450 1600
 Wire Wire Line
 	5450 1700 5000 1700
+Text Label 5000 1600 0    50   ~ 0
+CCKA
+Text Label 5000 1700 0    50   ~ 0
+_RESET
+Text Label 1100 5300 0    50   ~ 0
+E_CLOCK
 Wire Bus Line
 	8400 600  8400 1400
 Wire Bus Line
@@ -754,10 +760,4 @@ Wire Bus Line
 	4100 700  4100 5300
 Wire Bus Line
 	1000 700  1000 5800
-Text Label 5000 1600 0    50   ~ 0
-CCKA
-Text Label 5000 1700 0    50   ~ 0
-_RESET
-Text Label 1100 5300 0    50   ~ 0
-E_CLOCK
 $EndSCHEMATC

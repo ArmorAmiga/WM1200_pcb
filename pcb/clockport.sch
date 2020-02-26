@@ -150,7 +150,7 @@ Text Label 4500 2700 0    50   ~ 0
 A4
 Text Label 4500 2800 0    50   ~ 0
 A5
-Text HLabel 1000 1000 0    50   Input ~ 0
+Text HLabel 1000 1000 0    50   BiDi ~ 0
 TRPDR
 Text HLabel 1000 3000 0    50   Input ~ 0
 POWER_GND

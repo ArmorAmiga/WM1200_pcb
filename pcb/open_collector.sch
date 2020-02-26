@@ -17,7 +17,7 @@ Text HLabel 1000 1000 0    50   Input ~ 0
 POWER_GND
 Text HLabel 5700 800  2    50   BiDi ~ 0
 TRPDR
-Text HLabel 1500 1000 0    50   BiDi ~ 0
+Text HLabel 1500 1000 0    50   Input ~ 0
 FPGA
 $Comp
 L Device:Q_NPN_BCE Q?

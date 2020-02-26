@@ -118,14 +118,6 @@ Text Label 1600 1100 0    50   ~ 0
 +3V3_FPGA_PWR
 Text Label 1600 1000 0    50   ~ 0
 GND
-Wire Bus Line
-	1450 900  1450 1150
-Wire Bus Line
-	1500 2300 1500 3000
-Wire Bus Line
-	4500 2500 4500 3000
-Wire Bus Line
-	1450 1350 1450 1800
 Text Label 1650 2400 0    50   ~ 0
 AUDIO_GND
 Text Label 1650 2600 0    50   ~ 0
@@ -138,4 +130,12 @@ Text Label 1650 2500 0    50   ~ 0
 AUDIO_LEFT
 Text Label 3950 2500 0    50   ~ 0
 AUDIO_RIGHT
+Wire Bus Line
+	1450 900  1450 1150
+Wire Bus Line
+	1500 2300 1500 3000
+Wire Bus Line
+	4500 2500 4500 3000
+Wire Bus Line
+	1450 1350 1450 1800
 $EndSCHEMATC

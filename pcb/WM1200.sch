@@ -18,17 +18,17 @@ S 1000 1000 1500 500
 U 5E6286C8
 F0 "A1200 trapdoor connector" 50
 F1 "trapdoor_connector.sch" 50
-F2 "TRPDR" O R 2500 1350 50 
-F3 "AUDIO" I L 1000 1250 50 
-F4 "POWER_GND" O R 2500 1150 50 
+F2 "AUDIO" I L 1000 1250 50 
+F3 "POWER_GND" O R 2500 1150 50 
+F4 "TRPDR" B R 2500 1350 50 
 $EndSheet
 $Sheet
 S 3500 1500 1500 500 
 U 5E55E8C3
 F0 "Clockport connector" 50
 F1 "clockport.sch" 50
-F2 "TRPDR" I L 3500 1850 50 
-F3 "POWER_GND" I L 3500 1650 50 
+F2 "POWER_GND" I L 3500 1650 50 
+F3 "TRPDR" B L 3500 1850 50 
 $EndSheet
 $Sheet
 S 3500 2500 1500 500 
@@ -47,7 +47,7 @@ F0 "Open collector driven signals" 50
 F1 "open_collector.sch" 50
 F2 "POWER_GND" I L 6000 4650 50 
 F3 "TRPDR" B L 6000 4850 50 
-F4 "FPGA" B R 7500 4750 50 
+F4 "FPGA" I R 7500 4750 50 
 $EndSheet
 $Sheet
 S 8500 2500 1500 1000
@@ -64,8 +64,9 @@ S 3500 5250 1500 500
 U 5E5BC361
 F0 "Audio expansion connector" 50
 F1 "audio.sch" 50
-F2 "AUDIO" O L 3500 5500 50 
+F2 "AUDIO" O L 3500 5600 50 
 F3 "FGPA" I R 5000 5500 50 
+F4 "POWER_GND" I L 3500 5400 50 
 $EndSheet
 $Sheet
 S 6000 1500 1450 500 
@@ -88,7 +89,7 @@ $EndSheet
 $Sheet
 S 6000 3500 1500 500 
 U 5E78B6EB
-F0 "CPU control, System and ZII buffers" 50
+F0 "CPU, System and ZII buffers" 50
 F1 "buffers_system_zorroii.sch" 50
 F2 "FPGA" B R 7500 3750 50 
 F3 "TRPDR" B L 6000 3850 50 
@@ -97,9 +98,9 @@ $EndSheet
 Wire Bus Line
 	1000 1250 750  1250
 Wire Bus Line
-	750  1250 750  5500
+	750  1250 750  5600
 Wire Bus Line
-	750  5500 3500 5500
+	750  5600 3500 5600
 Wire Bus Line
 	5250 1350 5250 1850
 Wire Bus Line
@@ -207,4 +208,9 @@ Wire Bus Line
 Wire Bus Line
 	3000 3750 3500 3750
 Connection ~ 3000 2650
+Wire Bus Line
+	3000 3750 3000 5400
+Wire Bus Line
+	3000 5400 3500 5400
+Connection ~ 3000 3750
 $EndSCHEMATC
