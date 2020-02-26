@@ -547,4 +547,16 @@ Wire Bus Line
 	1750 1000 1750 7500
 Wire Bus Line
 	1150 1000 1150 7500
+Text Label 1850 1200 0    50   ~ 0
+FPGA_OC_BOSS
+Text Label 1850 2350 0    50   ~ 0
+FPGA_OC_RST
+Text Label 1850 3500 0    50   ~ 0
+FPGA_OC_HLT
+Text Label 1850 4650 0    50   ~ 0
+FPGA_OC_INT6
+Text Label 1850 5800 0    50   ~ 0
+FPGA_OC_INT2
+Text Label 1850 6950 0    50   ~ 0
+FPGA_OC_OVR
 $EndSCHEMATC

@@ -754,15 +754,15 @@ GND
 Text Label 6550 4800 0    50   ~ 0
 GND
 Text Label 4100 2550 0    50   ~ 0
-A_BUFF_OE
+_A_BUFF_OE
 Text Label 4100 2650 0    50   ~ 0
 A_BUFF_DIR
 Text Label 4050 4100 0    50   ~ 0
-A_BUFF_OE
+_A_BUFF_OE
 Text Label 9050 2550 0    50   ~ 0
-A_BUFF_OE
+_A_BUFF_OE
 Text Label 9000 4100 0    50   ~ 0
-A_BUFF_OE
+_A_BUFF_OE
 Text Label 4050 4200 0    50   ~ 0
 A_BUFF_DIR
 Text Label 9050 2650 0    50   ~ 0
@@ -814,7 +814,7 @@ Wire Wire Line
 Text Label 4900 4700 0    50   ~ 0
 A_BUFF_DIR
 Text Label 4900 5600 0    50   ~ 0
-A_BUFF_OE
+_A_BUFF_OE
 Text Label 5800 5600 0    50   ~ 0
 +3V3_BUFFER
 Text Label 6100 4700 0    50   ~ 0
@@ -946,6 +946,72 @@ Wire Wire Line
 Wire Wire Line
 	10300 3900 9700 3900
 Wire Bus Line
+	1400 5800 4600 5800
+Text Label 4150 1550 0    50   ~ 0
+FPGA_A23
+Text Label 4150 1650 0    50   ~ 0
+FPGA_A22
+Text Label 4150 1750 0    50   ~ 0
+FPGA_A21
+Text Label 4150 1850 0    50   ~ 0
+FPGA_A20
+Text Label 4150 1950 0    50   ~ 0
+FPGA_A19
+Text Label 4150 2050 0    50   ~ 0
+FPGA_A18
+Text Label 4150 2150 0    50   ~ 0
+FPGA_A17
+Text Label 4150 2250 0    50   ~ 0
+FPGA_A16
+Text Label 4100 3200 0    50   ~ 0
+FPGA_A15
+Text Label 4100 3300 0    50   ~ 0
+FPGA_A14
+Text Label 4100 3400 0    50   ~ 0
+FPGA_A13
+Text Label 4100 3500 0    50   ~ 0
+FPGA_A12
+Text Label 4100 3600 0    50   ~ 0
+FPGA_A11
+Text Label 4100 3700 0    50   ~ 0
+FPGA_A10
+Text Label 4100 3800 0    50   ~ 0
+FPGA_A9
+Text Label 4100 3900 0    50   ~ 0
+FPGA_A8
+Text Label 9350 1550 0    50   ~ 0
+FPGA_A7
+Text Label 9350 1650 0    50   ~ 0
+FPGA_A6
+Text Label 9350 1750 0    50   ~ 0
+FPGA_A5
+Text Label 9350 1850 0    50   ~ 0
+FPGA_A4
+Text Label 9350 1950 0    50   ~ 0
+FPGA_A3
+Text Label 9350 2050 0    50   ~ 0
+FPGA_A2
+Text Label 9350 2150 0    50   ~ 0
+FPGA_A1
+Text Label 9350 2250 0    50   ~ 0
+FPGA_A0
+Text Label 9800 3200 0    50   ~ 0
+_FPGA_AS
+Text Label 9800 3300 0    50   ~ 0
+_FPGA_DS
+Text Label 9800 3400 0    50   ~ 0
+FPGA_R_W
+Text Label 9800 3500 0    50   ~ 0
+FPGA_SIZE0
+Text Label 9800 3600 0    50   ~ 0
+FPGA_SIZE1
+Text Label 9800 3700 0    50   ~ 0
+FPGA_FC2
+Text Label 9800 3800 0    50   ~ 0
+FPGA_FC1
+Text Label 9800 3900 0    50   ~ 0
+FPGA_FC0
+Wire Bus Line
 	4600 4500 4600 5800
 Wire Bus Line
 	9600 4500 9600 5800
@@ -961,6 +1027,4 @@ Wire Bus Line
 	5850 1200 5850 3800
 Wire Bus Line
 	4750 1650 4750 6300
-Wire Bus Line
-	1400 5800 4600 5800
 $EndSCHEMATC

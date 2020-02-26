@@ -671,7 +671,7 @@ GND
 Text Label 6550 4800 0    50   ~ 0
 GND
 Text Label 4000 4100 0    50   ~ 0
-D_BUFF_OE
+_D_BUFF_OE
 Text Label 4000 4200 0    50   ~ 0
 D_BUFF_DIR
 $Comp
@@ -715,7 +715,7 @@ Wire Wire Line
 Text Label 4850 4700 0    50   ~ 0
 D_BUFF_DIR
 Text Label 4900 5600 0    50   ~ 0
-D_BUFF_OE
+_D_BUFF_OE
 Text Label 5800 5600 0    50   ~ 0
 +3V3_BUFFER
 Text Label 6100 4700 0    50   ~ 0
@@ -725,9 +725,9 @@ Disable OE by default
 Text Notes 4900 4450 0    50   ~ 0
 Data direction is B -> A by default
 Text Label 4000 2550 0    50   ~ 0
-D_BUFF_OE
+_D_BUFF_OE
 Text Label 9100 2550 0    50   ~ 0
-D_BUFF_OE
+_D_BUFF_OE
 Text Label 4000 2650 0    50   ~ 0
 D_BUFF_DIR
 Text Label 9100 2650 0    50   ~ 0
@@ -735,7 +735,73 @@ D_BUFF_DIR
 Text Label 9050 4200 0    50   ~ 0
 D_BUFF_DIR
 Text Label 9050 4100 0    50   ~ 0
-D_BUFF_OE
+_D_BUFF_OE
+Wire Bus Line
+	1400 5800 4600 5800
+Text Label 4100 1550 0    50   ~ 0
+FPGA_D31
+Text Label 4100 1650 0    50   ~ 0
+FPGA_D30
+Text Label 4100 1750 0    50   ~ 0
+FPGA_D29
+Text Label 4100 1850 0    50   ~ 0
+FPGA_D28
+Text Label 4100 1950 0    50   ~ 0
+FPGA_D27
+Text Label 4100 2050 0    50   ~ 0
+FPGA_D26
+Text Label 4100 2150 0    50   ~ 0
+FPGA_D25
+Text Label 4100 2250 0    50   ~ 0
+FPGA_D24
+Text Label 4100 3200 0    50   ~ 0
+FPGA_D23
+Text Label 4100 3300 0    50   ~ 0
+FPGA_D22
+Text Label 4100 3400 0    50   ~ 0
+FPGA_D21
+Text Label 4100 3500 0    50   ~ 0
+FPGA_D20
+Text Label 4100 3600 0    50   ~ 0
+FPGA_D19
+Text Label 4100 3700 0    50   ~ 0
+FPGA_D18
+Text Label 4100 3800 0    50   ~ 0
+FPGA_D17
+Text Label 4100 3900 0    50   ~ 0
+FPGA_D16
+Text Label 9100 1550 0    50   ~ 0
+FPGA_D15
+Text Label 9100 1650 0    50   ~ 0
+FPGA_D14
+Text Label 9100 1750 0    50   ~ 0
+FPGA_D13
+Text Label 9100 1850 0    50   ~ 0
+FPGA_D12
+Text Label 9100 1950 0    50   ~ 0
+FPGA_D11
+Text Label 9100 2050 0    50   ~ 0
+FPGA_D10
+Text Label 9100 2150 0    50   ~ 0
+FPGA_D9
+Text Label 9100 2250 0    50   ~ 0
+FPGA_D8
+Text Label 9100 3200 0    50   ~ 0
+FPGA_D7
+Text Label 9100 3300 0    50   ~ 0
+FPGA_D6
+Text Label 9100 3400 0    50   ~ 0
+FPGA_D5
+Text Label 9100 3900 0    50   ~ 0
+FPGA_D0
+Text Label 9100 3800 0    50   ~ 0
+FPGA_D1
+Text Label 9100 3700 0    50   ~ 0
+FPGA_D2
+Text Label 9100 3600 0    50   ~ 0
+FPGA_D3
+Text Label 9100 3500 0    50   ~ 0
+FPGA_D4
 Wire Bus Line
 	4600 4500 4600 5800
 Wire Bus Line
@@ -752,6 +818,4 @@ Wire Bus Line
 	9750 1650 9750 6300
 Wire Bus Line
 	4750 1650 4750 6300
-Wire Bus Line
-	1400 5800 4600 5800
 $EndSCHEMATC

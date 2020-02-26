@@ -38,9 +38,9 @@ $EndComp
 Text HLabel 9950 6300 2    50   BiDi ~ 0
 FPGA
 Entry Wire Line
-	2000 1450 2100 1550
+	1900 1450 2000 1550
 Entry Wire Line
-	2000 1550 2100 1650
+	1900 1550 2000 1650
 Entry Wire Line
 	1400 4000 1500 4100
 Entry Wire Line
@@ -193,16 +193,16 @@ Wire Bus Line
 $Comp
 L WM1200:testpoint_cutline X?
 U 1 1 5E6A95DB
-P 2800 1600
-F 0 "X?" H 2800 1650 50  0000 C CNN
-F 1 "testpoint_cutline" H 2800 1750 50  0001 C CNN
-F 2 "" H 2950 1600 50  0001 C CNN
-F 3 "" H 2950 1600 50  0001 C CNN
-	1    2800 1600
+P 3050 1600
+F 0 "X?" H 3050 1650 50  0000 C CNN
+F 1 "testpoint_cutline" H 3050 1750 50  0001 C CNN
+F 2 "" H 3200 1600 50  0001 C CNN
+F 3 "" H 3200 1600 50  0001 C CNN
+	1    3050 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 1550 2400 1550
+	2000 1550 2650 1550
 $Comp
 L WM1200:testpoint_cutline X?
 U 1 1 5E6B210B
@@ -292,9 +292,9 @@ F 3 "" H 2950 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 1550 3500 1550
+	3450 1550 3500 1550
 Wire Wire Line
-	3500 1650 3200 1650
+	3500 1650 3450 1650
 Wire Wire Line
 	1850 3200 2400 3200
 Wire Wire Line
@@ -334,7 +334,7 @@ _DSACK0
 Text Label 1900 3200 0    50   ~ 0
 _BERR
 Text Label 1900 3300 0    50   ~ 0
-_CPUCLK_A
+CPUCLK_A
 Text Label 1900 3400 0    50   ~ 0
 _HLT
 Text Label 1900 3500 0    50   ~ 0
@@ -390,7 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 5600 6250 5600
 Text Label 6400 5600 0    50   ~ 0
-INONLY_BUFF_OE
+_INONLY_BUFF_OE
 Text Label 5600 5600 0    50   ~ 0
 GND
 Text Label 5650 5150 0    50   ~ 0
@@ -402,18 +402,18 @@ Data direction is B -> A by default
 $Comp
 L WM1200:testpoint_cutline X?
 U 1 1 5E6AA8F6
-P 2800 1700
-F 0 "X?" H 2800 1750 50  0000 C CNN
-F 1 "testpoint_cutline" H 2800 1850 50  0001 C CNN
-F 2 "" H 2950 1700 50  0001 C CNN
-F 3 "" H 2950 1700 50  0001 C CNN
-	1    2800 1700
+P 3050 1700
+F 0 "X?" H 3050 1750 50  0000 C CNN
+F 1 "testpoint_cutline" H 3050 1850 50  0001 C CNN
+F 2 "" H 3200 1700 50  0001 C CNN
+F 3 "" H 3200 1700 50  0001 C CNN
+	1    3050 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 1650 2400 1650
+	2000 1650 2650 1650
 Wire Bus Line
-	2000 2950 7150 2950
+	1900 2950 7150 2950
 Connection ~ 7150 2950
 Text Notes 3450 1350 0    50   ~ 0
 A and B ports are swapped for _DSACK
@@ -434,67 +434,67 @@ $EndComp
 $Comp
 L WM1200:testpoint X?
 U 1 1 5E96DC89
-P 2950 1700
-F 0 "X?" H 3000 1750 50  0000 C CNN
-F 1 "testpoint" H 2950 1850 50  0001 C CNN
-F 2 "" H 2950 1700 50  0001 C CNN
-F 3 "" H 2950 1700 50  0001 C CNN
-	1    2950 1700
+P 3200 1700
+F 0 "X?" H 3250 1750 50  0000 C CNN
+F 1 "testpoint" H 3200 1850 50  0001 C CNN
+F 2 "" H 3200 1700 50  0001 C CNN
+F 3 "" H 3200 1700 50  0001 C CNN
+	1    3200 1700
 	-1   0    0    1   
 $EndComp
 $Comp
 L WM1200:testpoint X?
 U 1 1 5E97030F
-P 2950 1800
-F 0 "X?" H 3000 1850 50  0000 C CNN
-F 1 "testpoint" H 2950 1950 50  0001 C CNN
-F 2 "" H 2950 1800 50  0001 C CNN
-F 3 "" H 2950 1800 50  0001 C CNN
-	1    2950 1800
+P 3200 1800
+F 0 "X?" H 3250 1850 50  0000 C CNN
+F 1 "testpoint" H 3200 1950 50  0001 C CNN
+F 2 "" H 3200 1800 50  0001 C CNN
+F 3 "" H 3200 1800 50  0001 C CNN
+	1    3200 1800
 	-1   0    0    1   
 $EndComp
 $Comp
 L WM1200:testpoint X?
 U 1 1 5E972706
-P 2950 1900
-F 0 "X?" H 3000 1950 50  0000 C CNN
-F 1 "testpoint" H 2950 2050 50  0001 C CNN
-F 2 "" H 2950 1900 50  0001 C CNN
-F 3 "" H 2950 1900 50  0001 C CNN
-	1    2950 1900
+P 3200 1900
+F 0 "X?" H 3250 1950 50  0000 C CNN
+F 1 "testpoint" H 3200 2050 50  0001 C CNN
+F 2 "" H 3200 1900 50  0001 C CNN
+F 3 "" H 3200 1900 50  0001 C CNN
+	1    3200 1900
 	-1   0    0    1   
 $EndComp
 $Comp
 L WM1200:testpoint X?
 U 1 1 5E974A69
-P 2950 2000
-F 0 "X?" H 3000 2050 50  0000 C CNN
-F 1 "testpoint" H 2950 2150 50  0001 C CNN
-F 2 "" H 2950 2000 50  0001 C CNN
-F 3 "" H 2950 2000 50  0001 C CNN
-	1    2950 2000
+P 3200 2000
+F 0 "X?" H 3250 2050 50  0000 C CNN
+F 1 "testpoint" H 3200 2150 50  0001 C CNN
+F 2 "" H 3200 2000 50  0001 C CNN
+F 3 "" H 3200 2000 50  0001 C CNN
+	1    3200 2000
 	-1   0    0    1   
 $EndComp
 $Comp
 L WM1200:testpoint X?
 U 1 1 5E976D83
-P 2950 2100
-F 0 "X?" H 3000 2150 50  0000 C CNN
-F 1 "testpoint" H 2950 2250 50  0001 C CNN
-F 2 "" H 2950 2100 50  0001 C CNN
-F 3 "" H 2950 2100 50  0001 C CNN
-	1    2950 2100
+P 3200 2100
+F 0 "X?" H 3250 2150 50  0000 C CNN
+F 1 "testpoint" H 3200 2250 50  0001 C CNN
+F 2 "" H 3200 2100 50  0001 C CNN
+F 3 "" H 3200 2100 50  0001 C CNN
+	1    3200 2100
 	-1   0    0    1   
 $EndComp
 $Comp
 L WM1200:testpoint X?
 U 1 1 5E979098
-P 2950 2200
-F 0 "X?" H 3000 2250 50  0000 C CNN
-F 1 "testpoint" H 2950 2350 50  0001 C CNN
-F 2 "" H 2950 2200 50  0001 C CNN
-F 3 "" H 2950 2200 50  0001 C CNN
-	1    2950 2200
+P 3200 2200
+F 0 "X?" H 3250 2250 50  0000 C CNN
+F 1 "testpoint" H 3200 2350 50  0001 C CNN
+F 2 "" H 3200 2200 50  0001 C CNN
+F 3 "" H 3200 2200 50  0001 C CNN
+	1    3200 2200
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -575,17 +575,17 @@ F 3 "" H 5400 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 1750 3500 1750
+	3450 1750 3500 1750
 Wire Wire Line
-	3500 1850 3200 1850
+	3500 1850 3450 1850
 Wire Wire Line
-	3200 1950 3500 1950
+	3450 1950 3500 1950
 Wire Wire Line
-	3500 2050 3200 2050
+	3500 2050 3450 2050
 Wire Wire Line
-	3200 2150 3500 2150
+	3450 2150 3500 2150
 Wire Wire Line
-	3500 2250 3200 2250
+	3500 2250 3450 2250
 Wire Wire Line
 	5150 1550 4800 1550
 Wire Wire Line
@@ -607,7 +607,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 1650 5950 1650
 Text Label 6100 2550 0    50   ~ 0
-A_BUFF_OE
+_A_BUFF_OE
 Text Label 6100 2650 0    50   ~ 0
 A_BUFF_DIR
 $Comp
@@ -731,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3900 5900 3900
 Text Label 5050 4100 0    50   ~ 0
-INONLY_BUFF_OE
+_INONLY_BUFF_OE
 Text Label 5050 4200 0    50   ~ 0
 INONLY_BUFF_DIR
 Text Label 6400 5150 0    50   ~ 0
@@ -769,9 +769,15 @@ Text Label 1550 5200 0    50   ~ 0
 Text Label 1550 5600 0    50   ~ 0
 +3V3_BUFFER
 Wire Bus Line
+	1400 5800 5500 5800
+Text Label 2000 1550 0    50   ~ 0
+_FPGA_DSACK1
+Text Label 2000 1650 0    50   ~ 0
+_FPGA_DSACK0
+Wire Bus Line
 	7150 2650 7150 2950
 Wire Bus Line
-	2000 1450 2000 2950
+	1900 1450 1900 2950
 Wire Bus Line
 	6800 1200 6800 1750
 Wire Bus Line
@@ -782,6 +788,20 @@ Wire Bus Line
 	1750 1200 1750 3800
 Wire Bus Line
 	7150 2950 7150 6300
-Wire Bus Line
-	1400 5800 5500 5800
+Text Label 6250 3200 0    50   ~ 0
+_FPGA_BERR
+Text Label 6250 3300 0    50   ~ 0
+FPGA_CPUCLK_A
+Text Label 6250 3400 0    50   ~ 0
+_FPGA_HLT
+Text Label 6250 3500 0    50   ~ 0
+_FPGA_IPL2
+Text Label 6250 3600 0    50   ~ 0
+_FPGA_IPL1
+Text Label 6250 3700 0    50   ~ 0
+_FPGA_IPL0
+Text Label 6250 3800 0    50   ~ 0
+_FPGA_RST
+Text Label 6250 3900 0    50   ~ 0
+_FPGA_KB_RESET
 $EndSCHEMATC
