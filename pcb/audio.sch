@@ -16,7 +16,7 @@ $EndDescr
 Text HLabel 5050 3000 2    50   Output ~ 0
 AUDIO
 Text HLabel 1350 1350 0    50   Input ~ 0
-FGPA
+FPGA
 Wire Bus Line
 	1350 1350 1450 1350
 Entry Wire Line
