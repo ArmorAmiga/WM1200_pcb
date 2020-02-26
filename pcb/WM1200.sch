@@ -16,7 +16,7 @@ $EndDescr
 $Sheet
 S 1000 1000 1500 500 
 U 5E6286C8
-F0 "trapdoor_connector" 50
+F0 "A1200 trapdoor connector" 50
 F1 "trapdoor_connector.sch" 50
 F2 "TRPDR" O R 2500 1350 50 
 F3 "AUDIO" I L 1000 1250 50 
@@ -25,7 +25,7 @@ $EndSheet
 $Sheet
 S 3500 1500 1500 500 
 U 5E55E8C3
-F0 "clockport" 50
+F0 "Clockport connector" 50
 F1 "clockport.sch" 50
 F2 "TRPDR" I L 3500 1850 50 
 F3 "POWER_GND" I L 3500 1650 50 
@@ -33,7 +33,7 @@ $EndSheet
 $Sheet
 S 3500 2500 1500 500 
 U 5E5B86AA
-F0 "testpoints" 50
+F0 "Testpoints" 50
 F1 "testpoints.sch" 50
 F2 "POWER_GND" I L 3500 2650 50 
 F3 "TRPDR" I L 3500 2850 50 
@@ -43,7 +43,7 @@ Wire Bus Line
 $Sheet
 S 6000 4500 1500 500 
 U 5E5B9D2E
-F0 "open_collector" 50
+F0 "Open collector driven signals" 50
 F1 "open_collector.sch" 50
 F2 "POWER_GND" I L 6000 4650 50 
 F3 "TRPDR" B L 6000 4850 50 
@@ -52,7 +52,7 @@ $EndSheet
 $Sheet
 S 8500 2500 1500 1000
 U 5E5BA060
-F0 "FPGA_devboard" 50
+F0 "FPGA Devboard" 50
 F1 "FPGA_devboard.sch" 50
 F2 "FPGA" B L 8500 3250 50 
 F3 "POWER_GND" B L 8500 2750 50 
@@ -62,7 +62,7 @@ Wire Bus Line
 $Sheet
 S 3500 5250 1500 500 
 U 5E5BC361
-F0 "audio" 50
+F0 "Audio expansion connector" 50
 F1 "audio.sch" 50
 F2 "AUDIO" O L 3500 5500 50 
 F3 "FGPA" I R 5000 5500 50 
@@ -70,7 +70,7 @@ $EndSheet
 $Sheet
 S 6000 1500 1450 500 
 U 5E5B89F7
-F0 "buffers_data" 50
+F0 "Data lines buffers" 50
 F1 "buffers_data.sch" 50
 F2 "FPGA" B R 7450 1750 50 
 F3 "TRPDR" B L 6000 1850 50 
@@ -79,7 +79,7 @@ $EndSheet
 $Sheet
 S 6000 2500 1500 500 
 U 5E78104B
-F0 "buffers_addr" 50
+F0 "Address and CPU lines buffers" 50
 F1 "buffers_addr.sch" 50
 F2 "FPGA" B R 7500 2750 50 
 F3 "TRPDR" B L 6000 2850 50 
@@ -88,7 +88,7 @@ $EndSheet
 $Sheet
 S 6000 3500 1500 500 
 U 5E78B6EB
-F0 "buffers_system_zorroii" 50
+F0 "CPU control, System and ZII buffers" 50
 F1 "buffers_system_zorroii.sch" 50
 F2 "FPGA" B R 7500 3750 50 
 F3 "TRPDR" B L 6000 3850 50 
@@ -149,7 +149,7 @@ Wire Bus Line
 $Sheet
 S 3500 3500 1500 500 
 U 5E87139E
-F0 "power" 50
+F0 "Power converters" 50
 F1 "power.sch" 50
 F2 "POWER_GND" B L 3500 3750 50 
 $EndSheet
