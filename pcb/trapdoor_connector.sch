@@ -25,12 +25,7 @@ F 3 "" H 6500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	900  700  1000 700 
-Connection ~ 1000 700 
-Wire Bus Line
-	1000 700  4100 700 
-Wire Bus Line
-	4100 700  4900 700 
+	900  900  1000 900 
 Entry Wire Line
 	1000 1100 1100 1200
 Entry Wire Line
@@ -716,11 +711,6 @@ F 3 "" H 6400 5700 50  0001 C CNN
 $EndComp
 Wire Bus Line
 	4900 3200 8400 3200
-Wire Bus Line
-	8400 600  900  600 
-Text HLabel 900  600  0    50   Input ~ 0
-AUDIO
-Connection ~ 4100 700 
 Text HLabel 9750 3900 2    50   Output ~ 0
 POWER_GND
 Wire Bus Line
@@ -744,8 +734,20 @@ Text Label 5000 1700 0    50   ~ 0
 _RESET
 Text Label 1100 5300 0    50   ~ 0
 E_CLOCK
+Text HLabel 900  900  0    50   BiDi ~ 0
+A[23..0]
 Wire Bus Line
-	8400 600  8400 1400
+	1000 4200 1000 4300
+Wire Bus Line
+	1000 4900 1000 5000
+Text HLabel 3850 700  0    50   BiDi ~ 0
+D[31..0]
+Wire Bus Line
+	3850 700  4100 700 
+Wire Bus Line
+	1000 3700 1000 3900
+Wire Bus Line
+	1000 5300 1000 5500
 Wire Bus Line
 	8400 2100 8400 3200
 Wire Bus Line
@@ -755,9 +757,7 @@ Wire Bus Line
 Wire Bus Line
 	4900 3900 4900 5500
 Wire Bus Line
-	4100 700  4100 5300
+	1000 900  1000 3500
 Wire Bus Line
-	1000 700  1000 5800
-Text HLabel 900  700  0    50   BiDi ~ 0
-TRPDR
+	4100 700  4100 5300
 $EndSCHEMATC

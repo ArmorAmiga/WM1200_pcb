@@ -18,17 +18,9 @@ S 1000 1000 1500 500
 U 5E6286C8
 F0 "A1200 trapdoor connector" 50
 F1 "trapdoor_connector.sch" 50
-F2 "AUDIO" I L 1000 1250 50 
-F3 "POWER_GND" O R 2500 1150 50 
-F4 "TRPDR" B R 2500 1350 50 
-$EndSheet
-$Sheet
-S 3500 1500 1500 500 
-U 5E55E8C3
-F0 "Clockport connector" 50
-F1 "clockport.sch" 50
-F2 "POWER_GND" I L 3500 1650 50 
-F3 "TRPDR" B L 3500 1850 50 
+F2 "POWER_GND" O L 1000 1150 50 
+F3 "A[23..0]" B L 1000 1300 50 
+F4 "D[31..0]" B L 1000 1400 50 
 $EndSheet
 $Sheet
 S 3500 2500 1500 500 
@@ -38,8 +30,6 @@ F1 "testpoints.sch" 50
 F2 "POWER_GND" I L 3500 2650 50 
 F3 "TRPDR" I L 3500 2850 50 
 $EndSheet
-Wire Bus Line
-	3000 1650 3500 1650
 $Sheet
 S 6000 4500 1500 500 
 U 5E5B9D2E
@@ -86,10 +76,6 @@ F2 "FPGA" B R 7500 3750 50
 F3 "TRPDR" B L 6000 3850 50 
 F4 "POWER_GND" I L 6000 3650 50 
 $EndSheet
-Wire Bus Line
-	1000 1250 750  1250
-Wire Bus Line
-	750  1250 750  5600
 Wire Bus Line
 	750  5600 3500 5600
 Wire Bus Line
@@ -153,8 +139,6 @@ Connection ~ 8000 3250
 Wire Bus Line
 	8000 3250 8000 3750
 Wire Bus Line
-	3000 1650 3000 2650
-Wire Bus Line
 	5500 4650 6000 4650
 Wire Bus Line
 	5500 3650 5500 4650
@@ -170,25 +154,13 @@ Wire Bus Line
 Wire Bus Line
 	3500 2650 3000 2650
 Wire Bus Line
-	2500 1150 3000 1150
-Wire Bus Line
 	5500 1150 8250 1150
 Wire Bus Line
 	8250 1150 8250 2750
-Connection ~ 5500 1150
-Wire Bus Line
-	2750 1350 5250 1350
-Wire Bus Line
-	3000 1650 3000 1150
-Connection ~ 3000 1650
-Connection ~ 3000 1150
-Wire Bus Line
-	3000 1150 5500 1150
 Wire Bus Line
 	3000 2650 3000 3750
 Wire Bus Line
 	3000 3750 3500 3750
-Connection ~ 3000 2650
 Wire Bus Line
 	3000 3750 3000 5400
 Wire Bus Line
@@ -203,14 +175,26 @@ F2 "AUDIO" O L 3500 5600 50
 F3 "POWER_GND" I L 3500 5400 50 
 F4 "FPGA" I R 5000 5500 50 
 $EndSheet
+$Sheet
+S 3500 1500 1500 500 
+U 5E55E8C3
+F0 "Clockport connector" 50
+F1 "clockport.sch" 50
+F2 "POWER_GND" I L 3500 1550 50 
+F3 "TRPDR" B L 3500 1650 50 
+F4 "D[31..0]" B L 3500 1750 50 
+F5 "A[23..0]" B L 3500 1850 50 
+$EndSheet
 Wire Bus Line
-	2750 1850 3500 1850
+	1000 1300 650  1300
 Wire Bus Line
-	2750 1850 2750 2850
-Connection ~ 2750 1850
+	650  1300 650  1850
 Wire Bus Line
-	2750 1850 2750 1350
-Connection ~ 2750 1350
+	650  1850 3500 1850
 Wire Bus Line
-	2500 1350 2750 1350
+	1000 1400 750  1400
+Wire Bus Line
+	750  1400 750  1750
+Wire Bus Line
+	750  1750 3500 1750
 $EndSCHEMATC

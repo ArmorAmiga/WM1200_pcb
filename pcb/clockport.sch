@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 11 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -154,17 +154,24 @@ Text HLabel 1000 3000 0    50   Input ~ 0
 POWER_GND
 Wire Bus Line
 	1000 1000 1500 1000
-Connection ~ 1500 1000
-Wire Bus Line
-	1500 1000 5000 1000
 Wire Bus Line
 	1500 3000 1000 3000
+Text HLabel 1000 1000 0    50   BiDi ~ 0
+TRPDR
+Wire Bus Line
+	5000 3250 4850 3250
+Wire Bus Line
+	4850 1300 5000 1300
 Wire Bus Line
 	1500 2400 1500 3000
 Wire Bus Line
+	5000 2600 5000 3250
+Wire Bus Line
 	1500 1000 1500 2200
 Wire Bus Line
-	5000 1000 5000 4000
-Text HLabel 1000 1000 0    50   BiDi ~ 0
-TRPDR
+	5000 1300 5000 2400
+Text HLabel 4850 1300 0    50   BiDi ~ 0
+D[31..0]
+Text HLabel 4850 3250 0    50   BiDi ~ 0
+A[23..0]
 $EndSCHEMATC
