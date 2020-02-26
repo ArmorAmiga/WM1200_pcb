@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 11 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -24,18 +24,18 @@ Entry Wire Line
 Entry Wire Line
 	1450 1500 1550 1600
 Wire Wire Line
-	1550 1700 2000 1700
+	1550 1700 2150 1700
 Text Label 1550 1700 0    50   ~ 0
-AUDIO_PWM_L
+FPGA_AUD_PWM_L
 Text Label 1550 1600 0    50   ~ 0
-AUDIO_PWM_R
+FPGA_AUD_PWM_R
 Text HLabel 1350 900  0    50   Input ~ 0
 POWER_GND
 $Comp
-L WM1200:audio_expansion X?
+L WM1200:audio_expansion X5
 U 1 1 5EB21AAB
 P 3000 2700
-F 0 "X?" H 3000 3565 50  0000 C CNN
+F 0 "X5" H 3000 3565 50  0000 C CNN
 F 1 "audio_expansion" H 3000 3474 50  0000 C CNN
 F 2 "" H 2400 2950 50  0001 C CNN
 F 3 "" H 2400 2950 50  0001 C CNN
@@ -54,9 +54,9 @@ Wire Wire Line
 Wire Wire Line
 	1550 1600 4000 1600
 Wire Wire Line
-	2000 1700 2000 2200
+	2150 1700 2150 2200
 Wire Wire Line
-	2000 2200 2400 2200
+	2150 2200 2400 2200
 Entry Wire Line
 	1500 2300 1600 2400
 Entry Wire Line
@@ -90,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 2300 2400 2300
 Text Label 1550 1800 0    50   ~ 0
-AUDIO_SD
+FPGA_AUD_SD
 Wire Bus Line
 	1350 900  1450 900 
 Entry Wire Line
@@ -98,11 +98,11 @@ Entry Wire Line
 Entry Wire Line
 	1450 1000 1550 1100
 Wire Wire Line
-	1550 1100 2200 1100
+	1550 1100 2300 1100
 Wire Wire Line
-	2200 1100 2200 2100
+	2300 1100 2300 2100
 Wire Wire Line
-	2200 2100 2400 2100
+	2300 2100 2400 2100
 Wire Wire Line
 	3750 2100 3600 2100
 Wire Wire Line

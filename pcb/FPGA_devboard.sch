@@ -18,10 +18,10 @@ FPGA
 Text HLabel 6050 4000 0    50   BiDi ~ 0
 POWER_GND
 $Comp
-L WM1200:AC7020 U?
+L WM1200:AC7020 X3
 U 1 1 5EB9A3F4
 P 3200 3300
-F 0 "U?" H 3200 4200 50  0000 C CNN
+F 0 "X3" H 3200 4200 50  0000 C CNN
 F 1 "AC7020" H 3200 3250 50  0000 C CNN
 F 2 "" H 3200 3300 50  0001 C CNN
 F 3 "" H 3200 3300 50  0001 C CNN
@@ -29,10 +29,10 @@ F 3 "" H 3200 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:AC7020 U?
+L WM1200:AC7020 X3
 U 2 1 5EBA0B64
 P 3200 6100
-F 0 "U?" H 3200 6950 50  0000 C CNN
+F 0 "X3" H 3200 6950 50  0000 C CNN
 F 1 "AC7020" H 3200 6050 50  0000 C CNN
 F 2 "" H 3200 6100 50  0001 C CNN
 F 3 "" H 3200 6100 50  0001 C CNN
@@ -40,53 +40,756 @@ F 3 "" H 3200 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:AC7020 U?
+L WM1200:AC7020 X3
 U 3 1 5EBA7395
-P 8100 3500
-F 0 "U?" H 8100 4400 50  0000 C CNN
-F 1 "AC7020" H 8100 3450 50  0000 C CNN
-F 2 "" H 8100 3500 50  0001 C CNN
-F 3 "" H 8100 3500 50  0001 C CNN
-	3    8100 3500
+P 8200 3300
+F 0 "X3" H 8200 4200 50  0000 C CNN
+F 1 "AC7020" H 8200 3250 50  0000 C CNN
+F 2 "" H 8200 3300 50  0001 C CNN
+F 3 "" H 8200 3300 50  0001 C CNN
+	3    8200 3300
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	1400 1000 1500 1000
+	5400 1000 6400 1000
+Connection ~ 5400 1000
 Wire Bus Line
-	1500 1000 1500 5800
-Wire Bus Line
-	1500 1000 5000 1000
-Wire Bus Line
-	5000 1000 5000 6150
-Connection ~ 1500 1000
-Wire Bus Line
-	5000 1000 6400 1000
-Wire Bus Line
-	6400 1000 6400 3500
-Connection ~ 5000 1000
-Wire Bus Line
-	6400 1000 9750 1000
-Wire Bus Line
-	9750 1000 9750 3500
+	6400 1000 10000 1000
 Connection ~ 6400 1000
 $Comp
-L WM1200:AC7020 U?
+L WM1200:AC7020 X3
 U 4 1 5EBCCB73
-P 8100 5350
-F 0 "U?" H 8100 5900 50  0000 C CNN
-F 1 "AC7020" H 8100 5300 50  0000 C CNN
-F 2 "" H 8100 5350 50  0001 C CNN
-F 3 "" H 8100 5350 50  0001 C CNN
-	4    8100 5350
+P 8200 5350
+F 0 "X3" H 8200 5900 50  0000 C CNN
+F 1 "AC7020" H 8200 5300 50  0000 C CNN
+F 2 "" H 8200 5350 50  0001 C CNN
+F 3 "" H 8200 5350 50  0001 C CNN
+	4    8200 5350
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
 	6050 4000 6400 4000
 Wire Bus Line
-	6400 4000 6400 5250
-Wire Bus Line
-	6400 4000 9750 4000
-Wire Bus Line
-	9750 4000 9750 5250
+	6400 4000 10000 4000
 Connection ~ 6400 4000
+Entry Wire Line
+	5300 1600 5400 1700
+Entry Wire Line
+	5300 1700 5400 1800
+Entry Wire Line
+	5300 1800 5400 1900
+Entry Wire Line
+	5300 1900 5400 2000
+Entry Wire Line
+	5300 2000 5400 2100
+Entry Wire Line
+	5300 2100 5400 2200
+Entry Wire Line
+	5300 2200 5400 2300
+Entry Wire Line
+	5300 2300 5400 2400
+Entry Wire Line
+	5300 2400 5400 2500
+Entry Wire Line
+	5300 2500 5400 2600
+Entry Wire Line
+	5300 2600 5400 2700
+Entry Wire Line
+	5300 2700 5400 2800
+Entry Wire Line
+	5300 2800 5400 2900
+Entry Wire Line
+	5300 2900 5400 3000
+Entry Wire Line
+	5300 3000 5400 3100
+Entry Wire Line
+	5300 3100 5400 3200
+Entry Wire Line
+	5300 3200 5400 3300
+Entry Wire Line
+	6400 1500 6500 1600
+Entry Wire Line
+	6400 1600 6500 1700
+Entry Wire Line
+	6400 1700 6500 1800
+Entry Wire Line
+	6400 1800 6500 1900
+Entry Wire Line
+	6400 1900 6500 2000
+Entry Wire Line
+	6400 2000 6500 2100
+Entry Wire Line
+	6400 2100 6500 2200
+Entry Wire Line
+	6400 2200 6500 2300
+Entry Wire Line
+	6400 2300 6500 2400
+Entry Wire Line
+	6400 2400 6500 2500
+Entry Wire Line
+	6400 2500 6500 2600
+Entry Wire Line
+	6400 2600 6500 2700
+Entry Wire Line
+	6400 2700 6500 2800
+Entry Wire Line
+	6400 2800 6500 2900
+Entry Wire Line
+	6400 2900 6500 3000
+Entry Wire Line
+	6400 3000 6500 3100
+Entry Wire Line
+	6400 3100 6500 3200
+Entry Wire Line
+	9900 1600 10000 1700
+Entry Wire Line
+	9900 1700 10000 1800
+Entry Wire Line
+	9900 1800 10000 1900
+Entry Wire Line
+	9900 1900 10000 2000
+Entry Wire Line
+	9900 2000 10000 2100
+Entry Wire Line
+	9900 2100 10000 2200
+Entry Wire Line
+	9900 2200 10000 2300
+Entry Wire Line
+	9900 2300 10000 2400
+Entry Wire Line
+	9900 2400 10000 2500
+Entry Wire Line
+	9900 2500 10000 2600
+Entry Wire Line
+	9900 2600 10000 2700
+Entry Wire Line
+	9900 2700 10000 2800
+Entry Wire Line
+	9900 2800 10000 2900
+Entry Wire Line
+	9900 2900 10000 3000
+Entry Wire Line
+	9900 3000 10000 3100
+Entry Wire Line
+	9900 3100 10000 3200
+Entry Wire Line
+	9900 3200 10000 3300
+Entry Wire Line
+	5300 4400 5400 4500
+Entry Wire Line
+	5300 4500 5400 4600
+Entry Wire Line
+	5300 4600 5400 4700
+Entry Wire Line
+	5300 4700 5400 4800
+Entry Wire Line
+	5300 4800 5400 4900
+Entry Wire Line
+	5300 4900 5400 5000
+Entry Wire Line
+	5300 5000 5400 5100
+Entry Wire Line
+	5300 5100 5400 5200
+Entry Wire Line
+	5300 5200 5400 5300
+Entry Wire Line
+	5300 5300 5400 5400
+Entry Wire Line
+	5300 5400 5400 5500
+Entry Wire Line
+	5300 5500 5400 5600
+Entry Wire Line
+	5300 5600 5400 5700
+Entry Wire Line
+	5300 5700 5400 5800
+Entry Wire Line
+	5300 5800 5400 5900
+Entry Wire Line
+	5300 5900 5400 6000
+Entry Wire Line
+	5300 6000 5400 6100
+Wire Wire Line
+	4300 1600 5300 1600
+Wire Wire Line
+	5300 1700 4300 1700
+Wire Wire Line
+	4300 1800 5300 1800
+Wire Wire Line
+	5300 1900 4300 1900
+Wire Wire Line
+	4300 2000 5300 2000
+Wire Wire Line
+	4300 2100 5300 2100
+Wire Wire Line
+	4300 2200 5300 2200
+Wire Wire Line
+	5300 2300 4300 2300
+Wire Wire Line
+	4300 2400 5300 2400
+Wire Wire Line
+	5300 2500 4300 2500
+Wire Wire Line
+	4300 2600 5300 2600
+Wire Wire Line
+	5300 2700 4300 2700
+Wire Wire Line
+	4300 2800 5300 2800
+Wire Wire Line
+	5300 2900 4300 2900
+Wire Wire Line
+	4300 3000 5300 3000
+Wire Wire Line
+	5300 3100 4300 3100
+Wire Wire Line
+	4300 3200 5300 3200
+Wire Wire Line
+	4300 4400 5300 4400
+Wire Wire Line
+	5300 4500 4300 4500
+Wire Wire Line
+	4300 4600 5300 4600
+Wire Wire Line
+	5300 4700 4300 4700
+Wire Wire Line
+	4300 4800 5300 4800
+Wire Wire Line
+	4300 4900 5300 4900
+Wire Wire Line
+	4300 5000 5300 5000
+Wire Wire Line
+	5300 5100 4300 5100
+Wire Wire Line
+	4300 5200 5300 5200
+Wire Wire Line
+	5300 5300 4300 5300
+Wire Wire Line
+	4300 5400 5300 5400
+Wire Wire Line
+	5300 5500 4300 5500
+Wire Wire Line
+	4300 5600 5300 5600
+Wire Wire Line
+	5300 5700 4300 5700
+Wire Wire Line
+	4300 5800 5300 5800
+Wire Wire Line
+	5300 5900 4300 5900
+Wire Wire Line
+	4300 6000 5300 6000
+Wire Wire Line
+	6500 3200 7100 3200
+Wire Wire Line
+	6500 1600 7100 1600
+Wire Wire Line
+	6500 1700 7100 1700
+Wire Wire Line
+	6500 1800 7100 1800
+Wire Wire Line
+	6500 1900 7100 1900
+Wire Wire Line
+	6500 2000 7100 2000
+Wire Wire Line
+	6500 2100 7100 2100
+Wire Wire Line
+	6500 2200 7100 2200
+Wire Wire Line
+	6500 2300 7100 2300
+Wire Wire Line
+	6500 2400 7100 2400
+Wire Wire Line
+	6500 2500 7100 2500
+Wire Wire Line
+	6500 2600 7100 2600
+Wire Wire Line
+	6500 2700 7100 2700
+Wire Wire Line
+	6500 2800 7100 2800
+Wire Wire Line
+	6500 2900 7100 2900
+Wire Wire Line
+	6500 3000 7100 3000
+Wire Wire Line
+	6500 3100 7100 3100
+Wire Wire Line
+	9300 1600 9900 1600
+Wire Wire Line
+	9900 1700 9300 1700
+Wire Wire Line
+	9300 1800 9900 1800
+Wire Wire Line
+	9900 1900 9300 1900
+Wire Wire Line
+	9300 2000 9900 2000
+Wire Wire Line
+	9300 2100 9900 2100
+Wire Wire Line
+	9300 2200 9900 2200
+Wire Wire Line
+	9900 2300 9300 2300
+Wire Wire Line
+	9300 2400 9900 2400
+Wire Wire Line
+	9900 2500 9300 2500
+Wire Wire Line
+	9300 2600 9900 2600
+Wire Wire Line
+	9900 2700 9300 2700
+Wire Wire Line
+	9300 2800 9900 2800
+Wire Wire Line
+	9900 2900 9300 2900
+Wire Wire Line
+	9300 3000 9900 3000
+Wire Wire Line
+	9900 3100 9300 3100
+Wire Wire Line
+	9300 3200 9900 3200
+Wire Wire Line
+	1500 4400 2100 4400
+Wire Wire Line
+	2100 4500 1500 4500
+Wire Wire Line
+	1500 4600 2100 4600
+Wire Wire Line
+	2100 4700 1500 4700
+Wire Wire Line
+	1500 4800 2100 4800
+Wire Wire Line
+	1500 4900 2100 4900
+Wire Wire Line
+	1500 5000 2100 5000
+Wire Wire Line
+	2100 5100 1500 5100
+Wire Wire Line
+	1500 5200 2100 5200
+Wire Wire Line
+	2100 5300 1500 5300
+Wire Wire Line
+	1500 5400 2100 5400
+Wire Wire Line
+	2100 5500 1500 5500
+Wire Wire Line
+	1500 5600 2100 5600
+Wire Wire Line
+	2100 5700 1500 5700
+Wire Wire Line
+	1500 5800 2100 5800
+Wire Wire Line
+	2100 5900 1500 5900
+Wire Wire Line
+	1500 6000 2100 6000
+Entry Wire Line
+	1400 5900 1500 6000
+Wire Wire Line
+	2100 3200 1500 3200
+Wire Wire Line
+	1500 3100 2100 3100
+Wire Wire Line
+	2100 3000 1500 3000
+Wire Wire Line
+	1500 2900 2100 2900
+Wire Wire Line
+	2100 2800 1500 2800
+Wire Wire Line
+	1500 2700 2100 2700
+Wire Wire Line
+	2100 2600 1500 2600
+Wire Wire Line
+	1500 2500 2100 2500
+Wire Wire Line
+	2100 2400 1500 2400
+Wire Wire Line
+	1500 2300 2100 2300
+Wire Wire Line
+	1500 2200 2100 2200
+Wire Wire Line
+	2100 2100 1500 2100
+Wire Wire Line
+	1500 2000 2100 2000
+Wire Wire Line
+	2100 1900 1500 1900
+Wire Wire Line
+	1500 1800 2100 1800
+Wire Wire Line
+	2100 1700 1500 1700
+Wire Wire Line
+	1500 1600 2100 1600
+Wire Bus Line
+	1400 1000 5400 1000
+Entry Wire Line
+	1400 5800 1500 5900
+Entry Wire Line
+	1400 5700 1500 5800
+Entry Wire Line
+	1400 5600 1500 5700
+Entry Wire Line
+	1400 5500 1500 5600
+Entry Wire Line
+	1400 5400 1500 5500
+Entry Wire Line
+	1400 5300 1500 5400
+Entry Wire Line
+	1400 5200 1500 5300
+Entry Wire Line
+	1400 5100 1500 5200
+Entry Wire Line
+	1400 5000 1500 5100
+Entry Wire Line
+	1400 4700 1500 4800
+Entry Wire Line
+	1400 4600 1500 4700
+Entry Wire Line
+	1400 4500 1500 4600
+Entry Wire Line
+	1400 4400 1500 4500
+Entry Wire Line
+	1400 4300 1500 4400
+Entry Wire Line
+	1400 3100 1500 3200
+Entry Wire Line
+	1400 3000 1500 3100
+Entry Wire Line
+	1400 2900 1500 3000
+Entry Wire Line
+	1400 2800 1500 2900
+Entry Wire Line
+	1400 2700 1500 2800
+Entry Wire Line
+	1400 2600 1500 2700
+Entry Wire Line
+	1400 2500 1500 2600
+Entry Wire Line
+	1400 2400 1500 2500
+Entry Wire Line
+	1400 2300 1500 2400
+Entry Wire Line
+	1400 2200 1500 2300
+Entry Wire Line
+	1400 2100 1500 2200
+Entry Wire Line
+	1400 2000 1500 2100
+Entry Wire Line
+	1400 1900 1500 2000
+Entry Wire Line
+	1400 1800 1500 1900
+Entry Wire Line
+	1400 1700 1500 1800
+Entry Wire Line
+	1400 1600 1500 1700
+Entry Wire Line
+	1400 1500 1500 1600
+Entry Wire Line
+	1400 4900 1500 5000
+Entry Wire Line
+	1400 4800 1500 4900
+Wire Wire Line
+	6500 4400 7100 4400
+Wire Wire Line
+	7100 4500 6500 4500
+Wire Wire Line
+	6500 4600 7100 4600
+Wire Wire Line
+	7100 4700 6500 4700
+Wire Wire Line
+	6500 4800 7100 4800
+Wire Wire Line
+	6500 4900 7100 4900
+Wire Wire Line
+	6500 5000 7100 5000
+Wire Wire Line
+	7100 5100 6500 5100
+Wire Wire Line
+	6500 5200 7100 5200
+Wire Wire Line
+	9300 4350 9900 4350
+Wire Wire Line
+	9900 4450 9300 4450
+Wire Wire Line
+	9300 4550 9900 4550
+Wire Wire Line
+	9300 4750 9900 4750
+Wire Wire Line
+	9300 4850 9900 4850
+Wire Wire Line
+	9300 4950 9900 4950
+Wire Wire Line
+	9900 5050 9300 5050
+Wire Wire Line
+	9300 5150 9900 5150
+Wire Wire Line
+	9900 5250 9300 5250
+Entry Wire Line
+	6400 4300 6500 4400
+Entry Wire Line
+	6400 4400 6500 4500
+Entry Wire Line
+	6400 4500 6500 4600
+Entry Wire Line
+	6400 4600 6500 4700
+Entry Wire Line
+	6400 4700 6500 4800
+Entry Wire Line
+	6400 4800 6500 4900
+Entry Wire Line
+	6400 4900 6500 5000
+Entry Wire Line
+	6400 5000 6500 5100
+Entry Wire Line
+	6400 5100 6500 5200
+Entry Wire Line
+	9900 4350 10000 4450
+Entry Wire Line
+	9900 4450 10000 4550
+Entry Wire Line
+	9900 4550 10000 4650
+Entry Wire Line
+	9900 5250 10000 5350
+Entry Wire Line
+	9900 4750 10000 4850
+Entry Wire Line
+	9900 4850 10000 4950
+Entry Wire Line
+	9900 4950 10000 5050
+Entry Wire Line
+	9900 5050 10000 5150
+Entry Wire Line
+	9900 5150 10000 5250
+Text Label 9450 4350 0    50   ~ 0
+FPGA_VCC5V
+Text Label 9450 4450 0    50   ~ 0
+FPGA_VCC5V
+Text Label 9450 4550 0    50   ~ 0
+FPGA_VCC5V
+Text Label 9450 4750 0    50   ~ 0
+FPGA_VCC3V3
+Text Label 9450 4850 0    50   ~ 0
+FPGA_VCC3V3
+Text Label 9450 4950 0    50   ~ 0
+FPGA_VCC3V3
+Text Label 9450 5050 0    50   ~ 0
+FPGA_VCC3V3
+Text Label 9450 5150 0    50   ~ 0
+FPGA_VCC3V3
+Text Label 9450 5250 0    50   ~ 0
+FPGA_VCC3V3
+Text Label 6550 4400 0    50   ~ 0
+GND
+Text Label 6550 4500 0    50   ~ 0
+GND
+Text Label 6550 4600 0    50   ~ 0
+GND
+Text Label 6550 4700 0    50   ~ 0
+GND
+Text Label 6550 4800 0    50   ~ 0
+GND
+Text Label 6550 4900 0    50   ~ 0
+GND
+Text Label 6550 5000 0    50   ~ 0
+GND
+Text Label 6550 5100 0    50   ~ 0
+GND
+Text Label 6550 5200 0    50   ~ 0
+GND
+Text Label 1550 1600 0    50   ~ 0
+FPGA_A0
+Text Label 1550 1700 0    50   ~ 0
+FPGA_A1
+Text Label 1550 1800 0    50   ~ 0
+FPGA_A2
+Text Label 1550 1900 0    50   ~ 0
+FPGA_A3
+Text Label 1550 2000 0    50   ~ 0
+FPGA_A4
+Text Label 1550 2100 0    50   ~ 0
+FPGA_A5
+Text Label 1550 2200 0    50   ~ 0
+FPGA_A6
+Text Label 1550 2300 0    50   ~ 0
+FPGA_A7
+Text Label 1550 2400 0    50   ~ 0
+FPGA_A8
+Text Label 1550 2500 0    50   ~ 0
+FPGA_A9
+Text Label 1550 2600 0    50   ~ 0
+FPGA_A10
+Text Label 1550 2700 0    50   ~ 0
+FPGA_A11
+Text Label 1550 2800 0    50   ~ 0
+FPGA_A12
+Text Label 4500 1600 0    50   ~ 0
+FPGA_A13
+Text Label 4500 1700 0    50   ~ 0
+FPGA_A14
+Text Label 4500 1800 0    50   ~ 0
+FPGA_A15
+Text Label 4500 1900 0    50   ~ 0
+FPGA_A17
+Text Label 4500 2000 0    50   ~ 0
+FPGA_A18
+Text Label 4500 2100 0    50   ~ 0
+FPGA_A19
+Text Label 4500 2200 0    50   ~ 0
+FPGA_A20
+Text Label 4500 2300 0    50   ~ 0
+FPGA_A21
+Text Label 4500 2400 0    50   ~ 0
+FPGA_A22
+Text Label 4500 2500 0    50   ~ 0
+FPGA_A23
+Text Label 4450 4400 0    50   ~ 0
+FPGA_AUD_PWM_L
+Text Label 4450 4500 0    50   ~ 0
+FPGA_AUD_PWM_R
+Text Label 4450 4600 0    50   ~ 0
+FPGA_AUD_SD
+Text Label 6500 1600 0    50   ~ 0
+FPGA_D0
+Text Label 6500 1700 0    50   ~ 0
+FPGA_D1
+Text Label 6500 1800 0    50   ~ 0
+FPGA_D2
+Text Label 6500 1900 0    50   ~ 0
+FPGA_D3
+Text Label 6500 2000 0    50   ~ 0
+FPGA_D4
+Text Label 6500 2100 0    50   ~ 0
+FPGA_D5
+Text Label 6500 2200 0    50   ~ 0
+FPGA_D6
+Text Label 6500 2300 0    50   ~ 0
+FPGA_D7
+Text Label 6500 2400 0    50   ~ 0
+FPGA_D8
+Text Label 6500 2500 0    50   ~ 0
+FPGA_D9
+Text Label 6500 2600 0    50   ~ 0
+FPGA_D10
+Text Label 6500 2700 0    50   ~ 0
+FPGA_D11
+Text Label 6500 2800 0    50   ~ 0
+FPGA_D12
+Text Label 6500 2900 0    50   ~ 0
+FPGA_D13
+Text Label 6500 3000 0    50   ~ 0
+FPGA_D14
+Text Label 6500 3100 0    50   ~ 0
+FPGA_D15
+Text Label 6500 3200 0    50   ~ 0
+FPGA_D16
+Text Label 9450 1600 0    50   ~ 0
+FPGA_D17
+Text Label 9450 1700 0    50   ~ 0
+FPGA_D18
+Text Label 9450 1800 0    50   ~ 0
+FPGA_D19
+Text Label 9450 1900 0    50   ~ 0
+FPGA_D20
+Text Label 9450 2000 0    50   ~ 0
+FPGA_D21
+Text Label 9450 2100 0    50   ~ 0
+FPGA_D22
+Text Label 9450 2200 0    50   ~ 0
+FPGA_D23
+Text Label 9450 2300 0    50   ~ 0
+FPGA_D24
+Text Label 9450 2400 0    50   ~ 0
+FPGA_D25
+Text Label 9450 2500 0    50   ~ 0
+FPGA_D26
+Text Label 9450 2600 0    50   ~ 0
+FPGA_D27
+Text Label 9450 2700 0    50   ~ 0
+FPGA_D28
+Text Label 9450 2900 0    50   ~ 0
+FPGA_D30
+Text Label 9450 3000 0    50   ~ 0
+FPGA_D31
+Text Label 1550 4400 0    50   ~ 0
+FPGA_
+Text Label 1550 4500 0    50   ~ 0
+FPGA_
+Text Label 1550 4600 0    50   ~ 0
+FPGA_
+Text Label 1550 4700 0    50   ~ 0
+FPGA_
+Text Label 1550 4800 0    50   ~ 0
+FPGA_
+Text Label 1550 4900 0    50   ~ 0
+FPGA_
+Text Label 1550 5000 0    50   ~ 0
+FPGA_
+Text Label 1550 5100 0    50   ~ 0
+FPGA_
+Text Label 1550 5200 0    50   ~ 0
+FPGA_
+Text Label 1550 5300 0    50   ~ 0
+FPGA_
+Text Label 1550 5400 0    50   ~ 0
+FPGA_
+Text Label 1550 5500 0    50   ~ 0
+FPGA_
+Text Label 1550 5600 0    50   ~ 0
+FPGA_
+Text Label 1550 5700 0    50   ~ 0
+FPGA_
+Text Label 1550 5800 0    50   ~ 0
+FPGA_
+Text Label 1550 5900 0    50   ~ 0
+FPGA_
+Text Label 1550 6000 0    50   ~ 0
+FPGA_
+Text Label 4450 4700 0    50   ~ 0
+FPGA_
+Text Label 4450 4800 0    50   ~ 0
+FPGA_
+Text Label 4450 4900 0    50   ~ 0
+FPGA_
+Text Label 4450 5000 0    50   ~ 0
+FPGA_
+Text Label 4450 5100 0    50   ~ 0
+FPGA_
+Text Label 4450 5200 0    50   ~ 0
+FPGA_
+Text Label 4450 5300 0    50   ~ 0
+FPGA_
+Text Label 4450 5400 0    50   ~ 0
+FPGA_
+Text Label 4450 5500 0    50   ~ 0
+FPGA_
+Text Label 4450 5600 0    50   ~ 0
+FPGA_
+Text Label 4450 5700 0    50   ~ 0
+FPGA_
+Text Label 4450 5800 0    50   ~ 0
+FPGA_
+Text Label 4450 5900 0    50   ~ 0
+FPGA_
+Text Label 4450 6000 0    50   ~ 0
+FPGA_
+Text Label 9450 2800 0    50   ~ 0
+FPGA_D29
+Text Label 4500 2600 0    50   ~ 0
+A_BUFF_DIR
+Text Label 4500 2700 0    50   ~ 0
+_A_BUFF_OE
+Text Label 9450 3100 0    50   ~ 0
+D_BUFF_DIR
+Text Label 9450 3200 0    50   ~ 0
+_D_BUFF_OE
+Text Notes 8000 1450 0    50   ~ 0
+Data lines
+Text Notes 3050 1450 0    50   ~ 0
+Addr lines
+Wire Bus Line
+	10000 4000 10000 5350
+Wire Bus Line
+	6400 4000 6400 5100
+Wire Bus Line
+	10000 1000 10000 3300
+Wire Bus Line
+	6400 1000 6400 3100
+Wire Bus Line
+	1400 1000 1400 5900
+Wire Bus Line
+	5400 1000 5400 6100
 $EndSCHEMATC

@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L WM1200:clockport_connector X?
+L WM1200:clockport_connector X2
 U 1 1 5E55E9B8
 P 3250 2900
-F 0 "X?" H 3250 3600 50  0000 C CNN
+F 0 "X2" H 3250 3600 50  0000 C CNN
 F 1 "clockport_connector" H 3250 2850 50  0000 C CNN
 F 2 "" H 3250 3550 50  0001 C CNN
 F 3 "" H 3250 3550 50  0001 C CNN
@@ -150,8 +150,6 @@ Text Label 4500 2700 0    50   ~ 0
 A4
 Text Label 4500 2800 0    50   ~ 0
 A5
-Text HLabel 1000 1000 0    50   BiDi ~ 0
-TRPDR
 Text HLabel 1000 3000 0    50   Input ~ 0
 POWER_GND
 Wire Bus Line
@@ -167,4 +165,6 @@ Wire Bus Line
 	1500 1000 1500 2200
 Wire Bus Line
 	5000 1000 5000 4000
+Text HLabel 1000 1000 0    50   BiDi ~ 0
+TRPDR
 $EndSCHEMATC

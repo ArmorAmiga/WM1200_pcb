@@ -263,11 +263,11 @@ Text Label 1100 5600 0    50   ~ 0
 FC0
 Text Label 1100 5800 0    50   ~ 0
 _BR
-Text Label 3800 1800 0    50   ~ 0
+Text Label 3850 1800 0    50   ~ 0
 D31
-Text Label 3800 1900 0    50   ~ 0
+Text Label 3850 1900 0    50   ~ 0
 D30
-Text Label 3800 2000 0    50   ~ 0
+Text Label 3850 2000 0    50   ~ 0
 D29
 Text Label 3800 2100 0    50   ~ 0
 D28
@@ -569,29 +569,27 @@ F 3 "" H 9800 6350 50  0001 C CNN
 	4    9850 6350
 	1    0    0    -1  
 $EndComp
-Text HLabel 900  700  0    50   BiDi ~ 0
-TRPDR
-Text Label 7550 5300 0    50   ~ 0
+Text Label 7850 5300 0    50   ~ 0
 +5VDC
-Text Label 7550 5200 0    50   ~ 0
+Text Label 7850 5200 0    50   ~ 0
 +5VDC
-Text Label 7550 5100 0    50   ~ 0
+Text Label 7850 5100 0    50   ~ 0
 +5VDC
-Text Label 7550 4900 0    50   ~ 0
+Text Label 7850 4900 0    50   ~ 0
 +5VDC
-Text Label 7550 5000 0    50   ~ 0
+Text Label 7850 5000 0    50   ~ 0
 +5VDC
-Text Label 7550 4800 0    50   ~ 0
+Text Label 7850 4800 0    50   ~ 0
 +5VDC
-Text Label 7550 4700 0    50   ~ 0
+Text Label 7850 4700 0    50   ~ 0
 +5VDC
-Text Label 7550 4600 0    50   ~ 0
+Text Label 7850 4600 0    50   ~ 0
 +5VDC
-Text Label 7550 4500 0    50   ~ 0
+Text Label 7850 4500 0    50   ~ 0
 +5VDC
-Text Label 7550 4400 0    50   ~ 0
+Text Label 7850 4400 0    50   ~ 0
 +5VDC
-Text Label 7550 4300 0    50   ~ 0
+Text Label 7850 4300 0    50   ~ 0
 +5VDC
 Text Label 5050 5300 0    50   ~ 0
 GND
@@ -620,27 +618,27 @@ Wire Wire Line
 Entry Wire Line
 	4900 4700 5000 4800
 Wire Wire Line
-	7550 5300 7800 5300
+	7550 5300 8450 5300
 Wire Wire Line
-	7800 5200 7550 5200
+	8450 5200 7550 5200
 Wire Wire Line
-	7550 5100 7800 5100
+	7550 5100 8450 5100
 Wire Wire Line
-	7800 5000 7550 5000
+	8450 5000 7550 5000
 Wire Wire Line
-	7550 4900 7800 4900
+	7550 4900 8450 4900
 Wire Wire Line
-	7800 4800 7550 4800
+	8450 4800 7550 4800
 Wire Wire Line
-	7550 4700 7800 4700
+	7550 4700 8450 4700
 Wire Wire Line
-	7800 4600 7550 4600
+	8450 4600 7550 4600
 Wire Wire Line
-	7550 4500 7800 4500
+	7550 4500 8450 4500
 Wire Wire Line
-	7800 4400 7550 4400
+	8450 4400 7550 4400
 Wire Wire Line
-	7550 4300 7800 4300
+	7550 4300 8450 4300
 Wire Wire Line
 	5000 5300 5350 5300
 Wire Wire Line
@@ -662,29 +660,29 @@ Wire Wire Line
 Wire Wire Line
 	5000 4300 5350 4300
 Wire Bus Line
-	4900 3900 7900 3900
+	4900 3900 8550 3900
 Entry Wire Line
-	7800 5300 7900 5400
+	8450 5300 8550 5400
 Entry Wire Line
-	7800 5200 7900 5300
+	8450 5200 8550 5300
 Entry Wire Line
-	7800 5100 7900 5200
+	8450 5100 8550 5200
 Entry Wire Line
-	7800 5000 7900 5100
+	8450 5000 8550 5100
 Entry Wire Line
-	7800 4900 7900 5000
+	8450 4900 8550 5000
 Entry Wire Line
-	7800 4800 7900 4900
+	8450 4800 8550 4900
 Entry Wire Line
-	7800 4700 7900 4800
+	8450 4700 8550 4800
 Entry Wire Line
-	7800 4600 7900 4700
+	8450 4600 8550 4700
 Entry Wire Line
-	7800 4500 7900 4600
+	8450 4500 8550 4600
 Entry Wire Line
-	7800 4400 7900 4500
+	8450 4400 8550 4500
 Entry Wire Line
-	7800 4300 7900 4400
+	8450 4300 8550 4400
 Entry Wire Line
 	4900 5200 5000 5300
 Entry Wire Line
@@ -726,8 +724,8 @@ Connection ~ 4100 700
 Text HLabel 9750 3900 2    50   Output ~ 0
 POWER_GND
 Wire Bus Line
-	7900 3900 9750 3900
-Connection ~ 7900 3900
+	8550 3900 9750 3900
+Connection ~ 8550 3900
 Entry Wire Line
 	4900 1500 5000 1600
 Entry Wire Line
@@ -753,11 +751,13 @@ Wire Bus Line
 Wire Bus Line
 	4900 700  4900 3200
 Wire Bus Line
-	7900 3900 7900 5400
+	8550 3900 8550 5400
 Wire Bus Line
 	4900 3900 4900 5500
 Wire Bus Line
 	4100 700  4100 5300
 Wire Bus Line
 	1000 700  1000 5800
+Text HLabel 900  700  0    50   BiDi ~ 0
+TRPDR
 $EndSCHEMATC

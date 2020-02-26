@@ -166,26 +166,16 @@ Connection ~ 8000 4750
 Wire Bus Line
 	8000 4750 8000 5500
 Wire Bus Line
-	2750 1850 3500 1850
-Wire Bus Line
-	2750 1850 2750 2850
-Wire Bus Line
 	2750 2850 3500 2850
 Wire Bus Line
 	3500 2650 3000 2650
 Wire Bus Line
 	2500 1150 3000 1150
 Wire Bus Line
-	2500 1350 2750 1350
-Wire Bus Line
 	5500 1150 8250 1150
 Wire Bus Line
 	8250 1150 8250 2750
 Connection ~ 5500 1150
-Wire Bus Line
-	2750 1850 2750 1350
-Connection ~ 2750 1850
-Connection ~ 2750 1350
 Wire Bus Line
 	2750 1350 5250 1350
 Wire Bus Line
@@ -213,4 +203,14 @@ F2 "AUDIO" O L 3500 5600 50
 F3 "POWER_GND" I L 3500 5400 50 
 F4 "FPGA" I R 5000 5500 50 
 $EndSheet
+Wire Bus Line
+	2750 1850 3500 1850
+Wire Bus Line
+	2750 1850 2750 2850
+Connection ~ 2750 1850
+Wire Bus Line
+	2750 1850 2750 1350
+Connection ~ 2750 1350
+Wire Bus Line
+	2500 1350 2750 1350
 $EndSCHEMATC

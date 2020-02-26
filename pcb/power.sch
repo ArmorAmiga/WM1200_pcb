@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 10 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -16,10 +16,10 @@ $EndDescr
 Text HLabel 1000 1500 0    50   BiDi ~ 0
 POWER_GND
 $Comp
-L Regulator_Switching:ADP2108AUJ-3.3 U?
+L Regulator_Switching:ADP2108AUJ-3.3 U6
 U 1 1 5E713D7E
 P 3750 2100
-F 0 "U?" H 3750 2425 50  0000 C CNN
+F 0 "U6" H 3750 2425 50  0000 C CNN
 F 1 "ADP2108AUJ-3.3" H 3750 2334 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 3800 1850 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf" H 3500 1750 50  0001 C CNN
@@ -31,10 +31,10 @@ Wire Bus Line
 Entry Wire Line
 	1500 1900 1600 2000
 $Comp
-L WM1200:testpoint_cutline X?
+L WM1200:testpoint_cutline X4
 U 1 1 5E716612
 P 2300 2050
-F 0 "X?" H 2300 2233 50  0000 C CNN
+F 0 "X4" H 2300 2233 50  0000 C CNN
 F 1 "testpoint_cutline" H 2300 2200 50  0001 C CNN
 F 2 "" H 2450 2050 50  0001 C CNN
 F 3 "" H 2450 2050 50  0001 C CNN
@@ -55,10 +55,10 @@ Wire Wire Line
 Text Label 1600 2000 0    50   ~ 0
 +5VDC
 $Comp
-L Device:C C?
+L Device:C C11
 U 1 1 5E718DCB
 P 3000 2350
-F 0 "C?" H 3115 2396 50  0000 L CNN
+F 0 "C11" H 3115 2396 50  0000 L CNN
 F 1 "4.7uF" H 3115 2305 50  0000 L CNN
 F 2 "" H 3038 2200 50  0001 C CNN
 F 3 "~" H 3000 2350 50  0001 C CNN
@@ -82,10 +82,10 @@ Wire Bus Line
 	1500 1500 6500 1500
 Connection ~ 1500 1500
 $Comp
-L Device:C C?
+L Device:C C12
 U 1 1 5E71F97C
 P 5000 2350
-F 0 "C?" H 5115 2396 50  0000 L CNN
+F 0 "C12" H 5115 2396 50  0000 L CNN
 F 1 "10uF" H 5115 2305 50  0000 L CNN
 F 2 "" H 5038 2200 50  0001 C CNN
 F 3 "~" H 5000 2350 50  0001 C CNN
@@ -104,10 +104,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 2000 6400 2000
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 5E72022D
 P 4400 2000
-F 0 "L?" V 4590 2000 50  0000 C CNN
+F 0 "L1" V 4590 2000 50  0000 C CNN
 F 1 "1uH" V 4499 2000 50  0000 C CNN
 F 2 "" H 4400 2000 50  0001 C CNN
 F 3 "~" H 4400 2000 50  0001 C CNN
@@ -134,10 +134,10 @@ Wire Wire Line
 Text Label 5950 2000 0    50   ~ 0
 +3V3_DC_DC
 $Comp
-L Device:Jumper_NC_Dual JP?
+L Device:Jumper_NC_Dual JP1
 U 1 1 5E722973
 P 3900 3500
-F 0 "JP?" V 3854 3602 50  0000 L CNN
+F 0 "JP1" V 3854 3602 50  0000 L CNN
 F 1 "Jumper_NC_Dual" V 3945 3602 50  0000 L CNN
 F 2 "" H 3900 3500 50  0001 C CNN
 F 3 "~" H 3900 3500 50  0001 C CNN
@@ -161,13 +161,40 @@ Wire Wire Line
 Text Label 1650 3950 0    50   ~ 0
 +3V3_DC_DC
 Text Label 1650 3100 0    50   ~ 0
-+3V3_FPGA_PWR
+FPGA_VCC3V3
 Wire Wire Line
 	4000 3500 6400 3500
-Wire Bus Line
-	6500 1500 6500 4000
-Wire Bus Line
-	1500 1500 1500 3850
 Text Label 5850 3500 0    50   ~ 0
 +3V3_BUFFER
+$Comp
+L Device:Jumper JP2
+U 1 1 5E7037DF
+P 3900 4500
+F 0 "JP2" H 3900 4764 50  0000 C CNN
+F 1 "Jumper" H 3900 4673 50  0000 C CNN
+F 2 "" H 3900 4500 50  0001 C CNN
+F 3 "~" H 3900 4500 50  0001 C CNN
+	1    3900 4500
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	1500 4400 1600 4500
+Entry Wire Line
+	6400 4500 6500 4600
+Wire Wire Line
+	1600 4500 3600 4500
+Wire Wire Line
+	4200 4500 6400 4500
+Text Label 1650 4500 0    50   ~ 0
++5VDC
+Text Label 5900 4500 0    50   ~ 0
+FPGA_VCC5V
+Text Notes 4000 3850 0    50   ~ 0
+Jumper selects buffer power source:\n1-2: DC-DC converter onboard\n2-3: 3V3 from FPGA Devboard\nOpen: no power on buffers
+Text Notes 3000 4850 0    50   ~ 0
+Jumper selects FPGA Devboard power source\nOpen: FPGA Devboard gets 5V from usb or from DC connector\nClose: FPGA Devboard gets 5V from Amiga
+Wire Bus Line
+	6500 1500 6500 5000
+Wire Bus Line
+	1500 1500 1500 5000
 $EndSCHEMATC
