@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 10 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -24,48 +24,6 @@ F 3 "" H 3250 3550 50  0001 C CNN
 	1    3250 2900
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	1500 1500 1600 1600
-Entry Wire Line
-	1500 1600 1600 1700
-Entry Wire Line
-	1500 1700 1600 1800
-Entry Wire Line
-	1500 1900 1600 2000
-Entry Wire Line
-	1500 2000 1600 2100
-Entry Wire Line
-	1500 2200 1600 2300
-Entry Wire Line
-	1500 2400 1600 2500
-Entry Wire Line
-	1500 2600 1600 2700
-Entry Wire Line
-	1500 2700 1600 2800
-Entry Wire Line
-	4900 1600 5000 1700
-Entry Wire Line
-	4900 1700 5000 1800
-Entry Wire Line
-	4900 1800 5000 1900
-Entry Wire Line
-	4900 1900 5000 2000
-Entry Wire Line
-	4900 2000 5000 2100
-Entry Wire Line
-	4900 2100 5000 2200
-Entry Wire Line
-	4900 2200 5000 2300
-Entry Wire Line
-	4900 2300 5000 2400
-Entry Wire Line
-	4900 2500 5000 2600
-Entry Wire Line
-	4900 2600 5000 2700
-Entry Wire Line
-	4900 2700 5000 2800
-Entry Wire Line
-	4900 2800 5000 2900
 Wire Wire Line
 	2150 1600 1600 1600
 Wire Wire Line
@@ -150,28 +108,46 @@ Text Label 4500 2700 0    50   ~ 0
 A4
 Text Label 4500 2800 0    50   ~ 0
 A5
-Text HLabel 1000 3000 0    50   Input ~ 0
-POWER_GND
-Wire Bus Line
-	1000 1000 1500 1000
-Wire Bus Line
-	1500 3000 1000 3000
-Text HLabel 1000 1000 0    50   BiDi ~ 0
-TRPDR
-Wire Bus Line
-	5000 3250 4850 3250
-Wire Bus Line
-	4850 1300 5000 1300
-Wire Bus Line
-	1500 2400 1500 3000
-Wire Bus Line
-	5000 2600 5000 3250
-Wire Bus Line
-	1500 1000 1500 2200
-Wire Bus Line
-	5000 1300 5000 2400
-Text HLabel 4850 1300 0    50   BiDi ~ 0
-D[31..0]
-Text HLabel 4850 3250 0    50   BiDi ~ 0
-A[23..0]
+Text GLabel 1600 1600 0    50   BiDi ~ 0
+_INT6
+Text GLabel 1600 1700 0    50   BiDi ~ 0
+_SPARECS
+Text GLabel 1600 1800 0    50   BiDi ~ 0
+_RTCCS
+Text GLabel 1600 2000 0    50   BiDi ~ 0
+_IORD
+Text GLabel 1600 2100 0    50   BiDi ~ 0
+_IOWR
+Text GLabel 1600 2300 0    50   BiDi ~ 0
+_RESET
+Text GLabel 1600 2500 0    50   BiDi ~ 0
++5VDC
+Text GLabel 1600 2700 0    50   BiDi ~ 0
+GND
+Text GLabel 1600 2800 0    50   BiDi ~ 0
+GND
+Text GLabel 4900 1600 2    50   BiDi ~ 0
+D16
+Text GLabel 4900 1700 2    50   BiDi ~ 0
+D17
+Text GLabel 4900 1800 2    50   BiDi ~ 0
+D18
+Text GLabel 4900 1900 2    50   BiDi ~ 0
+D19
+Text GLabel 4900 2000 2    50   BiDi ~ 0
+D20
+Text GLabel 4900 2100 2    50   BiDi ~ 0
+D21
+Text GLabel 4900 2200 2    50   BiDi ~ 0
+D22
+Text GLabel 4900 2300 2    50   BiDi ~ 0
+D23
+Text GLabel 4900 2500 2    50   BiDi ~ 0
+A2
+Text GLabel 4900 2600 2    50   BiDi ~ 0
+A3
+Text GLabel 4900 2700 2    50   BiDi ~ 0
+A4
+Text GLabel 4900 2800 2    50   BiDi ~ 0
+A5
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 3 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -13,12 +13,6 @@ Comment2 "Wishmaster ARM \\ JIT turbo board for Amiga"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1000 1000 0    50   Input ~ 0
-POWER_GND
-Text HLabel 5700 800  2    50   BiDi ~ 0
-TRPDR
-Text HLabel 1500 1000 0    50   Input ~ 0
-FPGA
 $Comp
 L Device:Q_NPN_BCE Q1
 U 1 1 5EB2F0D3
@@ -30,12 +24,6 @@ F 3 "~" H 3500 1200 50  0001 C CNN
 	1    3500 1200
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1500 1000 1750 1000
-Wire Bus Line
-	1000 1000 1150 1000
-Entry Wire Line
-	1750 1100 1850 1200
 $Comp
 L Device:R R1
 U 1 1 5EB3731B
@@ -47,14 +35,8 @@ F 3 "~" H 2600 1200 50  0001 C CNN
 	1    2600 1200
 	0    1    1    0   
 $EndComp
-Entry Wire Line
-	1150 1600 1250 1700
-Wire Bus Line
-	5700 800  4300 800 
 Wire Wire Line
 	3600 1000 3600 850 
-Entry Wire Line
-	4200 850  4300 950 
 Wire Wire Line
 	3600 1700 3000 1700
 Wire Wire Line
@@ -88,7 +70,7 @@ F 3 "~" V 2200 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 1200 2200 1200
+	1250 1200 2200 1200
 Wire Wire Line
 	4200 850  3600 850 
 Wire Wire Line
@@ -131,8 +113,6 @@ F 3 "~" H 2600 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 2150 3600 2000
-Entry Wire Line
-	4200 2000 4300 2100
 Wire Wire Line
 	3600 2850 3000 2850
 Wire Wire Line
@@ -166,7 +146,7 @@ F 3 "~" V 2200 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 2350 2200 2350
+	1250 2350 2200 2350
 Wire Wire Line
 	4200 2000 3600 2000
 Wire Wire Line
@@ -209,8 +189,6 @@ F 3 "~" H 2600 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 3300 3600 3150
-Entry Wire Line
-	4200 3150 4300 3250
 Wire Wire Line
 	3600 4000 3000 4000
 Wire Wire Line
@@ -244,7 +222,7 @@ F 3 "~" V 2200 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 3500 2200 3500
+	1250 3500 2200 3500
 Wire Wire Line
 	4200 3150 3600 3150
 Wire Wire Line
@@ -287,8 +265,6 @@ F 3 "~" H 2600 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 4450 3600 4300
-Entry Wire Line
-	4200 4300 4300 4400
 Wire Wire Line
 	3600 5150 3000 5150
 Wire Wire Line
@@ -322,7 +298,7 @@ F 3 "~" V 2200 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 4650 2200 4650
+	1250 4650 2200 4650
 Wire Wire Line
 	4200 4300 3600 4300
 Wire Wire Line
@@ -365,8 +341,6 @@ F 3 "~" H 2600 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 5600 3600 5450
-Entry Wire Line
-	4200 5450 4300 5550
 Wire Wire Line
 	3600 6300 3000 6300
 Wire Wire Line
@@ -400,7 +374,7 @@ F 3 "~" V 2200 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 5800 2200 5800
+	1250 5800 2200 5800
 Wire Wire Line
 	4200 5450 3600 5450
 Wire Wire Line
@@ -443,8 +417,6 @@ F 3 "~" H 2600 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 6750 3600 6600
-Entry Wire Line
-	4200 6600 4300 6700
 Wire Wire Line
 	3600 7450 3000 7450
 Wire Wire Line
@@ -478,7 +450,7 @@ F 3 "~" V 2200 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 6950 2200 6950
+	1250 6950 2200 6950
 Wire Wire Line
 	4200 6600 3600 6600
 Wire Wire Line
@@ -497,8 +469,6 @@ Wire Wire Line
 Connection ~ 2200 7450
 Wire Wire Line
 	2200 7450 1250 7450
-Text Label 1300 1700 0    50   ~ 0
-GND
 Text Label 3900 850  0    50   ~ 0
 _BOSS
 Text Label 3950 2000 0    50   ~ 0
@@ -511,52 +481,40 @@ Text Label 3950 5450 0    50   ~ 0
 _INT2
 Text Label 3950 6600 0    50   ~ 0
 _OVR
-Entry Wire Line
-	1750 2250 1850 2350
-Entry Wire Line
-	1150 2750 1250 2850
-Entry Wire Line
-	1750 3400 1850 3500
-Entry Wire Line
-	1150 3900 1250 4000
-Entry Wire Line
-	1750 4550 1850 4650
-Entry Wire Line
-	1150 5050 1250 5150
-Entry Wire Line
-	1750 5700 1850 5800
-Entry Wire Line
-	1150 6200 1250 6300
-Entry Wire Line
-	1750 6850 1850 6950
-Entry Wire Line
-	1150 7350 1250 7450
-Text Label 1300 2850 0    50   ~ 0
+Text GLabel 1250 1700 0    50   BiDi ~ 0
 GND
-Text Label 1300 4000 0    50   ~ 0
+Text GLabel 1250 2850 0    50   BiDi ~ 0
 GND
-Text Label 1300 5150 0    50   ~ 0
+Text GLabel 1250 4000 0    50   BiDi ~ 0
 GND
-Text Label 1300 6300 0    50   ~ 0
+Text GLabel 1250 5150 0    50   BiDi ~ 0
 GND
-Text Label 1300 7450 0    50   ~ 0
+Text GLabel 1250 6300 0    50   BiDi ~ 0
 GND
-Wire Bus Line
-	4300 800  4300 7500
-Wire Bus Line
-	1750 1000 1750 7500
-Wire Bus Line
-	1150 1000 1150 7500
-Text Label 1850 1200 0    50   ~ 0
+Text GLabel 1250 7450 0    50   BiDi ~ 0
+GND
+Text GLabel 1250 1200 0    50   BiDi ~ 0
 FPGA_OC_BOSS
-Text Label 1850 2350 0    50   ~ 0
+Text GLabel 1250 2350 0    50   BiDi ~ 0
 FPGA_OC_RST
-Text Label 1850 3500 0    50   ~ 0
+Text GLabel 1250 3500 0    50   BiDi ~ 0
 FPGA_OC_HLT
-Text Label 1850 4650 0    50   ~ 0
+Text GLabel 1250 4650 0    50   BiDi ~ 0
 FPGA_OC_INT6
-Text Label 1850 5800 0    50   ~ 0
+Text GLabel 1250 5800 0    50   BiDi ~ 0
 FPGA_OC_INT2
-Text Label 1850 6950 0    50   ~ 0
+Text GLabel 1250 6950 0    50   BiDi ~ 0
 FPGA_OC_OVR
+Text GLabel 4200 850  2    50   BiDi ~ 0
+_BOSS
+Text GLabel 4200 2000 2    50   BiDi ~ 0
+_RST
+Text GLabel 4200 3150 2    50   BiDi ~ 0
+_HLT
+Text GLabel 4200 4300 2    50   BiDi ~ 0
+_INT6
+Text GLabel 4200 5450 2    50   BiDi ~ 0
+_INT2
+Text GLabel 4200 6600 2    50   BiDi ~ 0
+_OVR
 $EndSCHEMATC

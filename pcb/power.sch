@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 6 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -13,8 +13,6 @@ Comment2 "Wishmaster ARM \\ JIT turbo board for Amiga"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1000 1500 0    50   BiDi ~ 0
-POWER_GND
 $Comp
 L Regulator_Switching:ADP2108AUJ-3.3 U6
 U 1 1 5E713D7E
@@ -26,10 +24,6 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108
 	1    3750 2100
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1000 1500 1500 1500
-Entry Wire Line
-	1500 1900 1600 2000
 $Comp
 L WM1200:testpoint_cutline X4
 U 1 1 5E716612
@@ -52,8 +46,6 @@ Wire Wire Line
 Connection ~ 3400 2000
 Wire Wire Line
 	3400 2000 3450 2000
-Text Label 1600 2000 0    50   ~ 0
-+5VDC
 $Comp
 L Device:C C11
 U 1 1 5E718DCB
@@ -65,8 +57,6 @@ F 3 "~" H 3000 2350 50  0001 C CNN
 	1    3000 2350
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	1500 2600 1600 2700
 Wire Wire Line
 	1600 2700 3000 2700
 Wire Wire Line
@@ -76,11 +66,6 @@ Wire Wire Line
 Connection ~ 3000 2000
 Wire Wire Line
 	3000 2000 3400 2000
-Text Label 1600 2700 0    50   ~ 0
-GND
-Wire Bus Line
-	1500 1500 6500 1500
-Connection ~ 1500 1500
 $Comp
 L Device:C C12
 U 1 1 5E71F97C
@@ -97,8 +82,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 2700 3750 2700
 Connection ~ 3000 2700
-Entry Wire Line
-	6400 2000 6500 2100
 Wire Wire Line
 	5000 2200 5000 2000
 Wire Wire Line
@@ -131,8 +114,6 @@ Wire Wire Line
 Connection ~ 3750 2700
 Wire Wire Line
 	3750 2700 5000 2700
-Text Label 5950 2000 0    50   ~ 0
-+3V3_DC_DC
 $Comp
 L Device:Jumper_NC_Dual JP1
 U 1 1 5E722973
@@ -144,12 +125,6 @@ F 3 "~" H 3900 3500 50  0001 C CNN
 	1    3900 3500
 	0    -1   -1   0   
 $EndComp
-Entry Wire Line
-	1500 3000 1600 3100
-Entry Wire Line
-	1500 3850 1600 3950
-Entry Wire Line
-	6400 3500 6500 3600
 Wire Wire Line
 	3900 3250 3900 3100
 Wire Wire Line
@@ -158,14 +133,8 @@ Wire Wire Line
 	3900 3750 3900 3950
 Wire Wire Line
 	3900 3950 1600 3950
-Text Label 1650 3950 0    50   ~ 0
-+3V3_DC_DC
-Text Label 1650 3100 0    50   ~ 0
-FPGA_VCC3V3
 Wire Wire Line
 	4000 3500 6400 3500
-Text Label 5850 3500 0    50   ~ 0
-+3V3_BUFFER
 $Comp
 L Device:Jumper JP2
 U 1 1 5E7037DF
@@ -177,24 +146,28 @@ F 3 "~" H 3900 4500 50  0001 C CNN
 	1    3900 4500
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	1500 4400 1600 4500
-Entry Wire Line
-	6400 4500 6500 4600
 Wire Wire Line
 	1600 4500 3600 4500
 Wire Wire Line
 	4200 4500 6400 4500
-Text Label 1650 4500 0    50   ~ 0
-+5VDC
-Text Label 5900 4500 0    50   ~ 0
-FPGA_VCC5V
 Text Notes 4000 3850 0    50   ~ 0
 Jumper selects buffer power source:\n1-2: DC-DC converter onboard\n2-3: 3V3 from FPGA Devboard\nOpen: no power on buffers
 Text Notes 3000 4850 0    50   ~ 0
 Jumper selects FPGA Devboard power source\nOpen: FPGA Devboard gets 5V from usb or from DC connector\nClose: FPGA Devboard gets 5V from Amiga
-Wire Bus Line
-	6500 1500 6500 5000
-Wire Bus Line
-	1500 1500 1500 5000
+Text GLabel 1600 2000 0    50   BiDi ~ 0
++5VDC
+Text GLabel 1600 2700 0    50   BiDi ~ 0
+GND
+Text GLabel 6400 2000 2    50   BiDi ~ 0
++3V3_DC_DC
+Text GLabel 1600 3100 0    50   BiDi ~ 0
+FPGA_VCC3V3
+Text GLabel 1600 3950 0    50   BiDi ~ 0
++3V3_DC_DC
+Text GLabel 1600 4500 0    50   BiDi ~ 0
++5VDC
+Text GLabel 6400 3500 2    50   BiDi ~ 0
++3V3_BUFFER
+Text GLabel 6400 4500 2    50   BiDi ~ 0
+FPGA_VCC5V
 $EndSCHEMATC
