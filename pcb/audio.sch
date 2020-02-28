@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L WM1200:audio_expansion X5
+L WM1200:audio_expansion X2
 U 1 1 5EB21AAB
 P 3000 2700
-F 0 "X5" H 3000 3565 50  0000 C CNN
+F 0 "X2" H 3000 3565 50  0000 C CNN
 F 1 "audio_expansion" H 3000 3474 50  0000 C CNN
 F 2 "" H 2400 2950 50  0001 C CNN
 F 3 "" H 2400 2950 50  0001 C CNN

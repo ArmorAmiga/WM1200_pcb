@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 9 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L WM1200:clockport_connector X2
+L WM1200:clockport_connector X4
 U 1 1 5E55E9B8
 P 3250 2900
-F 0 "X2" H 3250 3600 50  0000 C CNN
+F 0 "X4" H 3250 3600 50  0000 C CNN
 F 1 "clockport_connector" H 3250 2850 50  0000 C CNN
 F 2 "" H 3250 3550 50  0001 C CNN
 F 3 "" H 3250 3550 50  0001 C CNN

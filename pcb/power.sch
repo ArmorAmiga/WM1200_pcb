@@ -25,10 +25,10 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline X4
+L WM1200:testpoint_cutline X1
 U 1 1 5E716612
 P 2300 2050
-F 0 "X4" H 2300 2233 50  0000 C CNN
+F 0 "X1" H 2300 2233 50  0000 C CNN
 F 1 "testpoint_cutline" H 2300 2200 50  0001 C CNN
 F 2 "" H 2450 2050 50  0001 C CNN
 F 3 "" H 2450 2050 50  0001 C CNN

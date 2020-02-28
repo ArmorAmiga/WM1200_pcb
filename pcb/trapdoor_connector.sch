@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L WM1200:A1200_trapdoor_connector X1
+L WM1200:A1200_trapdoor_connector X3
 U 3 1 5E6527FA
 P 7000 2900
-F 0 "X1" H 7000 3850 50  0000 C CNN
+F 0 "X3" H 7000 3850 50  0000 C CNN
 F 1 "A1200_trapdoor_connector" H 7000 4874 50  0000 C CNN
 F 2 "" H 6950 2900 50  0001 C CNN
 F 3 "" H 6950 2900 50  0001 C CNN
@@ -95,10 +95,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 5400 1750 5400
 $Comp
-L WM1200:A1200_trapdoor_connector X1
+L WM1200:A1200_trapdoor_connector X3
 U 2 1 5E64CEB2
 P 3050 6050
-F 0 "X1" H 3050 8900 50  0000 C CNN
+F 0 "X3" H 3050 8900 50  0000 C CNN
 F 1 "A1200_trapdoor_connector" H 3050 11174 50  0000 C CNN
 F 2 "" H 3000 6050 50  0001 C CNN
 F 3 "" H 3000 6050 50  0001 C CNN
@@ -194,10 +194,10 @@ Wire Wire Line
 Wire Wire Line
 	8100 2800 8250 2800
 $Comp
-L WM1200:A1200_trapdoor_connector X1
+L WM1200:A1200_trapdoor_connector X3
 U 4 1 5E55669B
 P 7000 6450
-F 0 "X1" H 7000 6900 50  0000 C CNN
+F 0 "X3" H 7000 6900 50  0000 C CNN
 F 1 "A1200_trapdoor_connector" H 7000 7524 50  0000 C CNN
 F 2 "" H 6950 6450 50  0001 C CNN
 F 3 "" H 6950 6450 50  0001 C CNN
@@ -227,10 +227,10 @@ Wire Wire Line
 Wire Wire Line
 	8100 3550 8250 3550
 $Comp
-L WM1200:A1200_trapdoor_connector X1
+L WM1200:A1200_trapdoor_connector X3
 U 1 1 5E62B199
 P 7000 4950
-F 0 "X1" H 7000 5700 50  0000 C CNN
+F 0 "X3" H 7000 5700 50  0000 C CNN
 F 1 "A1200_trapdoor_connector" H 7000 6524 50  0000 C CNN
 F 2 "" H 6950 4950 50  0001 C CNN
 F 3 "" H 6950 4950 50  0001 C CNN
@@ -525,4 +525,10 @@ Wire Wire Line
 	8250 3550 8400 3550
 Wire Wire Line
 	5600 3550 5750 3550
+Text GLabel 1200 6500 0    50   BiDi ~ 0
+_BOSS
+Text GLabel 1800 6500 2    50   BiDi ~ 0
+_BR
+Wire Wire Line
+	1200 6500 1800 6500
 $EndSCHEMATC
