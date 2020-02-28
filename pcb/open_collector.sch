@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 10 11
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -70,8 +70,6 @@ F 3 "~" V 2200 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 1200 2200 1200
-Wire Wire Line
 	4200 850  3600 850 
 Wire Wire Line
 	2750 1200 3000 1200
@@ -81,7 +79,6 @@ Wire Wire Line
 Connection ~ 3000 1700
 Wire Wire Line
 	2200 1200 2200 1350
-Connection ~ 2200 1200
 Wire Wire Line
 	2200 1200 2450 1200
 Wire Wire Line
@@ -146,8 +143,6 @@ F 3 "~" V 2200 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 2350 2200 2350
-Wire Wire Line
 	4200 2000 3600 2000
 Wire Wire Line
 	2750 2350 3000 2350
@@ -157,7 +152,6 @@ Wire Wire Line
 Connection ~ 3000 2850
 Wire Wire Line
 	2200 2350 2200 2500
-Connection ~ 2200 2350
 Wire Wire Line
 	2200 2350 2450 2350
 Wire Wire Line
@@ -222,8 +216,6 @@ F 3 "~" V 2200 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 3500 2200 3500
-Wire Wire Line
 	4200 3150 3600 3150
 Wire Wire Line
 	2750 3500 3000 3500
@@ -233,7 +225,6 @@ Wire Wire Line
 Connection ~ 3000 4000
 Wire Wire Line
 	2200 3500 2200 3650
-Connection ~ 2200 3500
 Wire Wire Line
 	2200 3500 2450 3500
 Wire Wire Line
@@ -298,8 +289,6 @@ F 3 "~" V 2200 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 4650 2200 4650
-Wire Wire Line
 	4200 4300 3600 4300
 Wire Wire Line
 	2750 4650 3000 4650
@@ -309,7 +298,6 @@ Wire Wire Line
 Connection ~ 3000 5150
 Wire Wire Line
 	2200 4650 2200 4800
-Connection ~ 2200 4650
 Wire Wire Line
 	2200 4650 2450 4650
 Wire Wire Line
@@ -374,8 +362,6 @@ F 3 "~" V 2200 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 5800 2200 5800
-Wire Wire Line
 	4200 5450 3600 5450
 Wire Wire Line
 	2750 5800 3000 5800
@@ -385,7 +371,6 @@ Wire Wire Line
 Connection ~ 3000 6300
 Wire Wire Line
 	2200 5800 2200 5950
-Connection ~ 2200 5800
 Wire Wire Line
 	2200 5800 2450 5800
 Wire Wire Line
@@ -450,8 +435,6 @@ F 3 "~" V 2200 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 6950 2200 6950
-Wire Wire Line
 	4200 6600 3600 6600
 Wire Wire Line
 	2750 6950 3000 6950
@@ -461,7 +444,6 @@ Wire Wire Line
 Connection ~ 3000 7450
 Wire Wire Line
 	2200 6950 2200 7100
-Connection ~ 2200 6950
 Wire Wire Line
 	2200 6950 2450 6950
 Wire Wire Line
@@ -517,4 +499,102 @@ Text GLabel 4200 5450 2    50   BiDi ~ 0
 _INT2
 Text GLabel 4200 6600 2    50   BiDi ~ 0
 _OVR
+$Comp
+L WM1200:testpoint_cutline XT60
+U 1 1 5E66C58B
+P 1700 7000
+F 0 "XT60" H 1700 7183 50  0000 C CNN
+F 1 "testpoint_cutline" H 1700 7150 50  0001 C CNN
+F 2 "" H 1850 7000 50  0001 C CNN
+F 3 "" H 1850 7000 50  0001 C CNN
+	1    1700 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT59
+U 1 1 5E66D323
+P 1700 5850
+F 0 "XT59" H 1700 6033 50  0000 C CNN
+F 1 "testpoint_cutline" H 1700 6000 50  0001 C CNN
+F 2 "" H 1850 5850 50  0001 C CNN
+F 3 "" H 1850 5850 50  0001 C CNN
+	1    1700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT58
+U 1 1 5E66DA82
+P 1700 4700
+F 0 "XT58" H 1700 4883 50  0000 C CNN
+F 1 "testpoint_cutline" H 1700 4850 50  0001 C CNN
+F 2 "" H 1850 4700 50  0001 C CNN
+F 3 "" H 1850 4700 50  0001 C CNN
+	1    1700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT57
+U 1 1 5E66DF74
+P 1700 3550
+F 0 "XT57" H 1700 3733 50  0000 C CNN
+F 1 "testpoint_cutline" H 1700 3700 50  0001 C CNN
+F 2 "" H 1850 3550 50  0001 C CNN
+F 3 "" H 1850 3550 50  0001 C CNN
+	1    1700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT56
+U 1 1 5E66E467
+P 1700 2400
+F 0 "XT56" H 1700 2583 50  0000 C CNN
+F 1 "testpoint_cutline" H 1700 2550 50  0001 C CNN
+F 2 "" H 1850 2400 50  0001 C CNN
+F 3 "" H 1850 2400 50  0001 C CNN
+	1    1700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT55
+U 1 1 5E66EAB6
+P 1700 1250
+F 0 "XT55" H 1700 1433 50  0000 C CNN
+F 1 "testpoint_cutline" H 1700 1400 50  0001 C CNN
+F 2 "" H 1850 1250 50  0001 C CNN
+F 3 "" H 1850 1250 50  0001 C CNN
+	1    1700 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1200 1250 1200
+Wire Wire Line
+	2100 1200 2200 1200
+Connection ~ 2200 1200
+Wire Wire Line
+	2100 2350 2200 2350
+Connection ~ 2200 2350
+Wire Wire Line
+	1300 2350 1250 2350
+Wire Wire Line
+	1250 3500 1300 3500
+Wire Wire Line
+	2100 3500 2200 3500
+Connection ~ 2200 3500
+Wire Wire Line
+	1250 4650 1300 4650
+Wire Wire Line
+	2100 4650 2200 4650
+Connection ~ 2200 4650
+Wire Wire Line
+	1250 5800 1300 5800
+Wire Wire Line
+	2100 5800 2200 5800
+Connection ~ 2200 5800
+Wire Wire Line
+	1250 6950 1300 6950
+Wire Wire Line
+	2100 6950 2200 6950
+Connection ~ 2200 6950
+Text Notes 4300 3900 0    118  Italic 24
+Don't forget about pull-ups and pull-downs
 $EndSCHEMATC

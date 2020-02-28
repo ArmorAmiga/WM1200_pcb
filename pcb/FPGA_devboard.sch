@@ -597,4 +597,150 @@ Wire Wire Line
 	4300 3100 4600 3100
 Wire Wire Line
 	4600 3200 4300 3200
+$Comp
+L WM1200:testpoint XT61
+U 1 1 5E5A11BD
+P 5550 6650
+F 0 "XT61" H 5600 6700 50  0000 C CNN
+F 1 "testpoint" H 5550 6800 50  0001 C CNN
+F 2 "" H 5550 6650 50  0001 C CNN
+F 3 "" H 5550 6650 50  0001 C CNN
+	1    5550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint XT62
+U 1 1 5E5B690A
+P 5550 6750
+F 0 "XT62" H 5600 6800 50  0000 C CNN
+F 1 "testpoint" H 5550 6900 50  0001 C CNN
+F 2 "" H 5550 6750 50  0001 C CNN
+F 3 "" H 5550 6750 50  0001 C CNN
+	1    5550 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint XT63
+U 1 1 5E5BE856
+P 5550 6850
+F 0 "XT63" H 5600 6900 50  0000 C CNN
+F 1 "testpoint" H 5550 7000 50  0001 C CNN
+F 2 "" H 5550 6850 50  0001 C CNN
+F 3 "" H 5550 6850 50  0001 C CNN
+	1    5550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint XT64
+U 1 1 5E5C67D2
+P 5550 6950
+F 0 "XT64" H 5600 7000 50  0000 C CNN
+F 1 "testpoint" H 5550 7100 50  0001 C CNN
+F 2 "" H 5550 6950 50  0001 C CNN
+F 3 "" H 5550 6950 50  0001 C CNN
+	1    5550 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint XT65
+U 1 1 5E5CE745
+P 5550 7050
+F 0 "XT65" H 5600 7100 50  0000 C CNN
+F 1 "testpoint" H 5550 7200 50  0001 C CNN
+F 2 "" H 5550 7050 50  0001 C CNN
+F 3 "" H 5550 7050 50  0001 C CNN
+	1    5550 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint XT66
+U 1 1 5E5D6657
+P 5550 7150
+F 0 "XT66" H 5600 7200 50  0000 C CNN
+F 1 "testpoint" H 5550 7300 50  0001 C CNN
+F 2 "" H 5550 7150 50  0001 C CNN
+F 3 "" H 5550 7150 50  0001 C CNN
+	1    5550 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint XT67
+U 1 1 5E5DE64C
+P 5550 7250
+F 0 "XT67" H 5600 7300 50  0000 C CNN
+F 1 "testpoint" H 5550 7400 50  0001 C CNN
+F 2 "" H 5550 7250 50  0001 C CNN
+F 3 "" H 5550 7250 50  0001 C CNN
+	1    5550 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint XT68
+U 1 1 5E5E66B0
+P 5550 7350
+F 0 "XT68" H 5600 7400 50  0000 C CNN
+F 1 "testpoint" H 5550 7500 50  0001 C CNN
+F 2 "" H 5550 7350 50  0001 C CNN
+F 3 "" H 5550 7350 50  0001 C CNN
+	1    5550 7350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 6600 0    50   BiDi ~ 0
+FPGA_PS_MIO8
+Text GLabel 5300 6700 0    50   BiDi ~ 0
+FPGA_PS_MIO9
+Text GLabel 5300 6800 0    50   BiDi ~ 0
+FPGA_PS_MIO10
+Text GLabel 5300 6900 0    50   BiDi ~ 0
+FPGA_PS_MIO11
+Text GLabel 5300 7000 0    50   BiDi ~ 0
+FPGA_PS_MIO12
+Text GLabel 5300 7100 0    50   BiDi ~ 0
+FPGA_PS_MIO13
+Text GLabel 5300 7200 0    50   BiDi ~ 0
+FPGA_PS_MIO14
+Text GLabel 5300 7300 0    50   BiDi ~ 0
+FPGA_PS_MIO15
+Text Notes 6600 6000 0    118  ~ 24
+We need to leave 8 fpga pins for hdmi
+Wire Notes Line
+	5450 5750 5450 6050
+Wire Notes Line
+	5450 6050 4550 6050
+Wire Notes Line
+	4550 6050 4550 5750
+Wire Notes Line
+	4550 5750 5450 5750
+Wire Notes Line
+	5500 5150 4600 5150
+Wire Notes Line
+	4600 5150 4600 5250
+Wire Notes Line
+	4600 5250 5500 5250
+Wire Notes Line
+	5500 5250 5500 5150
+Wire Notes Line
+	700  4750 1800 4750
+Wire Notes Line
+	1800 4750 1800 4950
+Wire Notes Line
+	1800 4950 700  4950
+Wire Notes Line
+	700  4950 700  4750
+Wire Notes Line
+	4600 4950 4600 5050
+Wire Notes Line
+	4600 5050 5500 5050
+Wire Notes Line
+	5500 5050 5500 4950
+Wire Notes Line
+	5500 4950 4600 4950
+Wire Notes Line
+	1800 5950 1800 6050
+Wire Notes Line
+	1800 6050 700  6050
+Wire Notes Line
+	700  6050 700  5950
+Wire Notes Line
+	700  5950 1800 5950
 $EndSCHEMATC
