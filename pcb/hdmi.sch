@@ -4,30 +4,30 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
-Title ""
+Title "WishMaster 1200"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "ES1"
+Comp "Konfusion"
+Comment1 "A1200 version (engineering prototype)"
+Comment2 "Wishmaster ARM \\ JIT turbo board for Amiga"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4100 4400 0    50   Input ~ 0
+Text GLabel 4100 4400 0    50   BiDi ~ 0
 FPGA_HDMI_D2+
-Text GLabel 4100 4300 0    50   Input ~ 0
+Text GLabel 4100 4300 0    50   BiDi ~ 0
 FPGA_HDMI_D2-
-Text GLabel 4100 4100 0    50   Input ~ 0
+Text GLabel 4100 4100 0    50   BiDi ~ 0
 FPGA_HDMI_D1+
-Text GLabel 4100 3800 0    50   Input ~ 0
+Text GLabel 4100 3800 0    50   BiDi ~ 0
 FPGA_HDMI_D0+
-Text GLabel 4100 3700 0    50   Input ~ 0
+Text GLabel 4100 3700 0    50   BiDi ~ 0
 FPGA_HDMI_D0-
-Text GLabel 4100 4000 0    50   Input ~ 0
+Text GLabel 4100 4000 0    50   BiDi ~ 0
 FPGA_HDMI_D1-
-Text GLabel 4100 3500 0    50   Input ~ 0
+Text GLabel 4100 3500 0    50   BiDi ~ 0
 FPGA_HDMI_CLK+
-Text GLabel 4100 3400 0    50   Input ~ 0
+Text GLabel 4100 3400 0    50   BiDi ~ 0
 FPGA_HDMI_CLK-
 $Comp
 L Connector:HDMI_A X7

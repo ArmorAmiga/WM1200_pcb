@@ -84,29 +84,23 @@ Wire Wire Line
 Wire Wire Line
 	4300 2800 4600 2800
 Wire Wire Line
-	4300 4400 4600 4400
+	4300 5400 4600 5400
 Wire Wire Line
-	4600 4500 4300 4500
+	4600 4400 4300 4400
 Wire Wire Line
-	4300 4600 4600 4600
+	4300 4500 4600 4500
 Wire Wire Line
-	4600 4700 4300 4700
+	4600 4600 4300 4600
+Wire Wire Line
+	4300 4700 4600 4700
 Wire Wire Line
 	4300 4800 4600 4800
 Wire Wire Line
-	4300 4900 4600 4900
+	4600 5000 4300 5000
 Wire Wire Line
-	4300 5000 4600 5000
+	4600 5200 4300 5200
 Wire Wire Line
-	4600 5100 4300 5100
-Wire Wire Line
-	4300 5200 4600 5200
-Wire Wire Line
-	4600 5300 4300 5300
-Wire Wire Line
-	4300 5400 4600 5400
-Wire Wire Line
-	4600 5500 4300 5500
+	4300 5300 4600 5300
 Wire Wire Line
 	4300 5600 4600 5600
 Wire Wire Line
@@ -460,19 +454,17 @@ Text GLabel 9600 3100 2    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
 Text GLabel 9600 3200 2    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
-Text GLabel 3750 3750 2    50   BiDi ~ 0
+Text GLabel 1800 4600 0    50   BiDi ~ 0
 FPGA_AUD_PWM_L
-Text GLabel 3750 3850 2    50   BiDi ~ 0
+Text GLabel 1800 4500 0    50   BiDi ~ 0
 FPGA_AUD_PWM_R
-Text GLabel 3750 3950 2    50   BiDi ~ 0
+Text GLabel 1800 4400 0    50   BiDi ~ 0
 FPGA_AUD_SD
-Text GLabel 4600 5200 2    50   BiDi ~ 0
+Text GLabel 4650 5500 2    50   BiDi ~ 0
 FPGA_OC_BOSS
-Text GLabel 4600 5300 2    50   BiDi ~ 0
+Text GLabel 4600 5200 2    50   BiDi ~ 0
 FPGA_OC_HLT
 Text GLabel 4600 5400 2    50   BiDi ~ 0
-FPGA_OC_INT2
-Text GLabel 4600 5500 2    50   BiDi ~ 0
 FPGA_OC_INT6
 Text GLabel 4600 5600 2    50   BiDi ~ 0
 FPGA_OC_OVR
@@ -491,30 +483,11 @@ _FPGA_IPL1
 Text GLabel 4600 4900 2    50   BiDi ~ 0
 _FPGA_IPL2
 Text GLabel 4600 5000 2    50   BiDi ~ 0
-_FPGA_KBRESET
-Text GLabel 4600 5100 2    50   BiDi ~ 0
 _FPGA_RST
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even X5
-U 1 1 5E59EB5F
-P 3150 6900
-F 0 "X5" H 3200 7317 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 3200 7226 50  0000 C CNN
-F 2 "" H 3150 6900 50  0001 C CNN
-F 3 "~" H 3150 6900 50  0001 C CNN
-	1    3150 6900
-	1    0    0    -1  
-$EndComp
 Text GLabel 2950 7200 0    50   BiDi ~ 0
 GND
 Text GLabel 3450 7100 2    50   BiDi ~ 0
 FPGA_VCC3V3
-Text GLabel 1800 4100 0    50   BiDi ~ 0
-FPGA_GPIO0
-Text GLabel 2950 7100 0    50   BiDi ~ 0
-FPGA_GPIO0
-Text GLabel 1800 2900 0    50   BiDi ~ 0
-FPGA_PS_MIO9
 Text GLabel 1800 3000 0    50   BiDi ~ 0
 FPGA_PS_MIO11
 Text GLabel 1800 3100 0    50   BiDi ~ 0
@@ -525,14 +498,8 @@ Text GLabel 4600 3200 2    50   BiDi ~ 0
 FPGA_PS_MIO12
 Text GLabel 4600 3100 2    50   BiDi ~ 0
 FPGA_PS_MIO15
-Text GLabel 4600 3000 2    50   BiDi ~ 0
-FPGA_PS_MIO8
 Text GLabel 4600 2900 2    50   BiDi ~ 0
 FPGA_PS_MIO14
-Text GLabel 2950 6700 0    50   BiDi ~ 0
-FPGA_PS_MIO8
-Text GLabel 3450 6700 2    50   BiDi ~ 0
-FPGA_PS_MIO9
 Text GLabel 2950 6800 0    50   BiDi ~ 0
 FPGA_PS_MIO10
 Text GLabel 3450 6800 2    50   BiDi ~ 0
@@ -550,8 +517,6 @@ GND
 Wire Wire Line
 	1800 6000 2100 6000
 Wire Wire Line
-	1800 2900 2100 2900
-Wire Wire Line
 	2100 3000 1800 3000
 Wire Wire Line
 	1800 3100 2100 3100
@@ -560,165 +525,47 @@ Wire Wire Line
 Wire Wire Line
 	4300 2900 4600 2900
 Wire Wire Line
-	4600 3000 4300 3000
-Wire Wire Line
 	4300 3100 4600 3100
 Wire Wire Line
 	4600 3200 4300 3200
-$Comp
-L WM1200:testpoint XT61
-U 1 1 5E5A11BD
-P 5550 6650
-F 0 "XT61" H 5600 6700 50  0000 C CNN
-F 1 "testpoint" H 5550 6800 50  0001 C CNN
-F 2 "" H 5550 6650 50  0001 C CNN
-F 3 "" H 5550 6650 50  0001 C CNN
-	1    5550 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint XT62
-U 1 1 5E5B690A
-P 5550 6750
-F 0 "XT62" H 5600 6800 50  0000 C CNN
-F 1 "testpoint" H 5550 6900 50  0001 C CNN
-F 2 "" H 5550 6750 50  0001 C CNN
-F 3 "" H 5550 6750 50  0001 C CNN
-	1    5550 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint XT63
-U 1 1 5E5BE856
-P 5550 6850
-F 0 "XT63" H 5600 6900 50  0000 C CNN
-F 1 "testpoint" H 5550 7000 50  0001 C CNN
-F 2 "" H 5550 6850 50  0001 C CNN
-F 3 "" H 5550 6850 50  0001 C CNN
-	1    5550 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint XT64
-U 1 1 5E5C67D2
-P 5550 6950
-F 0 "XT64" H 5600 7000 50  0000 C CNN
-F 1 "testpoint" H 5550 7100 50  0001 C CNN
-F 2 "" H 5550 6950 50  0001 C CNN
-F 3 "" H 5550 6950 50  0001 C CNN
-	1    5550 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint XT65
-U 1 1 5E5CE745
-P 5550 7050
-F 0 "XT65" H 5600 7100 50  0000 C CNN
-F 1 "testpoint" H 5550 7200 50  0001 C CNN
-F 2 "" H 5550 7050 50  0001 C CNN
-F 3 "" H 5550 7050 50  0001 C CNN
-	1    5550 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint XT66
-U 1 1 5E5D6657
-P 5550 7150
-F 0 "XT66" H 5600 7200 50  0000 C CNN
-F 1 "testpoint" H 5550 7300 50  0001 C CNN
-F 2 "" H 5550 7150 50  0001 C CNN
-F 3 "" H 5550 7150 50  0001 C CNN
-	1    5550 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint XT67
-U 1 1 5E5DE64C
-P 5550 7250
-F 0 "XT67" H 5600 7300 50  0000 C CNN
-F 1 "testpoint" H 5550 7400 50  0001 C CNN
-F 2 "" H 5550 7250 50  0001 C CNN
-F 3 "" H 5550 7250 50  0001 C CNN
-	1    5550 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint XT68
-U 1 1 5E5E66B0
-P 5550 7350
-F 0 "XT68" H 5600 7400 50  0000 C CNN
-F 1 "testpoint" H 5550 7500 50  0001 C CNN
-F 2 "" H 5550 7350 50  0001 C CNN
-F 3 "" H 5550 7350 50  0001 C CNN
-	1    5550 7350
-	1    0    0    -1  
-$EndComp
-Text GLabel 5300 6600 0    50   BiDi ~ 0
-FPGA_PS_MIO8
-Text GLabel 5300 6700 0    50   BiDi ~ 0
-FPGA_PS_MIO9
-Text GLabel 5300 6800 0    50   BiDi ~ 0
-FPGA_PS_MIO10
-Text GLabel 5300 6900 0    50   BiDi ~ 0
-FPGA_PS_MIO11
-Text GLabel 5300 7000 0    50   BiDi ~ 0
-FPGA_PS_MIO12
-Text GLabel 5300 7100 0    50   BiDi ~ 0
-FPGA_PS_MIO13
-Text GLabel 5300 7200 0    50   BiDi ~ 0
-FPGA_PS_MIO14
-Text GLabel 5300 7300 0    50   BiDi ~ 0
-FPGA_PS_MIO15
-Text Notes 6600 6000 0    118  ~ 24
-We need to leave 8 fpga pins for hdmi
 Wire Notes Line
-	4600 3700 4600 4000
+	950  4650 950  4350
 Wire Notes Line
-	4600 4000 3700 4000
+	950  4350 1850 4350
 Wire Notes Line
-	3700 3700 4600 3700
+	1850 4650 950  4650
 Wire Notes Line
-	5500 5150 4600 5150
+	5300 5450 4650 5450
 Wire Notes Line
-	4600 5150 4600 5250
+	4650 5450 4650 5550
 Wire Notes Line
-	4600 5250 5500 5250
+	4650 5550 5300 5550
 Wire Notes Line
-	5500 5250 5500 5150
+	5300 5550 5300 5450
 Wire Notes Line
 	1800 3750 1800 3950
 Wire Notes Line
 	700  3950 700  3750
 Wire Notes Line
-	4600 4950 4600 5050
+	4600 3050 5250 3050
 Wire Notes Line
-	4600 5050 5500 5050
+	5250 3050 5250 2950
 Wire Notes Line
-	5500 5050 5500 4950
-Wire Notes Line
-	5500 4950 4600 4950
-Wire Notes Line
-	1800 4150 700  4150
-Wire Notes Line
-	700  4150 700  4050
-Wire Notes Line
-	700  4050 1800 4050
-Text GLabel 1800 6000 0    50   Input ~ 0
+	5250 2950 4600 2950
+Text GLabel 1800 6000 0    50   Output ~ 0
 FPGA_HDMI_D2+
-Text GLabel 1800 5900 0    50   Input ~ 0
+Text GLabel 1800 5900 0    50   Output ~ 0
 FPGA_HDMI_D2-
-Text GLabel 1800 5800 0    50   Input ~ 0
+Text GLabel 1800 5800 0    50   Output ~ 0
 FPGA_HDMI_D1+
-Text GLabel 1800 5600 0    50   Input ~ 0
+Text GLabel 1800 5600 0    50   Output ~ 0
 FPGA_HDMI_D0+
-Text GLabel 1800 5500 0    50   Input ~ 0
+Text GLabel 1800 5500 0    50   Output ~ 0
 FPGA_HDMI_D0-
-Text GLabel 1800 5700 0    50   Input ~ 0
+Text GLabel 1800 5700 0    50   Output ~ 0
 FPGA_HDMI_D1-
-Text GLabel 1800 5400 0    50   Input ~ 0
+Text GLabel 1800 5400 0    50   Output ~ 0
 FPGA_HDMI_CLK+
-Text GLabel 1800 5300 0    50   Input ~ 0
-FPGA_HDMI_CLK-
 Wire Notes Line
 	1800 3950 700  3950
 Wire Notes Line
@@ -741,16 +588,53 @@ Text GLabel 1800 4800 0    50   BiDi ~ 0
 FPGA_FC1
 Text GLabel 1800 4700 0    50   BiDi ~ 0
 FPGA_FC0
-Text GLabel 1800 4600 0    50   BiDi ~ 0
+Text GLabel 4600 5100 2    50   BiDi ~ 0
 FPGA_CPUCLK_A
 Text GLabel 1800 3900 0    50   BiDi ~ 0
 FPGA_INONLY_BUFF_DIR
 Text GLabel 1800 3800 0    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
-Text GLabel 1800 4400 0    50   BiDi ~ 0
-FPGA_D_BUFF_DIR
-Text GLabel 1800 4500 0    50   BiDi ~ 0
-_FPGA_D_BUFF_OE
 Wire Notes Line
-	3700 4000 3700 3700
+	1850 4350 1850 4650
+Text GLabel 1800 5300 0    50   Output ~ 0
+FPGA_HDMI_CLK-
+Wire Wire Line
+	1800 2900 2100 2900
+Text GLabel 4600 3000 2    50   BiDi ~ 0
+_FPGA_KBRESET
+Wire Notes Line
+	4600 2950 4600 3050
+Wire Wire Line
+	4600 4900 4300 4900
+Wire Wire Line
+	4300 5100 4600 5100
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even X5
+U 1 1 5E864C32
+P 3150 7000
+F 0 "X5" H 3200 7417 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 3200 7326 50  0000 C CNN
+F 2 "" H 3150 7000 50  0001 C CNN
+F 3 "~" H 3150 7000 50  0001 C CNN
+	1    3150 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 3700 0    50   BiDi ~ 0
+FPGA_HDMI_CEC
+Text GLabel 3700 3800 0    50   BiDi ~ 0
+FPGA_HDMI_SCL
+Text GLabel 3700 3900 0    50   BiDi ~ 0
+FPGA_HDMI_SDA
+Text GLabel 3700 4000 0    50   BiDi ~ 0
+FPGA_HDMI_HPD
+Text GLabel 4600 5300 2    50   BiDi ~ 0
+FPGA_OC_INT2
+Wire Wire Line
+	4300 5500 4650 5500
+Text GLabel 2950 7100 0    50   BiDi ~ 0
+FPGA_PS_MIO9
+Text GLabel 1800 2900 0    50   BiDi ~ 0
+FPGA_PS_MIO9
+Wire Wire Line
+	4300 3000 4600 3000
 $EndSCHEMATC
