@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -72,5 +72,11 @@ S 8500 2500 1500 1000
 U 5E5BA060
 F0 "FPGA Devboard" 50
 F1 "FPGA_devboard.sch" 50
+$EndSheet
+$Sheet
+S 8500 4000 1500 500 
+U 5E5A0969
+F0 "hdmi video output" 50
+F1 "hdmi.sch" 50
 $EndSheet
 $EndSCHEMATC

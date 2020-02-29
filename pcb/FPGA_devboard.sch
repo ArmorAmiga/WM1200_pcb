@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 11 12
 Title "WishMaster 1200"
 Date ""
 Rev "ES1"
@@ -460,32 +460,12 @@ Text GLabel 9600 3100 2    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
 Text GLabel 9600 3200 2    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
-Text GLabel 4600 5800 2    50   BiDi ~ 0
+Text GLabel 3750 3750 2    50   BiDi ~ 0
 FPGA_AUD_PWM_L
-Text GLabel 4600 5900 2    50   BiDi ~ 0
+Text GLabel 3750 3850 2    50   BiDi ~ 0
 FPGA_AUD_PWM_R
-Text GLabel 4600 6000 2    50   BiDi ~ 0
+Text GLabel 3750 3950 2    50   BiDi ~ 0
 FPGA_AUD_SD
-Text GLabel 1800 4400 0    50   BiDi ~ 0
-FPGA_A_BUFF_DIR
-Text GLabel 1800 4700 0    50   BiDi ~ 0
-_FPGA_D_BUFF_OE
-Text GLabel 1800 4500 0    50   BiDi ~ 0
-_FPGA_A_BUFF_OE
-Text GLabel 1800 4600 0    50   BiDi ~ 0
-FPGA_D_BUFF_DIR
-Text GLabel 1800 4800 0    50   BiDi ~ 0
-_FPGA_INONLY_BUFF_OE
-Text GLabel 1800 4900 0    50   BiDi ~ 0
-FPGA_INONLY_BUFF_DIR
-Text GLabel 1800 5000 0    50   BiDi ~ 0
-FPGA_CPUCLK_A
-Text GLabel 1800 5100 0    50   BiDi ~ 0
-FPGA_FC0
-Text GLabel 1800 5200 0    50   BiDi ~ 0
-FPGA_FC1
-Text GLabel 1800 5300 0    50   BiDi ~ 0
-FPGA_FC2
 Text GLabel 4600 5200 2    50   BiDi ~ 0
 FPGA_OC_BOSS
 Text GLabel 4600 5300 2    50   BiDi ~ 0
@@ -498,18 +478,6 @@ Text GLabel 4600 5600 2    50   BiDi ~ 0
 FPGA_OC_OVR
 Text GLabel 4600 5700 2    50   BiDi ~ 0
 FPGA_OC_RST
-Text GLabel 1800 5400 0    50   BiDi ~ 0
-FPGA_R_W
-Text GLabel 1800 5500 0    50   BiDi ~ 0
-FPGA_SIZE0
-Text GLabel 1800 5600 0    50   BiDi ~ 0
-FPGA_SIZE1
-Text GLabel 1800 5700 0    50   BiDi ~ 0
-_FPGA_AS
-Text GLabel 1800 5800 0    50   BiDi ~ 0
-_FPGA_BERR
-Text GLabel 1800 5900 0    50   BiDi ~ 0
-_FPGA_DS
 Text GLabel 4600 4400 2    50   BiDi ~ 0
 _FPGA_DSACK0
 Text GLabel 4600 4500 2    50   BiDi ~ 0
@@ -541,7 +509,7 @@ Text GLabel 2950 7200 0    50   BiDi ~ 0
 GND
 Text GLabel 3450 7100 2    50   BiDi ~ 0
 FPGA_VCC3V3
-Text GLabel 1800 6000 0    50   BiDi ~ 0
+Text GLabel 1800 4100 0    50   BiDi ~ 0
 FPGA_GPIO0
 Text GLabel 2950 7100 0    50   BiDi ~ 0
 FPGA_GPIO0
@@ -704,13 +672,11 @@ FPGA_PS_MIO15
 Text Notes 6600 6000 0    118  ~ 24
 We need to leave 8 fpga pins for hdmi
 Wire Notes Line
-	5450 5750 5450 6050
+	4600 3700 4600 4000
 Wire Notes Line
-	5450 6050 4550 6050
+	4600 4000 3700 4000
 Wire Notes Line
-	4550 6050 4550 5750
-Wire Notes Line
-	4550 5750 5450 5750
+	3700 3700 4600 3700
 Wire Notes Line
 	5500 5150 4600 5150
 Wire Notes Line
@@ -720,13 +686,9 @@ Wire Notes Line
 Wire Notes Line
 	5500 5250 5500 5150
 Wire Notes Line
-	700  4750 1800 4750
+	1800 3750 1800 3950
 Wire Notes Line
-	1800 4750 1800 4950
-Wire Notes Line
-	1800 4950 700  4950
-Wire Notes Line
-	700  4950 700  4750
+	700  3950 700  3750
 Wire Notes Line
 	4600 4950 4600 5050
 Wire Notes Line
@@ -736,11 +698,59 @@ Wire Notes Line
 Wire Notes Line
 	5500 4950 4600 4950
 Wire Notes Line
-	1800 5950 1800 6050
+	1800 4150 700  4150
 Wire Notes Line
-	1800 6050 700  6050
+	700  4150 700  4050
 Wire Notes Line
-	700  6050 700  5950
+	700  4050 1800 4050
+Text GLabel 1800 6000 0    50   Input ~ 0
+FPGA_HDMI_D2+
+Text GLabel 1800 5900 0    50   Input ~ 0
+FPGA_HDMI_D2-
+Text GLabel 1800 5800 0    50   Input ~ 0
+FPGA_HDMI_D1+
+Text GLabel 1800 5600 0    50   Input ~ 0
+FPGA_HDMI_D0+
+Text GLabel 1800 5500 0    50   Input ~ 0
+FPGA_HDMI_D0-
+Text GLabel 1800 5700 0    50   Input ~ 0
+FPGA_HDMI_D1-
+Text GLabel 1800 5400 0    50   Input ~ 0
+FPGA_HDMI_CLK+
+Text GLabel 1800 5300 0    50   Input ~ 0
+FPGA_HDMI_CLK-
 Wire Notes Line
-	700  5950 1800 5950
+	1800 3950 700  3950
+Wire Notes Line
+	700  3750 1800 3750
+Text GLabel 4600 5800 2    50   BiDi ~ 0
+_FPGA_DS
+Text GLabel 4600 5900 2    50   BiDi ~ 0
+_FPGA_BERR
+Text GLabel 4600 6000 2    50   BiDi ~ 0
+_FPGA_AS
+Text GLabel 1800 5200 0    50   BiDi ~ 0
+FPGA_SIZE1
+Text GLabel 1800 5100 0    50   BiDi ~ 0
+FPGA_SIZE0
+Text GLabel 1800 5000 0    50   BiDi ~ 0
+FPGA_R_W
+Text GLabel 1800 4900 0    50   BiDi ~ 0
+FPGA_FC2
+Text GLabel 1800 4800 0    50   BiDi ~ 0
+FPGA_FC1
+Text GLabel 1800 4700 0    50   BiDi ~ 0
+FPGA_FC0
+Text GLabel 1800 4600 0    50   BiDi ~ 0
+FPGA_CPUCLK_A
+Text GLabel 1800 3900 0    50   BiDi ~ 0
+FPGA_INONLY_BUFF_DIR
+Text GLabel 1800 3800 0    50   BiDi ~ 0
+_FPGA_INONLY_BUFF_OE
+Text GLabel 1800 4400 0    50   BiDi ~ 0
+FPGA_D_BUFF_DIR
+Text GLabel 1800 4500 0    50   BiDi ~ 0
+_FPGA_D_BUFF_OE
+Wire Notes Line
+	3700 4000 3700 3700
 $EndSCHEMATC
