@@ -529,11 +529,11 @@ Wire Wire Line
 Wire Wire Line
 	4600 3200 4300 3200
 Wire Notes Line
-	950  4650 950  4350
+	1050 4650 1050 4350
 Wire Notes Line
-	950  4350 1850 4350
+	1050 4350 1800 4350
 Wire Notes Line
-	1850 4650 950  4650
+	1800 4650 1050 4650
 Wire Notes Line
 	5300 5450 4650 5450
 Wire Notes Line
@@ -545,7 +545,7 @@ Wire Notes Line
 Wire Notes Line
 	1800 3750 1800 3950
 Wire Notes Line
-	700  3950 700  3750
+	800  3950 800  3750
 Wire Notes Line
 	4600 3050 5250 3050
 Wire Notes Line
@@ -567,9 +567,9 @@ FPGA_HDMI_D1-
 Text GLabel 1800 5400 0    50   Output ~ 0
 FPGA_HDMI_CLK+
 Wire Notes Line
-	1800 3950 700  3950
+	1800 3950 800  3950
 Wire Notes Line
-	700  3750 1800 3750
+	800  3750 1800 3750
 Text GLabel 4600 5800 2    50   BiDi ~ 0
 _FPGA_DS
 Text GLabel 4600 5900 2    50   BiDi ~ 0
@@ -595,7 +595,7 @@ FPGA_INONLY_BUFF_DIR
 Text GLabel 1800 3800 0    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
 Wire Notes Line
-	1850 4350 1850 4650
+	1800 4350 1800 4650
 Text GLabel 1800 5300 0    50   Output ~ 0
 FPGA_HDMI_CLK-
 Wire Wire Line
