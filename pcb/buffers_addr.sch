@@ -19,7 +19,7 @@ U 1 1 5E552A9B
 P 3250 2750
 F 0 "U3" H 3250 3200 50  0000 C CNN
 F 1 "74LVCH162245A" H 3250 3100 50  0000 C CNN
-F 2 "" H 3250 2750 50  0001 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 3250 2750 50  0001 C CNN
 F 3 "" H 3250 2750 50  0001 C CNN
 	1    3250 2750
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 2 1 5E556C63
 P 3250 4900
 F 0 "U3" H 3250 5850 50  0000 C CNN
 F 1 "74LVCH162245A" H 3250 5750 50  0000 C CNN
-F 2 "" H 3250 4900 50  0001 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 3250 4900 50  0001 C CNN
 F 3 "" H 3250 4900 50  0001 C CNN
 	2    3250 4900
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5E5582DD
 P 8050 2750
 F 0 "U4" H 8050 3250 50  0000 C CNN
 F 1 "74LVCH162245A" H 8050 3150 50  0000 C CNN
-F 2 "" H 8050 2750 50  0001 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8050 2750 50  0001 C CNN
 F 3 "" H 8050 2750 50  0001 C CNN
 	1    8050 2750
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 2 1 5E91F421
 P 8050 4900
 F 0 "U4" H 8050 6165 50  0000 C CNN
 F 1 "74LVCH162245A" H 8050 6074 50  0000 C CNN
-F 2 "" H 8050 4900 50  0001 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8050 4900 50  0001 C CNN
 F 3 "" H 8050 4900 50  0001 C CNN
 	2    8050 4900
 	1    0    0    -1  
@@ -170,10 +170,10 @@ Wire Wire Line
 Wire Wire Line
 	8700 4600 8800 4600
 $Comp
-L Device:C C6
+L Device:C C7
 U 1 1 5E91F422
 P 3250 5600
-F 0 "C6" V 3502 5600 50  0000 C CNN
+F 0 "C7" V 3502 5600 50  0000 C CNN
 F 1 "10uF" V 3411 5600 50  0000 C CNN
 F 2 "" H 3288 5450 50  0001 C CNN
 F 3 "~" H 3250 5600 50  0001 C CNN
@@ -203,10 +203,10 @@ F 3 "~" H 8050 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C6
 U 1 1 5E91F427
 P 8050 5200
-F 0 "C7" V 8302 5200 50  0000 C CNN
+F 0 "C6" V 8302 5200 50  0000 C CNN
 F 1 "0.1uF" V 8211 5200 50  0000 C CNN
 F 2 "" H 8088 5050 50  0001 C CNN
 F 3 "~" H 8050 5200 50  0001 C CNN
@@ -225,84 +225,84 @@ U 1 1 5E57C393
 P 6850 3250
 F 0 "XT5" H 6850 3300 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 3400 50  0001 C CNN
-F 2 "" H 7000 3250 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3250 50  0001 C CNN
 F 3 "" H 7000 3250 50  0001 C CNN
 	1    6850 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT6
+L WM1200:testpoint_cutline XT7
 U 1 1 5E57D0C2
 P 6850 3350
-F 0 "XT6" H 6850 3400 50  0000 C CNN
+F 0 "XT7" H 6850 3400 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 3500 50  0001 C CNN
-F 2 "" H 7000 3350 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3350 50  0001 C CNN
 F 3 "" H 7000 3350 50  0001 C CNN
 	1    6850 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT7
+L WM1200:testpoint_cutline XT9
 U 1 1 5E57DCF2
 P 6850 3450
-F 0 "XT7" H 6850 3500 50  0000 C CNN
+F 0 "XT9" H 6850 3500 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 3600 50  0001 C CNN
-F 2 "" H 7000 3450 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3450 50  0001 C CNN
 F 3 "" H 7000 3450 50  0001 C CNN
 	1    6850 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT8
+L WM1200:testpoint_cutline XT11
 U 1 1 5E57E315
 P 6850 3550
-F 0 "XT8" H 6850 3600 50  0000 C CNN
+F 0 "XT11" H 6850 3600 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 3700 50  0001 C CNN
-F 2 "" H 7000 3550 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3550 50  0001 C CNN
 F 3 "" H 7000 3550 50  0001 C CNN
 	1    6850 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT9
+L WM1200:testpoint_cutline XT13
 U 1 1 5E57E966
 P 6850 3650
-F 0 "XT9" H 6850 3700 50  0000 C CNN
+F 0 "XT13" H 6850 3700 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 3800 50  0001 C CNN
-F 2 "" H 7000 3650 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3650 50  0001 C CNN
 F 3 "" H 7000 3650 50  0001 C CNN
 	1    6850 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT10
+L WM1200:testpoint_cutline XT15
 U 1 1 5E57EE80
 P 6850 3750
-F 0 "XT10" H 6850 3800 50  0000 C CNN
+F 0 "XT15" H 6850 3800 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 3900 50  0001 C CNN
-F 2 "" H 7000 3750 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3750 50  0001 C CNN
 F 3 "" H 7000 3750 50  0001 C CNN
 	1    6850 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT11
+L WM1200:testpoint_cutline XT17
 U 1 1 5E57F468
 P 6850 3850
-F 0 "XT11" H 6850 3900 50  0000 C CNN
+F 0 "XT17" H 6850 3900 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 4000 50  0001 C CNN
-F 2 "" H 7000 3850 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3850 50  0001 C CNN
 F 3 "" H 7000 3850 50  0001 C CNN
 	1    6850 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT12
+L WM1200:testpoint_cutline XT19
 U 1 1 5E57FB7E
 P 6850 3950
-F 0 "XT12" H 6850 4000 50  0000 C CNN
+F 0 "XT19" H 6850 4000 50  0000 C CNN
 F 1 "testpoint_cutline" H 6850 4100 50  0001 C CNN
-F 2 "" H 7000 3950 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 3950 50  0001 C CNN
 F 3 "" H 7000 3950 50  0001 C CNN
 	1    6850 3950
 	1    0    0    -1  
@@ -378,78 +378,78 @@ Disable OE by default
 Text Notes 2550 6050 0    50   ~ 0
 Data direction is B -> A by default
 $Comp
-L WM1200:testpoint_cutline XT13
+L WM1200:testpoint_cutline XT6
 U 1 1 5EA42E26
 P 9300 3250
-F 0 "XT13" H 9300 3300 50  0000 C CNN
+F 0 "XT6" H 9300 3300 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 3400 50  0001 C CNN
-F 2 "" H 9450 3250 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3250 50  0001 C CNN
 F 3 "" H 9450 3250 50  0001 C CNN
 	1    9300 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT14
+L WM1200:testpoint_cutline XT8
 U 1 1 5EA42E2C
 P 9300 3350
-F 0 "XT14" H 9300 3400 50  0000 C CNN
+F 0 "XT8" H 9300 3400 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 3500 50  0001 C CNN
-F 2 "" H 9450 3350 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3350 50  0001 C CNN
 F 3 "" H 9450 3350 50  0001 C CNN
 	1    9300 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT15
+L WM1200:testpoint_cutline XT10
 U 1 1 5EA42E32
 P 9300 3450
-F 0 "XT15" H 9300 3500 50  0000 C CNN
+F 0 "XT10" H 9300 3500 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 3600 50  0001 C CNN
-F 2 "" H 9450 3450 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3450 50  0001 C CNN
 F 3 "" H 9450 3450 50  0001 C CNN
 	1    9300 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT16
+L WM1200:testpoint_cutline XT12
 U 1 1 5EA42E38
 P 9300 3550
-F 0 "XT16" H 9300 3600 50  0000 C CNN
+F 0 "XT12" H 9300 3600 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 3700 50  0001 C CNN
-F 2 "" H 9450 3550 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3550 50  0001 C CNN
 F 3 "" H 9450 3550 50  0001 C CNN
 	1    9300 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT17
+L WM1200:testpoint_cutline XT14
 U 1 1 5EA42E3E
 P 9300 3650
-F 0 "XT17" H 9300 3700 50  0000 C CNN
+F 0 "XT14" H 9300 3700 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 3800 50  0001 C CNN
-F 2 "" H 9450 3650 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3650 50  0001 C CNN
 F 3 "" H 9450 3650 50  0001 C CNN
 	1    9300 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT18
+L WM1200:testpoint_cutline XT16
 U 1 1 5EA42E44
 P 9300 3750
-F 0 "XT18" H 9300 3800 50  0000 C CNN
+F 0 "XT16" H 9300 3800 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 3900 50  0001 C CNN
-F 2 "" H 9450 3750 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3750 50  0001 C CNN
 F 3 "" H 9450 3750 50  0001 C CNN
 	1    9300 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT19
+L WM1200:testpoint_cutline XT18
 U 1 1 5EA42E4A
 P 9300 3850
-F 0 "XT19" H 9300 3900 50  0000 C CNN
+F 0 "XT18" H 9300 3900 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 4000 50  0001 C CNN
-F 2 "" H 9450 3850 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3850 50  0001 C CNN
 F 3 "" H 9450 3850 50  0001 C CNN
 	1    9300 3850
 	1    0    0    -1  
@@ -460,7 +460,7 @@ U 1 1 5EA42E50
 P 9300 3950
 F 0 "XT20" H 9300 4000 50  0000 C CNN
 F 1 "testpoint_cutline" H 9300 4100 50  0001 C CNN
-F 2 "" H 9450 3950 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 3950 50  0001 C CNN
 F 3 "" H 9450 3950 50  0001 C CNN
 	1    9300 3950
 	1    0    0    -1  

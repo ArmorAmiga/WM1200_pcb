@@ -25,12 +25,12 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT?
+L WM1200:testpoint_cutline XT55
 U 1 1 5E716612
 P 2300 2050
-F 0 "XT?" H 2300 2233 50  0000 C CNN
+F 0 "XT55" H 2300 2233 50  0000 C CNN
 F 1 "testpoint_cutline" H 2300 2200 50  0001 C CNN
-F 2 "" H 2450 2050 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 2450 2050 50  0001 C CNN
 F 3 "" H 2450 2050 50  0001 C CNN
 	1    2300 2050
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 5E722973
 P 3900 3500
 F 0 "JP1" V 3854 3602 50  0000 L CNN
 F 1 "Jumper_NC_Dual" V 3945 3602 50  0000 L CNN
-F 2 "" H 3900 3500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3900 3500 50  0001 C CNN
 F 3 "~" H 3900 3500 50  0001 C CNN
 	1    3900 3500
 	0    -1   -1   0   
@@ -141,7 +141,7 @@ U 1 1 5E7037DF
 P 3900 4500
 F 0 "JP2" H 3900 4764 50  0000 C CNN
 F 1 "Jumper" H 3900 4673 50  0000 C CNN
-F 2 "" H 3900 4500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3900 4500 50  0001 C CNN
 F 3 "~" H 3900 4500 50  0001 C CNN
 	1    3900 4500
 	1    0    0    -1  
