@@ -539,9 +539,9 @@ Text GLabel 2100 1950 0    50   BiDi ~ 0
 _HLT
 Text GLabel 2100 1750 0    50   BiDi ~ 0
 _IPL0
-Text GLabel 2100 1650 0    50   BiDi ~ 0
-_IPL1
 Text GLabel 2100 1550 0    50   BiDi ~ 0
+_IPL1
+Text GLabel 2100 1650 0    50   BiDi ~ 0
 _IPL2
 Text GLabel 2100 1850 0    50   BiDi ~ 0
 _RST
@@ -559,9 +559,9 @@ Text GLabel 6100 2150 2    50   BiDi ~ 0
 FPGA_CPUCLK_A
 Text GLabel 6100 1950 2    50   BiDi ~ 0
 _FPGA_HLT
-Text GLabel 6100 1550 2    50   BiDi ~ 0
-_FPGA_IPL2
 Text GLabel 6100 1650 2    50   BiDi ~ 0
+_FPGA_IPL2
+Text GLabel 6100 1550 2    50   BiDi ~ 0
 _FPGA_IPL1
 Text GLabel 6100 1750 2    50   BiDi ~ 0
 _FPGA_IPL0

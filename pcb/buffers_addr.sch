@@ -368,9 +368,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 1850 10000 1850
 Wire Wire Line
-	10000 2150 9700 2150
+	10000 2250 9700 2250
 Wire Wire Line
-	9700 2250 10000 2250
+	9700 2150 10000 2150
 Wire Wire Line
 	10000 1750 9700 1750
 Wire Wire Line
@@ -609,13 +609,13 @@ Text GLabel 4250 3900 2    50   BiDi ~ 0
 FPGA_A8
 Text GLabel 10000 2050 2    50   BiDi ~ 0
 _FPGA_AS
-Text GLabel 10000 1950 2    50   BiDi ~ 0
-_FPGA_DS
 Text GLabel 10000 1850 2    50   BiDi ~ 0
+_FPGA_DS
+Text GLabel 10000 1950 2    50   BiDi ~ 0
 FPGA_R_W
-Text GLabel 10000 2150 2    50   BiDi ~ 0
-FPGA_SIZE0
 Text GLabel 10000 2250 2    50   BiDi ~ 0
+FPGA_SIZE0
+Text GLabel 10000 2150 2    50   BiDi ~ 0
 FPGA_SIZE1
 Text GLabel 10000 1750 2    50   BiDi ~ 0
 FPGA_FC2
@@ -624,9 +624,7 @@ FPGA_FC1
 Text GLabel 10000 1550 2    50   BiDi ~ 0
 FPGA_FC0
 Wire Wire Line
-	6250 2250 6450 2250
-Wire Wire Line
-	6450 2150 6250 2150
+	6450 2250 6250 2250
 Wire Wire Line
 	6250 1550 6450 1550
 Wire Wire Line
@@ -645,13 +643,9 @@ Text GLabel 6250 1650 0    50   BiDi ~ 0
 FC1
 Text GLabel 6250 1750 0    50   BiDi ~ 0
 FC2
-Text GLabel 6250 2250 0    50   BiDi ~ 0
-SIZE1
-Text GLabel 6250 2150 0    50   BiDi ~ 0
-SIZE0
-Text GLabel 6250 1850 0    50   BiDi ~ 0
-R_W
 Text GLabel 6250 1950 0    50   BiDi ~ 0
+R_W
+Text GLabel 6250 1850 0    50   BiDi ~ 0
 _DS
 Text GLabel 6250 2050 0    50   BiDi ~ 0
 _AS
@@ -823,4 +817,10 @@ Text Label 6700 3900 0    50   ~ 0
 D7
 Wire Wire Line
 	7400 3900 6650 3900
+Text GLabel 6250 2250 0    50   BiDi ~ 0
+SIZE0
+Text GLabel 6250 2150 0    50   BiDi ~ 0
+SIZE1
+Wire Wire Line
+	6250 2150 6450 2150
 $EndSCHEMATC
