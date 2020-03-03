@@ -90,17 +90,17 @@ Wire Wire Line
 Wire Wire Line
 	2300 3900 2600 3900
 Wire Wire Line
-	3900 3800 4200 3800
+	3950 3800 4250 3800
 Wire Wire Line
-	4200 3900 3900 3900
+	4250 3900 3950 3900
 Wire Wire Line
-	3900 3600 4200 3600
+	3950 3600 4250 3600
 Wire Wire Line
-	4200 4100 3900 4100
+	4250 4100 3950 4100
 Wire Wire Line
-	3900 4200 4200 4200
+	3950 4200 4250 4200
 Wire Wire Line
-	4200 3700 3900 3700
+	4250 3700 3950 3700
 Wire Wire Line
 	3900 1550 4200 1550
 Wire Wire Line
@@ -122,29 +122,13 @@ Wire Wire Line
 Wire Wire Line
 	4200 2650 3900 2650
 Wire Wire Line
-	3900 3200 4200 3200
+	3950 3200 4250 3200
 Wire Wire Line
-	4200 3300 3900 3300
+	4250 3300 3950 3300
 Wire Wire Line
-	3900 3400 4200 3400
+	3950 3400 4250 3400
 Wire Wire Line
-	4200 3500 3900 3500
-Wire Wire Line
-	8700 1550 9000 1550
-Wire Wire Line
-	8700 1650 9000 1650
-Wire Wire Line
-	8700 1750 9000 1750
-Wire Wire Line
-	9000 1850 8700 1850
-Wire Wire Line
-	8700 1950 9000 1950
-Wire Wire Line
-	9000 2050 8700 2050
-Wire Wire Line
-	8700 2150 9000 2150
-Wire Wire Line
-	9000 2250 8700 2250
+	4250 3500 3950 3500
 Wire Wire Line
 	7400 4100 7300 4100
 Wire Wire Line
@@ -219,126 +203,22 @@ Wire Wire Line
 	7900 5600 7300 5600
 Wire Wire Line
 	8200 5200 8800 5200
-$Comp
-L WM1200:testpoint_cutline XT5
-U 1 1 5E57C393
-P 6850 3250
-F 0 "XT5" H 6850 3300 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 3400 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3250 50  0001 C CNN
-F 3 "" H 7000 3250 50  0001 C CNN
-	1    6850 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT7
-U 1 1 5E57D0C2
-P 6850 3350
-F 0 "XT7" H 6850 3400 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 3500 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3350 50  0001 C CNN
-F 3 "" H 7000 3350 50  0001 C CNN
-	1    6850 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT9
-U 1 1 5E57DCF2
-P 6850 3450
-F 0 "XT9" H 6850 3500 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 3600 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3450 50  0001 C CNN
-F 3 "" H 7000 3450 50  0001 C CNN
-	1    6850 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT11
-U 1 1 5E57E315
-P 6850 3550
-F 0 "XT11" H 6850 3600 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 3700 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3550 50  0001 C CNN
-F 3 "" H 7000 3550 50  0001 C CNN
-	1    6850 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT13
-U 1 1 5E57E966
-P 6850 3650
-F 0 "XT13" H 6850 3700 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 3800 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3650 50  0001 C CNN
-F 3 "" H 7000 3650 50  0001 C CNN
-	1    6850 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT15
-U 1 1 5E57EE80
-P 6850 3750
-F 0 "XT15" H 6850 3800 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 3900 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3750 50  0001 C CNN
-F 3 "" H 7000 3750 50  0001 C CNN
-	1    6850 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT17
-U 1 1 5E57F468
-P 6850 3850
-F 0 "XT17" H 6850 3900 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 4000 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3850 50  0001 C CNN
-F 3 "" H 7000 3850 50  0001 C CNN
-	1    6850 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT19
-U 1 1 5E57FB7E
-P 6850 3950
-F 0 "XT19" H 6850 4000 50  0000 C CNN
-F 1 "testpoint_cutline" H 6850 4100 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 7000 3950 50  0001 C CNN
-F 3 "" H 7000 3950 50  0001 C CNN
-	1    6850 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7250 3200 7400 3200
+	7250 1550 7400 1550
 Wire Wire Line
-	7400 3300 7250 3300
+	7400 1650 7250 1650
 Wire Wire Line
-	7250 3400 7400 3400
+	7250 1750 7400 1750
 Wire Wire Line
-	7400 3500 7250 3500
+	7400 1850 7250 1850
 Wire Wire Line
-	7250 3600 7400 3600
+	7250 1950 7400 1950
 Wire Wire Line
-	7400 3700 7250 3700
+	7400 2050 7250 2050
 Wire Wire Line
-	7250 3800 7400 3800
+	7250 2150 7400 2150
 Wire Wire Line
-	7400 3900 7250 3900
-Wire Wire Line
-	7100 1550 7400 1550
-Wire Wire Line
-	7400 1650 7100 1650
-Wire Wire Line
-	7100 1750 7400 1750
-Wire Wire Line
-	7400 1850 7100 1850
-Wire Wire Line
-	7100 1950 7400 1950
-Wire Wire Line
-	7100 2050 7400 2050
-Wire Wire Line
-	7400 2150 7100 2150
-Wire Wire Line
-	7100 2250 7400 2250
+	7400 2250 7250 2250
 $Comp
 L Device:R R?
 U 1 1 5E91CEB5
@@ -380,123 +260,123 @@ Data direction is B -> A by default
 $Comp
 L WM1200:testpoint_cutline XT6
 U 1 1 5EA42E26
-P 9300 3250
-F 0 "XT6" H 9300 3300 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 3400 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3250 50  0001 C CNN
-F 3 "" H 9450 3250 50  0001 C CNN
-	1    9300 3250
+P 9300 1600
+F 0 "XT6" H 9300 1650 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 1750 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 1600 50  0001 C CNN
+F 3 "" H 9450 1600 50  0001 C CNN
+	1    9300 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:testpoint_cutline XT8
 U 1 1 5EA42E2C
-P 9300 3350
-F 0 "XT8" H 9300 3400 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 3500 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3350 50  0001 C CNN
-F 3 "" H 9450 3350 50  0001 C CNN
-	1    9300 3350
+P 9300 1700
+F 0 "XT8" H 9300 1750 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 1850 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 1700 50  0001 C CNN
+F 3 "" H 9450 1700 50  0001 C CNN
+	1    9300 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:testpoint_cutline XT10
 U 1 1 5EA42E32
-P 9300 3450
-F 0 "XT10" H 9300 3500 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 3600 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3450 50  0001 C CNN
-F 3 "" H 9450 3450 50  0001 C CNN
-	1    9300 3450
+P 9300 1800
+F 0 "XT10" H 9300 1850 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 1950 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 1800 50  0001 C CNN
+F 3 "" H 9450 1800 50  0001 C CNN
+	1    9300 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:testpoint_cutline XT12
 U 1 1 5EA42E38
-P 9300 3550
-F 0 "XT12" H 9300 3600 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 3700 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3550 50  0001 C CNN
-F 3 "" H 9450 3550 50  0001 C CNN
-	1    9300 3550
+P 9300 1900
+F 0 "XT12" H 9300 1950 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 2050 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 1900 50  0001 C CNN
+F 3 "" H 9450 1900 50  0001 C CNN
+	1    9300 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:testpoint_cutline XT14
 U 1 1 5EA42E3E
-P 9300 3650
-F 0 "XT14" H 9300 3700 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 3800 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3650 50  0001 C CNN
-F 3 "" H 9450 3650 50  0001 C CNN
-	1    9300 3650
+P 9300 2000
+F 0 "XT14" H 9300 2050 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 2150 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 2000 50  0001 C CNN
+F 3 "" H 9450 2000 50  0001 C CNN
+	1    9300 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:testpoint_cutline XT16
 U 1 1 5EA42E44
-P 9300 3750
-F 0 "XT16" H 9300 3800 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 3900 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3750 50  0001 C CNN
-F 3 "" H 9450 3750 50  0001 C CNN
-	1    9300 3750
+P 9300 2100
+F 0 "XT16" H 9300 2150 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 2250 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 2100 50  0001 C CNN
+F 3 "" H 9450 2100 50  0001 C CNN
+	1    9300 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:testpoint_cutline XT18
 U 1 1 5EA42E4A
-P 9300 3850
-F 0 "XT18" H 9300 3900 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 4000 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3850 50  0001 C CNN
-F 3 "" H 9450 3850 50  0001 C CNN
-	1    9300 3850
+P 9300 2200
+F 0 "XT18" H 9300 2250 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 2350 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 2200 50  0001 C CNN
+F 3 "" H 9450 2200 50  0001 C CNN
+	1    9300 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L WM1200:testpoint_cutline XT20
 U 1 1 5EA42E50
-P 9300 3950
-F 0 "XT20" H 9300 4000 50  0000 C CNN
-F 1 "testpoint_cutline" H 9300 4100 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 9450 3950 50  0001 C CNN
-F 3 "" H 9450 3950 50  0001 C CNN
-	1    9300 3950
+P 9300 2300
+F 0 "XT20" H 9300 2350 50  0000 C CNN
+F 1 "testpoint_cutline" H 9300 2450 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 9450 2300 50  0001 C CNN
+F 3 "" H 9450 2300 50  0001 C CNN
+	1    9300 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 3200 8900 3200
+	8700 1550 8900 1550
 Wire Wire Line
-	8900 3300 8700 3300
+	8900 1650 8700 1650
 Wire Wire Line
-	8700 3400 8900 3400
+	8700 1750 8900 1750
 Wire Wire Line
-	8700 3500 8900 3500
+	8700 1850 8900 1850
 Wire Wire Line
-	8900 3600 8700 3600
+	8900 1950 8700 1950
 Wire Wire Line
-	8700 3700 8900 3700
+	8700 2050 8900 2050
 Wire Wire Line
-	8900 3800 8700 3800
+	8900 2150 8700 2150
 Wire Wire Line
-	8700 3900 8900 3900
+	8700 2250 8900 2250
 Wire Wire Line
-	9700 3200 10000 3200
+	9700 2050 10000 2050
 Wire Wire Line
-	10000 3300 9700 3300
+	10000 1950 9700 1950
 Wire Wire Line
-	9700 3400 10000 3400
+	9700 1850 10000 1850
 Wire Wire Line
-	10000 3500 9700 3500
+	10000 2150 9700 2150
 Wire Wire Line
-	9700 3600 10000 3600
+	9700 2250 10000 2250
 Wire Wire Line
-	10000 3700 9700 3700
+	10000 1750 9700 1750
 Wire Wire Line
-	9700 3800 10000 3800
+	9700 1650 10000 1650
 Wire Wire Line
-	10000 3900 9700 3900
+	10000 1550 9700 1550
 Text GLabel 2300 1550 0    50   BiDi ~ 0
 A23
 Text GLabel 2300 1650 0    50   BiDi ~ 0
@@ -529,42 +409,10 @@ Text GLabel 2300 3800 0    50   BiDi ~ 0
 A9
 Text GLabel 2300 3900 0    50   BiDi ~ 0
 A8
-Text GLabel 7100 1550 0    50   BiDi ~ 0
-A7
-Text GLabel 7100 1650 0    50   BiDi ~ 0
-A6
-Text GLabel 7100 1750 0    50   BiDi ~ 0
-A5
-Text GLabel 7100 1850 0    50   BiDi ~ 0
-A4
-Text GLabel 7100 1950 0    50   BiDi ~ 0
-A3
-Text GLabel 7100 2050 0    50   BiDi ~ 0
-A2
-Text GLabel 7100 2150 0    50   BiDi ~ 0
-A1
-Text GLabel 7100 2250 0    50   BiDi ~ 0
-A0
 Text GLabel 2300 4100 0    50   BiDi ~ 0
 GND
 Text GLabel 4200 4400 2    50   BiDi ~ 0
 +3V3_BUFFER
-Text GLabel 6250 3200 0    50   BiDi ~ 0
-_AS
-Text GLabel 6250 3300 0    50   BiDi ~ 0
-_DS
-Text GLabel 6250 3400 0    50   BiDi ~ 0
-R_W
-Text GLabel 6250 3500 0    50   BiDi ~ 0
-SIZE0
-Text GLabel 6250 3600 0    50   BiDi ~ 0
-SIZE1
-Text GLabel 6250 3700 0    50   BiDi ~ 0
-FC2
-Text GLabel 6250 3800 0    50   BiDi ~ 0
-FC1
-Text GLabel 6250 3900 0    50   BiDi ~ 0
-FC0
 Text GLabel 7100 4100 0    50   BiDi ~ 0
 GND
 Text GLabel 9000 4400 2    50   BiDi ~ 0
@@ -703,40 +551,24 @@ Wire Wire Line
 Connection ~ 8800 4400
 Wire Wire Line
 	8800 4400 9000 4400
-Wire Wire Line
-	6450 3200 6250 3200
-Wire Wire Line
-	6250 3300 6450 3300
-Wire Wire Line
-	6450 3400 6250 3400
-Wire Wire Line
-	6250 3500 6450 3500
-Wire Wire Line
-	6450 3600 6250 3600
-Wire Wire Line
-	6250 3700 6450 3700
-Wire Wire Line
-	6450 3800 6250 3800
-Wire Wire Line
-	6250 3900 6450 3900
 Text GLabel 4200 2650 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
 Text GLabel 4200 2550 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
-Text GLabel 4200 4100 2    50   BiDi ~ 0
+Text GLabel 4250 4100 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
 Text GLabel 9000 4100 2    50   BiDi ~ 0
-_FPGA_A_BUFF_OE
+_FPGA_D_BUFF_OE
 Text GLabel 9000 2550 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
 Text GLabel 2500 6800 0    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
-Text GLabel 4200 4200 2    50   BiDi ~ 0
+Text GLabel 4250 4200 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
 Text GLabel 9000 2650 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
 Text GLabel 9000 4200 2    50   BiDi ~ 0
-FPGA_A_BUFF_DIR
+FPGA_D_BUFF_DIR
 Text GLabel 2500 6300 0    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
 Text GLabel 3950 6300 2    50   BiDi ~ 0
@@ -759,52 +591,236 @@ Text GLabel 4200 2150 2    50   BiDi ~ 0
 FPGA_A17
 Text GLabel 4200 2250 2    50   BiDi ~ 0
 FPGA_A16
-Text GLabel 4200 3200 2    50   BiDi ~ 0
+Text GLabel 4250 3200 2    50   BiDi ~ 0
 FPGA_A15
-Text GLabel 4200 3300 2    50   BiDi ~ 0
+Text GLabel 4250 3300 2    50   BiDi ~ 0
 FPGA_A14
-Text GLabel 4200 3400 2    50   BiDi ~ 0
+Text GLabel 4250 3400 2    50   BiDi ~ 0
 FPGA_A13
-Text GLabel 4200 3500 2    50   BiDi ~ 0
+Text GLabel 4250 3500 2    50   BiDi ~ 0
 FPGA_A12
-Text GLabel 4200 3600 2    50   BiDi ~ 0
+Text GLabel 4250 3600 2    50   BiDi ~ 0
 FPGA_A11
-Text GLabel 4200 3700 2    50   BiDi ~ 0
+Text GLabel 4250 3700 2    50   BiDi ~ 0
 FPGA_A10
-Text GLabel 4200 3800 2    50   BiDi ~ 0
+Text GLabel 4250 3800 2    50   BiDi ~ 0
 FPGA_A9
-Text GLabel 4200 3900 2    50   BiDi ~ 0
+Text GLabel 4250 3900 2    50   BiDi ~ 0
 FPGA_A8
-Text GLabel 9000 1550 2    50   BiDi ~ 0
-FPGA_A7
-Text GLabel 9000 1650 2    50   BiDi ~ 0
-FPGA_A6
-Text GLabel 9000 1750 2    50   BiDi ~ 0
-FPGA_A5
-Text GLabel 9000 1850 2    50   BiDi ~ 0
-FPGA_A4
-Text GLabel 9000 1950 2    50   BiDi ~ 0
-FPGA_A3
-Text GLabel 9000 2050 2    50   BiDi ~ 0
-FPGA_A2
-Text GLabel 9000 2150 2    50   BiDi ~ 0
-FPGA_A1
-Text GLabel 9000 2250 2    50   BiDi ~ 0
-FPGA_A0
-Text GLabel 10000 3200 2    50   BiDi ~ 0
+Text GLabel 10000 2050 2    50   BiDi ~ 0
 _FPGA_AS
-Text GLabel 10000 3300 2    50   BiDi ~ 0
+Text GLabel 10000 1950 2    50   BiDi ~ 0
 _FPGA_DS
-Text GLabel 10000 3400 2    50   BiDi ~ 0
+Text GLabel 10000 1850 2    50   BiDi ~ 0
 FPGA_R_W
-Text GLabel 10000 3500 2    50   BiDi ~ 0
+Text GLabel 10000 2150 2    50   BiDi ~ 0
 FPGA_SIZE0
-Text GLabel 10000 3600 2    50   BiDi ~ 0
+Text GLabel 10000 2250 2    50   BiDi ~ 0
 FPGA_SIZE1
-Text GLabel 10000 3700 2    50   BiDi ~ 0
+Text GLabel 10000 1750 2    50   BiDi ~ 0
 FPGA_FC2
-Text GLabel 10000 3800 2    50   BiDi ~ 0
+Text GLabel 10000 1650 2    50   BiDi ~ 0
 FPGA_FC1
-Text GLabel 10000 3900 2    50   BiDi ~ 0
+Text GLabel 10000 1550 2    50   BiDi ~ 0
 FPGA_FC0
+Wire Wire Line
+	6250 2250 6450 2250
+Wire Wire Line
+	6450 2150 6250 2150
+Wire Wire Line
+	6250 1550 6450 1550
+Wire Wire Line
+	6450 1650 6250 1650
+Wire Wire Line
+	6250 1750 6450 1750
+Wire Wire Line
+	6450 1850 6250 1850
+Wire Wire Line
+	6250 1950 6450 1950
+Wire Wire Line
+	6450 2050 6250 2050
+Text GLabel 6250 1550 0    50   BiDi ~ 0
+FC0
+Text GLabel 6250 1650 0    50   BiDi ~ 0
+FC1
+Text GLabel 6250 1750 0    50   BiDi ~ 0
+FC2
+Text GLabel 6250 2250 0    50   BiDi ~ 0
+SIZE1
+Text GLabel 6250 2150 0    50   BiDi ~ 0
+SIZE0
+Text GLabel 6250 1850 0    50   BiDi ~ 0
+R_W
+Text GLabel 6250 1950 0    50   BiDi ~ 0
+_DS
+Text GLabel 6250 2050 0    50   BiDi ~ 0
+_AS
+$Comp
+L WM1200:testpoint_cutline XT19
+U 1 1 5E57FB7E
+P 6850 2300
+F 0 "XT19" H 6850 2350 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 2450 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 2300 50  0001 C CNN
+F 3 "" H 7000 2300 50  0001 C CNN
+	1    6850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT17
+U 1 1 5E57F468
+P 6850 2200
+F 0 "XT17" H 6850 2250 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 2350 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 2200 50  0001 C CNN
+F 3 "" H 7000 2200 50  0001 C CNN
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT15
+U 1 1 5E57EE80
+P 6850 2100
+F 0 "XT15" H 6850 2150 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 2250 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 2100 50  0001 C CNN
+F 3 "" H 7000 2100 50  0001 C CNN
+	1    6850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT13
+U 1 1 5E57E966
+P 6850 2000
+F 0 "XT13" H 6850 2050 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 2150 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 2000 50  0001 C CNN
+F 3 "" H 7000 2000 50  0001 C CNN
+	1    6850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT11
+U 1 1 5E57E315
+P 6850 1900
+F 0 "XT11" H 6850 1950 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 2050 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 1900 50  0001 C CNN
+F 3 "" H 7000 1900 50  0001 C CNN
+	1    6850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT9
+U 1 1 5E57DCF2
+P 6850 1800
+F 0 "XT9" H 6850 1850 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 1950 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 1800 50  0001 C CNN
+F 3 "" H 7000 1800 50  0001 C CNN
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT7
+U 1 1 5E57D0C2
+P 6850 1700
+F 0 "XT7" H 6850 1750 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 1850 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 1700 50  0001 C CNN
+F 3 "" H 7000 1700 50  0001 C CNN
+	1    6850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM1200:testpoint_cutline XT5
+U 1 1 5E57C393
+P 6850 1600
+F 0 "XT5" H 6850 1650 50  0000 C CNN
+F 1 "testpoint_cutline" H 6850 1750 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline" H 7000 1600 50  0001 C CNN
+F 3 "" H 7000 1600 50  0001 C CNN
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3800 7400 3800
+Wire Wire Line
+	7400 3700 6650 3700
+Wire Wire Line
+	6650 3600 7400 3600
+Wire Wire Line
+	7400 3500 6650 3500
+Wire Wire Line
+	6650 3400 7400 3400
+Wire Wire Line
+	7400 3300 6650 3300
+Wire Wire Line
+	6650 3200 7400 3200
+Wire Wire Line
+	8700 3300 8950 3300
+Wire Wire Line
+	8950 3200 8700 3200
+Wire Wire Line
+	8700 3500 8950 3500
+Wire Wire Line
+	8950 3400 8700 3400
+Wire Wire Line
+	8700 3900 8950 3900
+Wire Wire Line
+	8950 3800 8700 3800
+Wire Wire Line
+	8700 3700 8950 3700
+Wire Wire Line
+	8950 3600 8700 3600
+Text Label 6700 3700 0    50   ~ 0
+D5
+Text Label 6700 3600 0    50   ~ 0
+D4
+Text Label 6700 3500 0    50   ~ 0
+D3
+Text Label 6700 3400 0    50   ~ 0
+D2
+Text Label 6700 3300 0    50   ~ 0
+D1
+Text Label 6700 3200 0    50   ~ 0
+D0
+Text GLabel 6650 3800 0    50   BiDi ~ 0
+D6
+Text GLabel 6650 3700 0    50   BiDi ~ 0
+D5
+Text GLabel 6650 3600 0    50   BiDi ~ 0
+D4
+Text GLabel 6650 3500 0    50   BiDi ~ 0
+D3
+Text GLabel 6650 3400 0    50   BiDi ~ 0
+D2
+Text GLabel 6650 3300 0    50   BiDi ~ 0
+D1
+Text GLabel 6650 3200 0    50   BiDi ~ 0
+D0
+Text GLabel 8950 3900 2    50   BiDi ~ 0
+FPGA_D7
+Text GLabel 8950 3800 2    50   BiDi ~ 0
+FPGA_D6
+Text GLabel 8950 3700 2    50   BiDi ~ 0
+FPGA_D5
+Text GLabel 8950 3600 2    50   BiDi ~ 0
+FPGA_D4
+Text GLabel 8950 3500 2    50   BiDi ~ 0
+FPGA_D3
+Text GLabel 8950 3400 2    50   BiDi ~ 0
+FPGA_D2
+Text GLabel 8950 3300 2    50   BiDi ~ 0
+FPGA_D1
+Text GLabel 8950 3200 2    50   BiDi ~ 0
+FPGA_D0
+Text GLabel 6650 3900 0    50   BiDi ~ 0
+D7
+Text Label 6700 3800 0    50   ~ 0
+D6
+Text Label 6700 3900 0    50   ~ 0
+D7
+Wire Wire Line
+	7400 3900 6650 3900
 $EndSCHEMATC

@@ -58,21 +58,21 @@ F 3 "" H 8250 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 1550 2600 1550
+	2350 3200 2600 3200
 Wire Wire Line
-	2600 1650 2350 1650
+	2600 3300 2350 3300
 Wire Wire Line
-	2600 1750 2350 1750
+	2600 3400 2350 3400
 Wire Wire Line
-	2600 1850 2350 1850
+	2600 3500 2350 3500
 Wire Wire Line
-	2600 1950 2350 1950
+	2600 3600 2350 3600
 Wire Wire Line
-	2600 2050 2350 2050
+	2600 3700 2350 3700
 Wire Wire Line
-	2600 2150 2350 2150
+	2600 3800 2350 3800
 Wire Wire Line
-	2600 2250 2350 2250
+	2600 3900 2350 3900
 Wire Wire Line
 	2600 4100 2450 4100
 Wire Wire Line
@@ -90,85 +90,69 @@ Wire Wire Line
 Wire Wire Line
 	2450 4800 2600 4800
 Wire Wire Line
-	2600 3200 2350 3200
+	7600 1550 7350 1550
 Wire Wire Line
-	2350 3300 2600 3300
+	7350 1650 7600 1650
 Wire Wire Line
-	2600 3400 2350 3400
+	7600 1750 7350 1750
 Wire Wire Line
-	2350 3500 2600 3500
+	7350 1850 7600 1850
 Wire Wire Line
-	2600 3600 2350 3600
+	7600 1950 7350 1950
 Wire Wire Line
-	2350 3700 2600 3700
+	7350 2050 7600 2050
 Wire Wire Line
-	2600 3800 2350 3800
+	7600 2150 7350 2150
 Wire Wire Line
-	2350 3900 2600 3900
+	7350 2250 7600 2250
 Wire Wire Line
-	3900 3800 4150 3800
+	8900 2150 9150 2150
 Wire Wire Line
-	4150 3900 3900 3900
-Wire Wire Line
-	3900 3600 4150 3600
-Wire Wire Line
-	4150 3700 3900 3700
-Wire Wire Line
-	3900 1550 4150 1550
-Wire Wire Line
-	3900 1650 4150 1650
-Wire Wire Line
-	3900 1750 4150 1750
-Wire Wire Line
-	4150 1850 3900 1850
-Wire Wire Line
-	3900 1950 4150 1950
-Wire Wire Line
-	4150 2050 3900 2050
-Wire Wire Line
-	3900 2150 4150 2150
-Wire Wire Line
-	4150 2250 3900 2250
-Wire Wire Line
-	3900 3200 4150 3200
-Wire Wire Line
-	4150 3300 3900 3300
-Wire Wire Line
-	3900 3400 4150 3400
-Wire Wire Line
-	4150 3500 3900 3500
-Wire Wire Line
-	6850 1550 7600 1550
-Wire Wire Line
-	7600 1650 6850 1650
-Wire Wire Line
-	7600 1750 6850 1750
-Wire Wire Line
-	7600 1850 6850 1850
-Wire Wire Line
-	7600 1950 6850 1950
-Wire Wire Line
-	7600 2050 6850 2050
-Wire Wire Line
-	7600 2150 6850 2150
-Wire Wire Line
-	7600 2250 6850 2250
-Wire Wire Line
-	8900 1550 9150 1550
-Wire Wire Line
-	8900 1650 9150 1650
-Wire Wire Line
-	8900 1750 9150 1750
-Wire Wire Line
-	9150 1850 8900 1850
+	9150 2250 8900 2250
 Wire Wire Line
 	8900 1950 9150 1950
 Wire Wire Line
 	9150 2050 8900 2050
 Wire Wire Line
-	8900 2150 9150 2150
+	8900 1550 9150 1550
 Wire Wire Line
-	9150 2250 8900 2250
+	9150 1650 8900 1650
+Wire Wire Line
+	8900 1750 9150 1750
+Wire Wire Line
+	9150 1850 8900 1850
+Wire Wire Line
+	6850 3200 7600 3200
+Wire Wire Line
+	7600 3300 6850 3300
+Wire Wire Line
+	7600 3400 6850 3400
+Wire Wire Line
+	7600 3500 6850 3500
+Wire Wire Line
+	7600 3600 6850 3600
+Wire Wire Line
+	7600 3700 6850 3700
+Wire Wire Line
+	7600 3800 6850 3800
+Wire Wire Line
+	7600 3900 6850 3900
+Wire Wire Line
+	8900 3200 9150 3200
+Wire Wire Line
+	8900 3300 9150 3300
+Wire Wire Line
+	8900 3400 9150 3400
+Wire Wire Line
+	9150 3500 8900 3500
+Wire Wire Line
+	8900 3600 9150 3600
+Wire Wire Line
+	9150 3700 8900 3700
+Wire Wire Line
+	8900 3800 9150 3800
+Wire Wire Line
+	9150 3900 8900 3900
 Wire Wire Line
 	7600 4300 7450 4300
 Wire Wire Line
@@ -176,41 +160,9 @@ Wire Wire Line
 Wire Wire Line
 	7600 4700 7450 4700
 Wire Wire Line
-	7600 3200 6850 3200
-Wire Wire Line
-	6850 3300 7600 3300
-Wire Wire Line
-	7600 3400 6850 3400
-Wire Wire Line
-	6850 3500 7600 3500
-Wire Wire Line
-	7600 3600 6850 3600
-Wire Wire Line
-	6850 3700 7600 3700
-Wire Wire Line
-	7600 3800 6850 3800
-Wire Wire Line
-	6850 3900 7600 3900
-Wire Wire Line
-	8900 3800 9150 3800
-Wire Wire Line
-	9150 3900 8900 3900
-Wire Wire Line
-	8900 3600 9150 3600
-Wire Wire Line
 	9150 4100 8900 4100
 Wire Wire Line
 	8900 4200 9150 4200
-Wire Wire Line
-	9150 3700 8900 3700
-Wire Wire Line
-	8900 3200 9150 3200
-Wire Wire Line
-	9150 3300 8900 3300
-Wire Wire Line
-	8900 3400 9150 3400
-Wire Wire Line
-	9150 3500 8900 3500
 Wire Wire Line
 	8900 2550 9150 2550
 Wire Wire Line
@@ -273,38 +225,22 @@ Wire Wire Line
 	8100 5600 7450 5600
 Wire Wire Line
 	8400 5200 9050 5200
-Text Label 6900 1550 0    50   ~ 0
-D15
-Text Label 6900 1650 0    50   ~ 0
-D14
-Text Label 6900 1750 0    50   ~ 0
-D13
-Text Label 6900 1850 0    50   ~ 0
-D12
-Text Label 6900 1950 0    50   ~ 0
-D11
-Text Label 6900 2050 0    50   ~ 0
-D10
-Text Label 6900 2150 0    50   ~ 0
-D9
-Text Label 6900 2250 0    50   ~ 0
-D8
 Text Label 6900 3200 0    50   ~ 0
-D7
+D15
 Text Label 6900 3300 0    50   ~ 0
-D6
+D14
 Text Label 6900 3400 0    50   ~ 0
-D5
+D13
 Text Label 6900 3500 0    50   ~ 0
-D4
+D12
 Text Label 6900 3600 0    50   ~ 0
-D3
+D11
 Text Label 6900 3700 0    50   ~ 0
-D2
+D10
 Text Label 6900 3800 0    50   ~ 0
-D1
+D9
 Text Label 6900 3900 0    50   ~ 0
-D0
+D8
 $Comp
 L Device:R R1
 U 1 1 5E7D2869
@@ -339,72 +275,56 @@ Text Notes 2850 6850 0    50   ~ 0
 Disable OE by default
 Text Notes 2550 6350 0    50   ~ 0
 Data direction is B -> A by default
-Text GLabel 2350 1550 0    50   BiDi ~ 0
-D31
-Text GLabel 2350 1650 0    50   BiDi ~ 0
-D30
-Text GLabel 2350 1750 0    50   BiDi ~ 0
-D29
-Text GLabel 2350 1850 0    50   BiDi ~ 0
-D28
-Text GLabel 2350 1950 0    50   BiDi ~ 0
-D27
-Text GLabel 2350 2050 0    50   BiDi ~ 0
-D26
-Text GLabel 2350 2150 0    50   BiDi ~ 0
-D25
-Text GLabel 2350 2250 0    50   BiDi ~ 0
-D24
 Text GLabel 2350 3200 0    50   BiDi ~ 0
-D23
+D31
 Text GLabel 2350 3300 0    50   BiDi ~ 0
-D22
+D30
 Text GLabel 2350 3400 0    50   BiDi ~ 0
-D21
+D29
 Text GLabel 2350 3500 0    50   BiDi ~ 0
-D20
+D28
 Text GLabel 2350 3600 0    50   BiDi ~ 0
-D19
+D27
 Text GLabel 2350 3700 0    50   BiDi ~ 0
-D18
+D26
 Text GLabel 2350 3800 0    50   BiDi ~ 0
-D17
+D25
 Text GLabel 2350 3900 0    50   BiDi ~ 0
+D24
+Text GLabel 7350 1550 0    50   BiDi ~ 0
+D23
+Text GLabel 7350 1650 0    50   BiDi ~ 0
+D22
+Text GLabel 7350 1750 0    50   BiDi ~ 0
+D21
+Text GLabel 7350 1850 0    50   BiDi ~ 0
+D20
+Text GLabel 7350 1950 0    50   BiDi ~ 0
+D19
+Text GLabel 7350 2050 0    50   BiDi ~ 0
+D18
+Text GLabel 7350 2150 0    50   BiDi ~ 0
+D17
+Text GLabel 7350 2250 0    50   BiDi ~ 0
 D16
 Text GLabel 2350 4100 0    50   BiDi ~ 0
 GND
-Text GLabel 6850 1550 0    50   BiDi ~ 0
-D15
-Text GLabel 6850 1650 0    50   BiDi ~ 0
-D14
-Text GLabel 6850 1750 0    50   BiDi ~ 0
-D13
-Text GLabel 6850 1850 0    50   BiDi ~ 0
-D12
-Text GLabel 6850 1950 0    50   BiDi ~ 0
-D11
-Text GLabel 6850 2050 0    50   BiDi ~ 0
-D10
-Text GLabel 6850 2150 0    50   BiDi ~ 0
-D9
-Text GLabel 6850 2250 0    50   BiDi ~ 0
-D8
 Text GLabel 6850 3200 0    50   BiDi ~ 0
-D7
+D15
 Text GLabel 6850 3300 0    50   BiDi ~ 0
-D6
+D14
 Text GLabel 6850 3400 0    50   BiDi ~ 0
-D5
+D13
 Text GLabel 6850 3500 0    50   BiDi ~ 0
-D4
+D12
 Text GLabel 6850 3600 0    50   BiDi ~ 0
-D3
+D11
 Text GLabel 6850 3700 0    50   BiDi ~ 0
-D2
+D10
 Text GLabel 6850 3800 0    50   BiDi ~ 0
-D1
+D9
 Text GLabel 6850 3900 0    50   BiDi ~ 0
-D0
+D8
 Text GLabel 7350 4100 0    50   BiDi ~ 0
 GND
 Text GLabel 4150 4400 2    50   BiDi ~ 0
@@ -539,10 +459,6 @@ Text GLabel 2500 7100 0    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
 Text GLabel 3950 6600 2    50   BiDi ~ 0
 GND
-Text GLabel 4150 2550 2    50   BiDi ~ 0
-_FPGA_D_BUFF_OE
-Text GLabel 4150 4100 2    50   BiDi ~ 0
-_FPGA_D_BUFF_OE
 Text GLabel 9150 4100 2    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
 Text GLabel 9150 2550 2    50   BiDi ~ 0
@@ -551,80 +467,148 @@ Text GLabel 9150 2650 2    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
 Text GLabel 9150 4200 2    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
+Text GLabel 9150 1550 2    50   BiDi ~ 0
+FPGA_D23
+Text GLabel 9150 1650 2    50   BiDi ~ 0
+FPGA_D22
+Text GLabel 9150 1750 2    50   BiDi ~ 0
+FPGA_D21
+Text GLabel 9150 1850 2    50   BiDi ~ 0
+FPGA_D20
+Text GLabel 9150 1950 2    50   BiDi ~ 0
+FPGA_D19
+Text GLabel 9150 2050 2    50   BiDi ~ 0
+FPGA_D18
+Text GLabel 9150 2150 2    50   BiDi ~ 0
+FPGA_D17
+Text GLabel 9150 2250 2    50   BiDi ~ 0
+FPGA_D16
+Text GLabel 9150 3200 2    50   BiDi ~ 0
+FPGA_D15
+Text GLabel 9150 3300 2    50   BiDi ~ 0
+FPGA_D14
+Text GLabel 9150 3400 2    50   BiDi ~ 0
+FPGA_D13
+Text GLabel 9150 3500 2    50   BiDi ~ 0
+FPGA_D12
+Text GLabel 9150 3600 2    50   BiDi ~ 0
+FPGA_D11
+Text GLabel 9150 3700 2    50   BiDi ~ 0
+FPGA_D10
+Text GLabel 9150 3800 2    50   BiDi ~ 0
+FPGA_D9
+Text GLabel 9150 3900 2    50   BiDi ~ 0
+FPGA_D8
+Wire Wire Line
+	2300 1550 2600 1550
+Wire Wire Line
+	2600 1650 2300 1650
+Wire Wire Line
+	2300 1750 2600 1750
+Wire Wire Line
+	2600 1850 2300 1850
+Wire Wire Line
+	2300 1950 2600 1950
+Wire Wire Line
+	2300 2050 2600 2050
+Wire Wire Line
+	2600 2150 2300 2150
+Wire Wire Line
+	2300 2250 2600 2250
+Text GLabel 2300 1550 0    50   BiDi ~ 0
+A7
+Text GLabel 2300 1650 0    50   BiDi ~ 0
+A6
+Text GLabel 2300 1750 0    50   BiDi ~ 0
+A5
+Text GLabel 2300 1850 0    50   BiDi ~ 0
+A4
+Text GLabel 2300 1950 0    50   BiDi ~ 0
+A3
+Text GLabel 2300 2050 0    50   BiDi ~ 0
+A2
+Text GLabel 2300 2150 0    50   BiDi ~ 0
+A1
+Text GLabel 2300 2250 0    50   BiDi ~ 0
+A0
+Wire Wire Line
+	3900 4200 4150 4200
+Wire Wire Line
+	4150 4100 3900 4100
+Text GLabel 4150 3900 2    50   BiDi ~ 0
+FPGA_D24
+Text GLabel 4150 3800 2    50   BiDi ~ 0
+FPGA_D25
+Text GLabel 4150 3700 2    50   BiDi ~ 0
+FPGA_D26
+Text GLabel 4150 3600 2    50   BiDi ~ 0
+FPGA_D27
+Text GLabel 4150 3500 2    50   BiDi ~ 0
+FPGA_D28
+Text GLabel 4150 3400 2    50   BiDi ~ 0
+FPGA_D29
+Text GLabel 4150 3300 2    50   BiDi ~ 0
+FPGA_D30
+Text GLabel 4150 3200 2    50   BiDi ~ 0
+FPGA_D31
 Text GLabel 4150 4200 2    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
-Text GLabel 4150 2650 2    50   BiDi ~ 0
-FPGA_D_BUFF_DIR
-Text GLabel 4150 1550 2    50   BiDi ~ 0
-FPGA_D31
-Text GLabel 4150 1650 2    50   BiDi ~ 0
-FPGA_D30
-Text GLabel 4150 1750 2    50   BiDi ~ 0
-FPGA_D29
-Text GLabel 4150 1850 2    50   BiDi ~ 0
-FPGA_D28
-Text GLabel 4150 1950 2    50   BiDi ~ 0
-FPGA_D27
-Text GLabel 4150 2050 2    50   BiDi ~ 0
-FPGA_D26
-Text GLabel 4150 2150 2    50   BiDi ~ 0
-FPGA_D25
-Text GLabel 4150 2250 2    50   BiDi ~ 0
-FPGA_D24
-Text GLabel 4150 3200 2    50   BiDi ~ 0
-FPGA_D23
-Text GLabel 4150 3300 2    50   BiDi ~ 0
-FPGA_D22
-Text GLabel 4150 3400 2    50   BiDi ~ 0
-FPGA_D21
-Text GLabel 4150 3500 2    50   BiDi ~ 0
-FPGA_D20
-Text GLabel 4150 3600 2    50   BiDi ~ 0
-FPGA_D19
-Text GLabel 4150 3700 2    50   BiDi ~ 0
-FPGA_D18
-Text GLabel 4150 3800 2    50   BiDi ~ 0
-FPGA_D17
-Text GLabel 4150 3900 2    50   BiDi ~ 0
-FPGA_D16
-Text GLabel 9150 1550 2    50   BiDi ~ 0
-FPGA_D15
-Text GLabel 9150 1650 2    50   BiDi ~ 0
-FPGA_D14
-Text GLabel 9150 1750 2    50   BiDi ~ 0
-FPGA_D13
-Text GLabel 9150 1850 2    50   BiDi ~ 0
-FPGA_D12
-Text GLabel 9150 1950 2    50   BiDi ~ 0
-FPGA_D11
-Text GLabel 9150 2050 2    50   BiDi ~ 0
-FPGA_D10
-Text GLabel 9150 2150 2    50   BiDi ~ 0
-FPGA_D9
-Text GLabel 9150 2250 2    50   BiDi ~ 0
-FPGA_D8
-Text GLabel 9150 3200 2    50   BiDi ~ 0
-FPGA_D7
-Text GLabel 9150 3300 2    50   BiDi ~ 0
-FPGA_D6
-Text GLabel 9150 3400 2    50   BiDi ~ 0
-FPGA_D5
-Text GLabel 9150 3500 2    50   BiDi ~ 0
-FPGA_D4
-Text GLabel 9150 3600 2    50   BiDi ~ 0
-FPGA_D3
-Text GLabel 9150 3700 2    50   BiDi ~ 0
-FPGA_D2
-Text GLabel 9150 3800 2    50   BiDi ~ 0
-FPGA_D1
-Text GLabel 9150 3900 2    50   BiDi ~ 0
-FPGA_D0
+Text GLabel 4150 4100 2    50   BiDi ~ 0
+_FPGA_D_BUFF_OE
 Wire Wire Line
-	3900 2550 4150 2550
+	4150 3900 3900 3900
+Wire Wire Line
+	3900 3800 4150 3800
+Wire Wire Line
+	4150 3700 3900 3700
+Wire Wire Line
+	3900 3600 4150 3600
+Wire Wire Line
+	4150 3500 3900 3500
+Wire Wire Line
+	3900 3400 4150 3400
+Wire Wire Line
+	3900 3300 4150 3300
+Wire Wire Line
+	3900 3200 4150 3200
+Text GLabel 4200 1550 2    50   BiDi ~ 0
+FPGA_A0
+Text GLabel 4200 1650 2    50   BiDi ~ 0
+FPGA_A1
+Text GLabel 4200 1750 2    50   BiDi ~ 0
+FPGA_A2
+Text GLabel 4200 1850 2    50   BiDi ~ 0
+FPGA_A3
+Text GLabel 4200 1950 2    50   BiDi ~ 0
+FPGA_A4
+Text GLabel 4200 2050 2    50   BiDi ~ 0
+FPGA_A5
+Text GLabel 4200 2150 2    50   BiDi ~ 0
+FPGA_A6
+Text GLabel 4200 2250 2    50   BiDi ~ 0
+FPGA_A7
+Wire Wire Line
+	4200 1550 3900 1550
+Wire Wire Line
+	3900 1650 4200 1650
+Wire Wire Line
+	4200 1750 3900 1750
+Wire Wire Line
+	3900 1850 4200 1850
+Wire Wire Line
+	4200 1950 3900 1950
+Wire Wire Line
+	3900 2050 4200 2050
+Wire Wire Line
+	3900 2150 4200 2150
+Wire Wire Line
+	3900 2250 4200 2250
 Wire Wire Line
 	4150 2650 3900 2650
 Wire Wire Line
-	4150 4100 3900 4100
-Wire Wire Line
-	3900 4200 4150 4200
+	3900 2550 4150 2550
+Text GLabel 4150 2650 2    50   BiDi ~ 0
+FPGA_A_BUFF_DIR
+Text GLabel 4150 2550 2    50   BiDi ~ 0
+_FPGA_A_BUFF_OE
 $EndSCHEMATC
