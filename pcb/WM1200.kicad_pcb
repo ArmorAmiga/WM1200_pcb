@@ -752,7 +752,7 @@
     (add_net _SPARECS)
   )
 
-  (module WM1200:clockport (layer F.Cu) (tedit 5E5D049B) (tstamp 5E5F73A2)
+  (module WM1200:clockport (layer F.Cu) (tedit 5E5E3673) (tstamp 5E5F73A2)
     (at 116.5 148)
     (path /5E55E8C3/5E55E9B8)
     (fp_text reference X3 (at 10.16 2.54) (layer F.SilkS)
@@ -822,6 +822,11 @@
       (net 265 "Net-(X3-Pad24)"))
     (pad 27 thru_hole oval (at 8 0 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 148 A5))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x11_P2.00mm_Vertical.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5E7692C4)
