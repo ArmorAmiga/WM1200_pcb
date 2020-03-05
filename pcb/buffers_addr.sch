@@ -575,53 +575,53 @@ Text GLabel 3950 6300 2    50   BiDi ~ 0
 GND
 Text GLabel 3950 6800 2    50   BiDi ~ 0
 +3V3_BUFFER
-Text GLabel 4200 1550 2    50   BiDi ~ 0
+Text GLabel 4250 1550 2    50   BiDi ~ 0
 FPGA_A23
-Text GLabel 4200 1650 2    50   BiDi ~ 0
+Text GLabel 4250 1650 2    50   BiDi ~ 0
 FPGA_A22
-Text GLabel 4200 1750 2    50   BiDi ~ 0
+Text GLabel 4250 1750 2    50   BiDi ~ 0
 FPGA_A21
-Text GLabel 4200 1850 2    50   BiDi ~ 0
+Text GLabel 4250 1850 2    50   BiDi ~ 0
 FPGA_A20
-Text GLabel 4200 1950 2    50   BiDi ~ 0
+Text GLabel 4250 1950 2    50   BiDi ~ 0
 FPGA_A19
-Text GLabel 4200 2050 2    50   BiDi ~ 0
+Text GLabel 4250 2050 2    50   BiDi ~ 0
 FPGA_A18
-Text GLabel 4200 2150 2    50   BiDi ~ 0
+Text GLabel 4250 2150 2    50   BiDi ~ 0
 FPGA_A17
-Text GLabel 4200 2250 2    50   BiDi ~ 0
+Text GLabel 4250 2250 2    50   BiDi ~ 0
 FPGA_A16
-Text GLabel 4200 3200 2    50   BiDi ~ 0
+Text GLabel 4250 3200 2    50   BiDi ~ 0
 FPGA_A15
-Text GLabel 4200 3300 2    50   BiDi ~ 0
+Text GLabel 4250 3300 2    50   BiDi ~ 0
 FPGA_A14
-Text GLabel 4200 3400 2    50   BiDi ~ 0
+Text GLabel 4250 3400 2    50   BiDi ~ 0
 FPGA_A13
-Text GLabel 4200 3500 2    50   BiDi ~ 0
+Text GLabel 4250 3500 2    50   BiDi ~ 0
 FPGA_A12
-Text GLabel 4200 3600 2    50   BiDi ~ 0
+Text GLabel 4250 3600 2    50   BiDi ~ 0
 FPGA_A11
-Text GLabel 4200 3700 2    50   BiDi ~ 0
+Text GLabel 4250 3700 2    50   BiDi ~ 0
 FPGA_A10
-Text GLabel 4200 3800 2    50   BiDi ~ 0
+Text GLabel 4250 3800 2    50   BiDi ~ 0
 FPGA_A9
-Text GLabel 4200 3900 2    50   BiDi ~ 0
+Text GLabel 4250 3900 2    50   BiDi ~ 0
 FPGA_A8
-Text GLabel 10000 2050 2    50   BiDi ~ 0
+Text GLabel 10050 2050 2    50   BiDi ~ 0
 _FPGA_AS
-Text GLabel 10000 1850 2    50   BiDi ~ 0
+Text GLabel 10050 1850 2    50   BiDi ~ 0
 _FPGA_DS
-Text GLabel 10000 1950 2    50   BiDi ~ 0
+Text GLabel 10050 1950 2    50   BiDi ~ 0
 FPGA_R_W
-Text GLabel 10000 2250 2    50   BiDi ~ 0
+Text GLabel 10050 2250 2    50   BiDi ~ 0
 FPGA_SIZE0
-Text GLabel 10000 2150 2    50   BiDi ~ 0
+Text GLabel 10050 2150 2    50   BiDi ~ 0
 FPGA_SIZE1
-Text GLabel 10000 1750 2    50   BiDi ~ 0
+Text GLabel 10050 1750 2    50   BiDi ~ 0
 FPGA_FC2
-Text GLabel 10000 1650 2    50   BiDi ~ 0
+Text GLabel 10050 1650 2    50   BiDi ~ 0
 FPGA_FC1
-Text GLabel 10000 1550 2    50   BiDi ~ 0
+Text GLabel 10050 1550 2    50   BiDi ~ 0
 FPGA_FC0
 Wire Wire Line
 	6450 2250 6250 2250
@@ -793,21 +793,21 @@ Text GLabel 6650 3300 0    50   BiDi ~ 0
 D1
 Text GLabel 6650 3200 0    50   BiDi ~ 0
 D0
-Text GLabel 8950 3900 2    50   BiDi ~ 0
+Text GLabel 9000 3900 2    50   BiDi ~ 0
 FPGA_D7
-Text GLabel 8950 3800 2    50   BiDi ~ 0
+Text GLabel 9000 3800 2    50   BiDi ~ 0
 FPGA_D6
-Text GLabel 8950 3700 2    50   BiDi ~ 0
+Text GLabel 9000 3700 2    50   BiDi ~ 0
 FPGA_D5
-Text GLabel 8950 3600 2    50   BiDi ~ 0
+Text GLabel 9000 3600 2    50   BiDi ~ 0
 FPGA_D4
-Text GLabel 8950 3500 2    50   BiDi ~ 0
+Text GLabel 9000 3500 2    50   BiDi ~ 0
 FPGA_D3
-Text GLabel 8950 3400 2    50   BiDi ~ 0
+Text GLabel 9000 3400 2    50   BiDi ~ 0
 FPGA_D2
-Text GLabel 8950 3300 2    50   BiDi ~ 0
+Text GLabel 9000 3300 2    50   BiDi ~ 0
 FPGA_D1
-Text GLabel 8950 3200 2    50   BiDi ~ 0
+Text GLabel 9000 3200 2    50   BiDi ~ 0
 FPGA_D0
 Text GLabel 6650 3900 0    50   BiDi ~ 0
 D7
