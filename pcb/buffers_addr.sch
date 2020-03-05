@@ -90,17 +90,17 @@ Wire Wire Line
 Wire Wire Line
 	2300 3900 2600 3900
 Wire Wire Line
-	3950 3800 4250 3800
+	3900 3800 4200 3800
 Wire Wire Line
-	4250 3900 3950 3900
+	4200 3900 3900 3900
 Wire Wire Line
-	3950 3600 4250 3600
+	3900 3600 4200 3600
 Wire Wire Line
-	4250 4100 3950 4100
+	4200 4100 3900 4100
 Wire Wire Line
-	3950 4200 4250 4200
+	3900 4200 4200 4200
 Wire Wire Line
-	4250 3700 3950 3700
+	4200 3700 3900 3700
 Wire Wire Line
 	3900 1550 4200 1550
 Wire Wire Line
@@ -122,13 +122,13 @@ Wire Wire Line
 Wire Wire Line
 	4200 2650 3900 2650
 Wire Wire Line
-	3950 3200 4250 3200
+	3900 3200 4200 3200
 Wire Wire Line
-	4250 3300 3950 3300
+	4200 3300 3900 3300
 Wire Wire Line
-	3950 3400 4250 3400
+	3900 3400 4200 3400
 Wire Wire Line
-	4250 3500 3950 3500
+	4200 3500 3900 3500
 Wire Wire Line
 	7400 4100 7300 4100
 Wire Wire Line
@@ -158,8 +158,8 @@ L Device:C C7
 U 1 1 5E91F422
 P 3250 5600
 F 0 "C7" V 3502 5600 50  0000 C CNN
-F 1 "10uF 35V" V 3411 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3288 5450 50  0001 C CNN
+F 1 "1uF 35V" V 3411 5600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3288 5450 50  0001 C CNN
 F 3 "~" H 3250 5600 50  0001 C CNN
 	1    3250 5600
 	0    -1   -1   0   
@@ -180,8 +180,8 @@ L Device:C C8
 U 1 1 5E79CB26
 P 8050 5600
 F 0 "C8" V 8302 5600 50  0000 C CNN
-F 1 "10uF 35V" V 8211 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 8088 5450 50  0001 C CNN
+F 1 "1uF 35V" V 8211 5600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8088 5450 50  0001 C CNN
 F 3 "~" H 8050 5600 50  0001 C CNN
 	1    8050 5600
 	0    -1   -1   0   
@@ -555,7 +555,7 @@ Text GLabel 4200 2650 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
 Text GLabel 4200 2550 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
-Text GLabel 4250 4100 2    50   BiDi ~ 0
+Text GLabel 4200 4100 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
 Text GLabel 9000 4100 2    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
@@ -563,7 +563,7 @@ Text GLabel 9000 2550 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
 Text GLabel 2500 6800 0    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
-Text GLabel 4250 4200 2    50   BiDi ~ 0
+Text GLabel 4200 4200 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
 Text GLabel 9000 2650 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
@@ -591,21 +591,21 @@ Text GLabel 4200 2150 2    50   BiDi ~ 0
 FPGA_A17
 Text GLabel 4200 2250 2    50   BiDi ~ 0
 FPGA_A16
-Text GLabel 4250 3200 2    50   BiDi ~ 0
+Text GLabel 4200 3200 2    50   BiDi ~ 0
 FPGA_A15
-Text GLabel 4250 3300 2    50   BiDi ~ 0
+Text GLabel 4200 3300 2    50   BiDi ~ 0
 FPGA_A14
-Text GLabel 4250 3400 2    50   BiDi ~ 0
+Text GLabel 4200 3400 2    50   BiDi ~ 0
 FPGA_A13
-Text GLabel 4250 3500 2    50   BiDi ~ 0
+Text GLabel 4200 3500 2    50   BiDi ~ 0
 FPGA_A12
-Text GLabel 4250 3600 2    50   BiDi ~ 0
+Text GLabel 4200 3600 2    50   BiDi ~ 0
 FPGA_A11
-Text GLabel 4250 3700 2    50   BiDi ~ 0
+Text GLabel 4200 3700 2    50   BiDi ~ 0
 FPGA_A10
-Text GLabel 4250 3800 2    50   BiDi ~ 0
+Text GLabel 4200 3800 2    50   BiDi ~ 0
 FPGA_A9
-Text GLabel 4250 3900 2    50   BiDi ~ 0
+Text GLabel 4200 3900 2    50   BiDi ~ 0
 FPGA_A8
 Text GLabel 10000 2050 2    50   BiDi ~ 0
 _FPGA_AS

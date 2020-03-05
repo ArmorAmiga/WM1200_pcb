@@ -264,18 +264,6 @@ Wire Wire Line
 Connection ~ 2100 6500
 Wire Wire Line
 	2100 6500 1150 6500
-Text Label 9350 1500 0    50   ~ 0
-_BOSS
-Text Label 9350 3500 0    50   ~ 0
-_RST
-Text Label 3850 1150 0    50   ~ 0
-_HLT
-Text Label 3850 2650 0    50   ~ 0
-_INT6
-Text Label 3850 4150 0    50   ~ 0
-_INT2
-Text Label 3850 5650 0    50   ~ 0
-_OVR
 Text GLabel 6700 2350 0    50   BiDi ~ 0
 GND
 Text GLabel 6650 4350 0    50   BiDi ~ 0

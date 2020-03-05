@@ -54,8 +54,8 @@ L Device:C C10
 U 1 1 5E78F0E1
 P 4150 5650
 F 0 "C10" V 4402 5650 50  0000 C CNN
-F 1 "10uF 35V" V 4311 5650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4188 5500 50  0001 C CNN
+F 1 "1uF 35V" V 4311 5650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4188 5500 50  0001 C CNN
 F 3 "~" H 4150 5650 50  0001 C CNN
 	1    4150 5650
 	0    -1   -1   0   
@@ -431,36 +431,6 @@ Wire Wire Line
 	5900 1850 6100 1850
 Wire Wire Line
 	6100 2250 5900 2250
-$Comp
-L WM1200:testpoint_cutline XT53
-U 1 1 5E93E1DE
-P 5500 2600
-F 0 "XT53" H 5500 2650 50  0000 C CNN
-F 1 "testpoint_cutline" H 5500 2750 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 5650 2600 50  0001 C CNN
-F 3 "" H 5650 2600 50  0001 C CNN
-	1    5500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT54
-U 1 1 5E941941
-P 5500 2700
-F 0 "XT54" H 5500 2750 50  0000 C CNN
-F 1 "testpoint_cutline" H 5500 2850 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 5650 2700 50  0001 C CNN
-F 3 "" H 5650 2700 50  0001 C CNN
-	1    5500 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 2550 5100 2550
-Wire Wire Line
-	5100 2650 4800 2650
-Wire Wire Line
-	5900 2550 6100 2550
-Wire Wire Line
-	6100 2650 5900 2650
 Text GLabel 5100 4100 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
 Wire Wire Line
@@ -569,9 +539,9 @@ Text GLabel 6100 1850 2    50   BiDi ~ 0
 _FPGA_RST
 Text GLabel 6100 2250 2    50   BiDi ~ 0
 _FPGA_KBRESET
-Text GLabel 6100 2550 2    50   BiDi ~ 0
+Text GLabel 5300 2550 2    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
-Text GLabel 6100 2650 2    50   BiDi ~ 0
+Text GLabel 5300 2650 2    50   BiDi ~ 0
 FPGA_INONLY_BUFF_DIR
 Text GLabel 4450 6900 2    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
@@ -709,4 +679,8 @@ Text GLabel 6150 3300 2    50   BiDi ~ 0
 _DSACK0
 Text GLabel 6150 3200 2    50   BiDi ~ 0
 _DSACK1
+Wire Wire Line
+	4800 2550 5300 2550
+Wire Wire Line
+	4800 2650 5300 2650
 $EndSCHEMATC
