@@ -56,12 +56,6 @@ F0 "A1200 trapdoor connector" 50
 F1 "trapdoor_connector.sch" 50
 $EndSheet
 $Sheet
-S 3500 1000 1500 500 
-U 5E55E8C3
-F0 "Clockport connector" 50
-F1 "clockport.sch" 50
-$EndSheet
-$Sheet
 S 6000 4500 1500 500 
 U 5E5B9D2E
 F0 "Open collector driven signals" 50
