@@ -568,17 +568,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 2250 3500 2250
 $Comp
-L WM1200:testpoint_cutline XT22
-U 1 1 5E96BD33
-P 5550 3250
-F 0 "XT22" H 5550 3300 50  0000 C CNN
-F 1 "testpoint_cutline" H 5550 3400 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 5700 3250 50  0001 C CNN
-F 3 "" H 5700 3250 50  0001 C CNN
-	1    5550 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L WM1200:testpoint XT27
 U 1 1 5E97B7E8
 P 5400 3450
@@ -587,17 +576,6 @@ F 1 "testpoint" H 5400 3600 50  0001 C CNN
 F 2 "WM1200:testpoint" H 5400 3450 50  0001 C CNN
 F 3 "" H 5400 3450 50  0001 C CNN
 	1    5400 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WM1200:testpoint_cutline XT25
-U 1 1 5E96CD4A
-P 5550 3350
-F 0 "XT25" H 5550 3400 50  0000 C CNN
-F 1 "testpoint_cutline" H 5550 3500 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 5700 3350 50  0001 C CNN
-F 3 "" H 5700 3350 50  0001 C CNN
-	1    5550 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -656,10 +634,6 @@ F 3 "" H 5400 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 3200 4800 3200
-Wire Wire Line
-	4800 3300 5150 3300
-Wire Wire Line
 	5150 3400 4800 3400
 Wire Wire Line
 	4800 3500 5150 3500
@@ -671,16 +645,16 @@ Wire Wire Line
 	5150 3800 4800 3800
 Wire Wire Line
 	4800 3900 5150 3900
-Wire Wire Line
-	5950 3200 6150 3200
-Wire Wire Line
-	6150 3300 5950 3300
-Text GLabel 6150 3300 2    50   BiDi ~ 0
+Text GLabel 5350 3300 2    50   BiDi ~ 0
 _DSACK0
-Text GLabel 6150 3200 2    50   BiDi ~ 0
+Text GLabel 5350 3200 2    50   BiDi ~ 0
 _DSACK1
 Wire Wire Line
 	4800 2550 5300 2550
 Wire Wire Line
 	4800 2650 5300 2650
+Wire Wire Line
+	4800 3200 5350 3200
+Wire Wire Line
+	4800 3300 5350 3300
 $EndSCHEMATC
