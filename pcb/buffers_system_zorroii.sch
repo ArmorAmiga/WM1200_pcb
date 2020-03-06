@@ -50,36 +50,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 4600 4950 4600
 $Comp
-L Device:C C10
-U 1 1 5E78F0E1
-P 4150 5650
-F 0 "C10" V 4402 5650 50  0000 C CNN
-F 1 "1uF 35V" V 4311 5650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4188 5500 50  0001 C CNN
-F 3 "~" H 4150 5650 50  0001 C CNN
-	1    4150 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5E78FE60
-P 4150 5250
-F 0 "C9" V 4402 5250 50  0000 C CNN
-F 1 "0.1uF 35V" V 4311 5250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 5100 50  0001 C CNN
-F 3 "~" H 4150 5250 50  0001 C CNN
-	1    4150 5250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 5650 3350 5650
-Wire Wire Line
-	4300 5250 4950 5250
-$Comp
-L WM1200:testpoint_cutline XT21
+L WM1200:testpoint_cutline XT33
 U 1 1 5E6A95DB
 P 3100 3250
-F 0 "XT21" H 3100 3300 50  0000 C CNN
+F 0 "XT33" H 3100 3300 50  0000 C CNN
 F 1 "testpoint_cutline" H 3100 3400 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 3250 3250 50  0001 C CNN
 F 3 "" H 3250 3250 50  0001 C CNN
@@ -89,10 +63,10 @@ $EndComp
 Wire Wire Line
 	2500 3200 2700 3200
 $Comp
-L WM1200:testpoint_cutline XT37
+L WM1200:testpoint_cutline XT17
 U 1 1 5E6B210B
 P 2750 1600
-F 0 "XT37" H 2750 1650 50  0000 C CNN
+F 0 "XT17" H 2750 1650 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 1750 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 1600 50  0001 C CNN
 F 3 "" H 2900 1600 50  0001 C CNN
@@ -100,10 +74,10 @@ F 3 "" H 2900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT39
+L WM1200:testpoint_cutline XT19
 U 1 1 5E6B2111
 P 2750 1700
-F 0 "XT39" H 2750 1750 50  0000 C CNN
+F 0 "XT19" H 2750 1750 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 1850 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 1700 50  0001 C CNN
 F 3 "" H 2900 1700 50  0001 C CNN
@@ -111,10 +85,10 @@ F 3 "" H 2900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT41
+L WM1200:testpoint_cutline XT21
 U 1 1 5E6B2117
 P 2750 1800
-F 0 "XT41" H 2750 1850 50  0000 C CNN
+F 0 "XT21" H 2750 1850 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 1950 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 1800 50  0001 C CNN
 F 3 "" H 2900 1800 50  0001 C CNN
@@ -122,10 +96,10 @@ F 3 "" H 2900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT43
+L WM1200:testpoint_cutline XT23
 U 1 1 5E6B211D
 P 2750 1900
-F 0 "XT43" H 2750 1950 50  0000 C CNN
+F 0 "XT23" H 2750 1950 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 2050 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 1900 50  0001 C CNN
 F 3 "" H 2900 1900 50  0001 C CNN
@@ -133,10 +107,10 @@ F 3 "" H 2900 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT45
+L WM1200:testpoint_cutline XT25
 U 1 1 5E6B2123
 P 2750 2000
-F 0 "XT45" H 2750 2050 50  0000 C CNN
+F 0 "XT25" H 2750 2050 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 2150 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 2000 50  0001 C CNN
 F 3 "" H 2900 2000 50  0001 C CNN
@@ -144,10 +118,10 @@ F 3 "" H 2900 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT47
+L WM1200:testpoint_cutline XT27
 U 1 1 5E6B2129
 P 2750 2100
-F 0 "XT47" H 2750 2150 50  0000 C CNN
+F 0 "XT27" H 2750 2150 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 2250 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 2100 50  0001 C CNN
 F 3 "" H 2900 2100 50  0001 C CNN
@@ -155,10 +129,10 @@ F 3 "" H 2900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT49
+L WM1200:testpoint_cutline XT29
 U 1 1 5E6B212F
 P 2750 2200
-F 0 "XT49" H 2750 2250 50  0000 C CNN
+F 0 "XT29" H 2750 2250 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 2350 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 2200 50  0001 C CNN
 F 3 "" H 2900 2200 50  0001 C CNN
@@ -166,10 +140,10 @@ F 3 "" H 2900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT51
+L WM1200:testpoint_cutline XT31
 U 1 1 5E6B2135
 P 2750 2300
-F 0 "XT51" H 2750 2350 50  0000 C CNN
+F 0 "XT31" H 2750 2350 50  0000 C CNN
 F 1 "testpoint_cutline" H 2750 2450 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2900 2300 50  0001 C CNN
 F 3 "" H 2900 2300 50  0001 C CNN
@@ -195,46 +169,46 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5E952C80
-P 3900 6450
+P 1600 7050
 AR Path="/5E5B89F7/5E952C80" Ref="R?"  Part="1" 
 AR Path="/5E78B6EB/5E952C80" Ref="R5"  Part="1" 
-F 0 "R5" V 3693 6450 50  0000 C CNN
-F 1 "4.7k" V 3784 6450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 6450 50  0001 C CNN
-F 3 "~" H 3900 6450 50  0001 C CNN
-	1    3900 6450
+F 0 "R5" V 1393 7050 50  0000 C CNN
+F 1 "4.7k" V 1484 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 7050 50  0001 C CNN
+F 3 "~" H 1600 7050 50  0001 C CNN
+	1    1600 7050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E952C86
-P 3900 6900
+P 1600 7500
 AR Path="/5E5B89F7/5E952C86" Ref="R?"  Part="1" 
 AR Path="/5E78B6EB/5E952C86" Ref="R6"  Part="1" 
-F 0 "R6" V 3693 6900 50  0000 C CNN
-F 1 "4.7k" V 3784 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 6900 50  0001 C CNN
-F 3 "~" H 3900 6900 50  0001 C CNN
-	1    3900 6900
+F 0 "R6" V 1393 7500 50  0000 C CNN
+F 1 "4.7k" V 1484 7500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 7500 50  0001 C CNN
+F 3 "~" H 1600 7500 50  0001 C CNN
+	1    1600 7500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 6450 3750 6450
+	1100 7050 1450 7050
 Wire Wire Line
-	3750 6900 3400 6900
+	1450 7500 1100 7500
 Wire Wire Line
-	4050 6450 4450 6450
+	1750 7050 2150 7050
 Wire Wire Line
-	4450 6900 4050 6900
-Text Notes 3750 6650 0    50   ~ 0
+	2150 7500 1750 7500
+Text Notes 1450 7250 0    50   ~ 0
 Enable OE by default
-Text Notes 3450 6200 0    50   ~ 0
+Text Notes 1150 6800 0    50   ~ 0
 Data direction is B -> A by default
 $Comp
-L WM1200:testpoint_cutline XT23
+L WM1200:testpoint_cutline XT34
 U 1 1 5E6AA8F6
 P 3100 3350
-F 0 "XT23" H 3100 3400 50  0000 C CNN
+F 0 "XT34" H 3100 3400 50  0000 C CNN
 F 1 "testpoint_cutline" H 3100 3500 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 3250 3350 50  0001 C CNN
 F 3 "" H 3250 3350 50  0001 C CNN
@@ -246,10 +220,10 @@ Wire Wire Line
 Text Notes 3450 1350 0    50   ~ 0
 A and B ports are swapped for _DSACK
 $Comp
-L WM1200:testpoint XT24
+L WM1200:testpoint XT35
 U 1 1 5E96DC89
 P 3250 3350
-F 0 "XT24" H 3300 3400 50  0000 C CNN
+F 0 "XT35" H 3300 3400 50  0000 C CNN
 F 1 "testpoint" H 3250 3500 50  0001 C CNN
 F 2 "WM1200:testpoint" H 3250 3350 50  0001 C CNN
 F 3 "" H 3250 3350 50  0001 C CNN
@@ -257,10 +231,10 @@ F 3 "" H 3250 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WM1200:testpoint XT26
+L WM1200:testpoint XT36
 U 1 1 5E97030F
 P 3250 3450
-F 0 "XT26" H 3300 3500 50  0000 C CNN
+F 0 "XT36" H 3300 3500 50  0000 C CNN
 F 1 "testpoint" H 3250 3600 50  0001 C CNN
 F 2 "WM1200:testpoint" H 3250 3450 50  0001 C CNN
 F 3 "" H 3250 3450 50  0001 C CNN
@@ -268,10 +242,10 @@ F 3 "" H 3250 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WM1200:testpoint XT28
+L WM1200:testpoint XT38
 U 1 1 5E972706
 P 3250 3550
-F 0 "XT28" H 3300 3600 50  0000 C CNN
+F 0 "XT38" H 3300 3600 50  0000 C CNN
 F 1 "testpoint" H 3250 3700 50  0001 C CNN
 F 2 "WM1200:testpoint" H 3250 3550 50  0001 C CNN
 F 3 "" H 3250 3550 50  0001 C CNN
@@ -279,10 +253,10 @@ F 3 "" H 3250 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WM1200:testpoint XT30
+L WM1200:testpoint XT40
 U 1 1 5E974A69
 P 3250 3650
-F 0 "XT30" H 3300 3700 50  0000 C CNN
+F 0 "XT40" H 3300 3700 50  0000 C CNN
 F 1 "testpoint" H 3250 3800 50  0001 C CNN
 F 2 "WM1200:testpoint" H 3250 3650 50  0001 C CNN
 F 3 "" H 3250 3650 50  0001 C CNN
@@ -290,10 +264,10 @@ F 3 "" H 3250 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WM1200:testpoint XT32
+L WM1200:testpoint XT42
 U 1 1 5E976D83
 P 3250 3750
-F 0 "XT32" H 3300 3800 50  0000 C CNN
+F 0 "XT42" H 3300 3800 50  0000 C CNN
 F 1 "testpoint" H 3250 3900 50  0001 C CNN
 F 2 "WM1200:testpoint" H 3250 3750 50  0001 C CNN
 F 3 "" H 3250 3750 50  0001 C CNN
@@ -301,10 +275,10 @@ F 3 "" H 3250 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WM1200:testpoint XT34
+L WM1200:testpoint XT44
 U 1 1 5E979098
 P 3250 3850
-F 0 "XT34" H 3300 3900 50  0000 C CNN
+F 0 "XT44" H 3300 3900 50  0000 C CNN
 F 1 "testpoint" H 3250 4000 50  0001 C CNN
 F 2 "WM1200:testpoint" H 3250 3850 50  0001 C CNN
 F 3 "" H 3250 3850 50  0001 C CNN
@@ -312,10 +286,10 @@ F 3 "" H 3250 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT38
+L WM1200:testpoint_cutline XT18
 U 1 1 5E9C0ED1
 P 5500 1600
-F 0 "XT38" H 5500 1650 50  0000 C CNN
+F 0 "XT18" H 5500 1650 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 1750 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 1600 50  0001 C CNN
 F 3 "" H 5650 1600 50  0001 C CNN
@@ -323,10 +297,10 @@ F 3 "" H 5650 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT40
+L WM1200:testpoint_cutline XT20
 U 1 1 5E9C0ED7
 P 5500 1700
-F 0 "XT40" H 5500 1750 50  0000 C CNN
+F 0 "XT20" H 5500 1750 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 1850 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 1700 50  0001 C CNN
 F 3 "" H 5650 1700 50  0001 C CNN
@@ -334,10 +308,10 @@ F 3 "" H 5650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT42
+L WM1200:testpoint_cutline XT22
 U 1 1 5E9C0EDD
 P 5500 1800
-F 0 "XT42" H 5500 1850 50  0000 C CNN
+F 0 "XT22" H 5500 1850 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 1950 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 1800 50  0001 C CNN
 F 3 "" H 5650 1800 50  0001 C CNN
@@ -345,10 +319,10 @@ F 3 "" H 5650 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT44
+L WM1200:testpoint_cutline XT24
 U 1 1 5E9C0EE3
 P 5500 1900
-F 0 "XT44" H 5500 1950 50  0000 C CNN
+F 0 "XT24" H 5500 1950 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 2050 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 1900 50  0001 C CNN
 F 3 "" H 5650 1900 50  0001 C CNN
@@ -356,10 +330,10 @@ F 3 "" H 5650 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT46
+L WM1200:testpoint_cutline XT26
 U 1 1 5E9C0EE9
 P 5500 2000
-F 0 "XT46" H 5500 2050 50  0000 C CNN
+F 0 "XT26" H 5500 2050 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 2150 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 2000 50  0001 C CNN
 F 3 "" H 5650 2000 50  0001 C CNN
@@ -367,10 +341,10 @@ F 3 "" H 5650 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT48
+L WM1200:testpoint_cutline XT28
 U 1 1 5E9C0EEF
 P 5500 2100
-F 0 "XT48" H 5500 2150 50  0000 C CNN
+F 0 "XT28" H 5500 2150 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 2250 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 2100 50  0001 C CNN
 F 3 "" H 5650 2100 50  0001 C CNN
@@ -378,10 +352,10 @@ F 3 "" H 5650 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT50
+L WM1200:testpoint_cutline XT30
 U 1 1 5E9C0EF5
 P 5500 2200
-F 0 "XT50" H 5500 2250 50  0000 C CNN
+F 0 "XT30" H 5500 2250 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 2350 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 2200 50  0001 C CNN
 F 3 "" H 5650 2200 50  0001 C CNN
@@ -389,10 +363,10 @@ F 3 "" H 5650 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT52
+L WM1200:testpoint_cutline XT32
 U 1 1 5E9C0EFB
 P 5500 2300
-F 0 "XT52" H 5500 2350 50  0000 C CNN
+F 0 "XT32" H 5500 2350 50  0000 C CNN
 F 1 "testpoint_cutline" H 5500 2450 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 5650 2300 50  0001 C CNN
 F 3 "" H 5650 2300 50  0001 C CNN
@@ -437,20 +411,12 @@ Wire Wire Line
 	5100 4200 4800 4200
 Text GLabel 5100 4200 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
-Text GLabel 2500 3300 0    50   BiDi ~ 0
+Text GLabel 2400 3300 0    50   BiDi ~ 0
 _FPGA_DSACK0
-Text GLabel 2500 3200 0    50   BiDi ~ 0
+Text GLabel 2400 3200 0    50   BiDi ~ 0
 _FPGA_DSACK1
 Wire Wire Line
-	3350 4800 3350 5250
-Connection ~ 3350 4800
-Wire Wire Line
 	3350 4800 3500 4800
-Connection ~ 3350 5250
-Wire Wire Line
-	3350 5250 4000 5250
-Wire Wire Line
-	3350 5250 3350 5650
 Wire Wire Line
 	3350 4800 3350 4700
 Connection ~ 3350 4700
@@ -479,7 +445,6 @@ Wire Wire Line
 	3350 4100 3350 4200
 Wire Wire Line
 	4950 4700 4950 4600
-Connection ~ 4950 4700
 Wire Wire Line
 	4950 4700 4800 4700
 Connection ~ 4950 4600
@@ -490,13 +455,6 @@ Wire Wire Line
 	4950 4500 4800 4500
 Wire Wire Line
 	4950 4500 4950 4600
-Wire Wire Line
-	4950 4700 4950 5250
-Connection ~ 4950 5250
-Wire Wire Line
-	4950 5250 4950 5650
-Wire Wire Line
-	4950 5650 4300 5650
 Text GLabel 3100 4100 0    50   BiDi ~ 0
 GND
 Text GLabel 5200 4400 2    50   BiDi ~ 0
@@ -543,13 +501,13 @@ Text GLabel 5300 2550 2    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
 Text GLabel 5300 2650 2    50   BiDi ~ 0
 FPGA_INONLY_BUFF_DIR
-Text GLabel 4450 6900 2    50   BiDi ~ 0
+Text GLabel 2150 7500 2    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
-Text GLabel 4450 6450 2    50   BiDi ~ 0
+Text GLabel 2150 7050 2    50   BiDi ~ 0
 FPGA_INONLY_BUFF_DIR
-Text GLabel 3400 6450 0    50   BiDi ~ 0
+Text GLabel 1100 7050 0    50   BiDi ~ 0
 GND
-Text GLabel 3400 6900 0    50   BiDi ~ 0
+Text GLabel 1100 7500 0    50   BiDi ~ 0
 GND
 Wire Wire Line
 	3150 1550 3500 1550
@@ -568,10 +526,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 2250 3500 2250
 $Comp
-L WM1200:testpoint XT27
+L WM1200:testpoint XT37
 U 1 1 5E97B7E8
 P 5400 3450
-F 0 "XT27" H 5450 3500 50  0000 C CNN
+F 0 "XT37" H 5450 3500 50  0000 C CNN
 F 1 "testpoint" H 5400 3600 50  0001 C CNN
 F 2 "WM1200:testpoint" H 5400 3450 50  0001 C CNN
 F 3 "" H 5400 3450 50  0001 C CNN
@@ -579,10 +537,10 @@ F 3 "" H 5400 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint XT29
+L WM1200:testpoint XT39
 U 1 1 5E97E6F9
 P 5400 3550
-F 0 "XT29" H 5450 3600 50  0000 C CNN
+F 0 "XT39" H 5450 3600 50  0000 C CNN
 F 1 "testpoint" H 5400 3700 50  0001 C CNN
 F 2 "WM1200:testpoint" H 5400 3550 50  0001 C CNN
 F 3 "" H 5400 3550 50  0001 C CNN
@@ -590,10 +548,10 @@ F 3 "" H 5400 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint XT31
+L WM1200:testpoint XT41
 U 1 1 5E98044A
 P 5400 3650
-F 0 "XT31" H 5450 3700 50  0000 C CNN
+F 0 "XT41" H 5450 3700 50  0000 C CNN
 F 1 "testpoint" H 5400 3800 50  0001 C CNN
 F 2 "WM1200:testpoint" H 5400 3650 50  0001 C CNN
 F 3 "" H 5400 3650 50  0001 C CNN
@@ -601,10 +559,10 @@ F 3 "" H 5400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint XT33
+L WM1200:testpoint XT43
 U 1 1 5E98214A
 P 5400 3750
-F 0 "XT33" H 5450 3800 50  0000 C CNN
+F 0 "XT43" H 5450 3800 50  0000 C CNN
 F 1 "testpoint" H 5400 3900 50  0001 C CNN
 F 2 "WM1200:testpoint" H 5400 3750 50  0001 C CNN
 F 3 "" H 5400 3750 50  0001 C CNN
@@ -612,10 +570,10 @@ F 3 "" H 5400 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint XT35
+L WM1200:testpoint XT45
 U 1 1 5E983EE4
 P 5400 3850
-F 0 "XT35" H 5450 3900 50  0000 C CNN
+F 0 "XT45" H 5450 3900 50  0000 C CNN
 F 1 "testpoint" H 5400 4000 50  0001 C CNN
 F 2 "WM1200:testpoint" H 5400 3850 50  0001 C CNN
 F 3 "" H 5400 3850 50  0001 C CNN
@@ -623,10 +581,10 @@ F 3 "" H 5400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint XT36
+L WM1200:testpoint XT46
 U 1 1 5E985BCC
 P 5400 3950
-F 0 "XT36" H 5450 4000 50  0000 C CNN
+F 0 "XT46" H 5450 4000 50  0000 C CNN
 F 1 "testpoint" H 5400 4100 50  0001 C CNN
 F 2 "WM1200:testpoint" H 5400 3950 50  0001 C CNN
 F 3 "" H 5400 3950 50  0001 C CNN
@@ -657,4 +615,96 @@ Wire Wire Line
 	4800 3200 5350 3200
 Wire Wire Line
 	4800 3300 5350 3300
+$Comp
+L Device:C C?
+U 1 1 5E92819D
+P 4150 5200
+AR Path="/5E5B89F7/5E92819D" Ref="C?"  Part="1" 
+AR Path="/5E78B6EB/5E92819D" Ref="C17"  Part="1" 
+F 0 "C17" V 4402 5200 50  0000 C CNN
+F 1 "0.1uF 35V" V 4311 5200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 5050 50  0001 C CNN
+F 3 "~" H 4150 5200 50  0001 C CNN
+	1    4150 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 5200 4950 5200
+Wire Wire Line
+	3350 5200 4000 5200
+Wire Wire Line
+	4950 5200 4950 5600
+Wire Wire Line
+	3350 5200 3350 5600
+$Comp
+L Device:C C?
+U 1 1 5E9281AB
+P 4150 5600
+AR Path="/5E5B89F7/5E9281AB" Ref="C?"  Part="1" 
+AR Path="/5E78B6EB/5E9281AB" Ref="C18"  Part="1" 
+F 0 "C18" V 4402 5600 50  0000 C CNN
+F 1 "0.1uF 35V" V 4311 5600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 5450 50  0001 C CNN
+F 3 "~" H 4150 5600 50  0001 C CNN
+	1    4150 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 5600 4950 5600
+Wire Wire Line
+	3350 5600 4000 5600
+$Comp
+L Device:C C?
+U 1 1 5E9281B3
+P 4150 6000
+AR Path="/5E5B89F7/5E9281B3" Ref="C?"  Part="1" 
+AR Path="/5E78B6EB/5E9281B3" Ref="C19"  Part="1" 
+F 0 "C19" V 4402 6000 50  0000 C CNN
+F 1 "0.1uF 35V" V 4311 6000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 5850 50  0001 C CNN
+F 3 "~" H 4150 6000 50  0001 C CNN
+	1    4150 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 6000 4950 6000
+Wire Wire Line
+	3350 6000 4000 6000
+$Comp
+L Device:C C?
+U 1 1 5E9281BB
+P 4150 6400
+AR Path="/5E5B89F7/5E9281BB" Ref="C?"  Part="1" 
+AR Path="/5E78B6EB/5E9281BB" Ref="C20"  Part="1" 
+F 0 "C20" V 4402 6400 50  0000 C CNN
+F 1 "0.1uF 35V" V 4311 6400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 6250 50  0001 C CNN
+F 3 "~" H 4150 6400 50  0001 C CNN
+	1    4150 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 6400 4950 6400
+Wire Wire Line
+	3350 6400 4000 6400
+Wire Wire Line
+	3350 6000 3350 5600
+Connection ~ 3350 5600
+Wire Wire Line
+	3350 6400 3350 6000
+Connection ~ 3350 6000
+Wire Wire Line
+	4950 6400 4950 6000
+Wire Wire Line
+	4950 6000 4950 5600
+Connection ~ 4950 6000
+Connection ~ 4950 5600
+Wire Wire Line
+	3350 4800 3350 5200
+Connection ~ 3350 4800
+Connection ~ 3350 5200
+Wire Wire Line
+	4950 4700 4950 5200
+Connection ~ 4950 4700
+Connection ~ 4950 5200
 $EndSCHEMATC

@@ -276,33 +276,23 @@ Text GLabel 1150 5000 0    50   BiDi ~ 0
 GND
 Text GLabel 1150 6500 0    50   BiDi ~ 0
 GND
-Text GLabel 6700 1850 0    50   BiDi ~ 0
+Text GLabel 6650 1850 0    50   BiDi ~ 0
 FPGA_OC_BOSS
-Text GLabel 6650 3850 0    50   BiDi ~ 0
+Text GLabel 6600 3850 0    50   BiDi ~ 0
 FPGA_OC_RST
-Text GLabel 1150 1500 0    50   BiDi ~ 0
+Text GLabel 1100 1500 0    50   BiDi ~ 0
 FPGA_OC_HLT
-Text GLabel 1150 3000 0    50   BiDi ~ 0
+Text GLabel 1100 3000 0    50   BiDi ~ 0
 FPGA_OC_INT6
-Text GLabel 1150 4500 0    50   BiDi ~ 0
+Text GLabel 1100 4500 0    50   BiDi ~ 0
 FPGA_OC_INT2
-Text GLabel 1150 6000 0    50   BiDi ~ 0
+Text GLabel 1100 6000 0    50   BiDi ~ 0
 FPGA_OC_OVR
-Text GLabel 10600 3500 2    50   BiDi ~ 0
-_RST
-Text GLabel 5000 1150 2    50   BiDi ~ 0
-_HLT
-Text GLabel 5000 2650 2    50   BiDi ~ 0
-_INT6
-Text GLabel 5000 4150 2    50   BiDi ~ 0
-_INT2
-Text GLabel 5000 5650 2    50   BiDi ~ 0
-_OVR
 $Comp
-L WM1200:testpoint_cutline XT67
+L WM1200:testpoint_cutline XT59
 U 1 1 5E66C58B
 P 1600 6050
-F 0 "XT67" H 1600 6233 50  0000 C CNN
+F 0 "XT59" H 1600 6233 50  0000 C CNN
 F 1 "testpoint_cutline" H 1600 6200 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 1750 6050 50  0001 C CNN
 F 3 "" H 1750 6050 50  0001 C CNN
@@ -310,10 +300,10 @@ F 3 "" H 1750 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT65
+L WM1200:testpoint_cutline XT57
 U 1 1 5E66D323
 P 1600 4550
-F 0 "XT65" H 1600 4733 50  0000 C CNN
+F 0 "XT57" H 1600 4733 50  0000 C CNN
 F 1 "testpoint_cutline" H 1600 4700 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 1750 4550 50  0001 C CNN
 F 3 "" H 1750 4550 50  0001 C CNN
@@ -321,10 +311,10 @@ F 3 "" H 1750 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT61
+L WM1200:testpoint_cutline XT53
 U 1 1 5E66DA82
 P 1600 3050
-F 0 "XT61" H 1600 3233 50  0000 C CNN
+F 0 "XT53" H 1600 3233 50  0000 C CNN
 F 1 "testpoint_cutline" H 1600 3200 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 1750 3050 50  0001 C CNN
 F 3 "" H 1750 3050 50  0001 C CNN
@@ -332,10 +322,10 @@ F 3 "" H 1750 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT57
+L WM1200:testpoint_cutline XT49
 U 1 1 5E66DF74
 P 1600 1550
-F 0 "XT57" H 1600 1733 50  0000 C CNN
+F 0 "XT49" H 1600 1733 50  0000 C CNN
 F 1 "testpoint_cutline" H 1600 1700 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 1750 1550 50  0001 C CNN
 F 3 "" H 1750 1550 50  0001 C CNN
@@ -343,10 +333,10 @@ F 3 "" H 1750 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT63
+L WM1200:testpoint_cutline XT55
 U 1 1 5E66E467
 P 7100 3900
-F 0 "XT63" H 7100 4083 50  0000 C CNN
+F 0 "XT55" H 7100 4083 50  0000 C CNN
 F 1 "testpoint_cutline" H 7100 4050 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 7250 3900 50  0001 C CNN
 F 3 "" H 7250 3900 50  0001 C CNN
@@ -354,10 +344,10 @@ F 3 "" H 7250 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT59
+L WM1200:testpoint_cutline XT51
 U 1 1 5E66EAB6
 P 7150 1900
-F 0 "XT59" H 7150 2083 50  0000 C CNN
+F 0 "XT51" H 7150 2083 50  0000 C CNN
 F 1 "testpoint_cutline" H 7150 2050 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 7300 1900 50  0001 C CNN
 F 3 "" H 7300 1900 50  0001 C CNN
@@ -394,13 +384,11 @@ Wire Wire Line
 Wire Wire Line
 	2000 6000 2100 6000
 Connection ~ 2100 6000
-Text GLabel 10650 1500 2    50   BiDi ~ 0
-_BOSS
 $Comp
-L WM1200:testpoint_cutline XT66
+L WM1200:testpoint_cutline XT58
 U 1 1 5E5E18CC
 P 4500 5700
-F 0 "XT66" H 4500 5883 50  0000 C CNN
+F 0 "XT58" H 4500 5883 50  0000 C CNN
 F 1 "testpoint_cutline" H 4500 5850 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 4650 5700 50  0001 C CNN
 F 3 "" H 4650 5700 50  0001 C CNN
@@ -408,10 +396,10 @@ F 3 "" H 4650 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT64
+L WM1200:testpoint_cutline XT56
 U 1 1 5E5E2E8F
 P 4500 4200
-F 0 "XT64" H 4500 4383 50  0000 C CNN
+F 0 "XT56" H 4500 4383 50  0000 C CNN
 F 1 "testpoint_cutline" H 4500 4350 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 4650 4200 50  0001 C CNN
 F 3 "" H 4650 4200 50  0001 C CNN
@@ -419,10 +407,10 @@ F 3 "" H 4650 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT60
+L WM1200:testpoint_cutline XT52
 U 1 1 5E5E4469
 P 4500 2700
-F 0 "XT60" H 4500 2883 50  0000 C CNN
+F 0 "XT52" H 4500 2883 50  0000 C CNN
 F 1 "testpoint_cutline" H 4500 2850 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 4650 2700 50  0001 C CNN
 F 3 "" H 4650 2700 50  0001 C CNN
@@ -430,10 +418,10 @@ F 3 "" H 4650 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT56
+L WM1200:testpoint_cutline XT48
 U 1 1 5E5E4F3D
 P 4500 1200
-F 0 "XT56" H 4500 1383 50  0000 C CNN
+F 0 "XT48" H 4500 1383 50  0000 C CNN
 F 1 "testpoint_cutline" H 4500 1350 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 4650 1200 50  0001 C CNN
 F 3 "" H 4650 1200 50  0001 C CNN
@@ -441,10 +429,10 @@ F 3 "" H 4650 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT62
+L WM1200:testpoint_cutline XT54
 U 1 1 5E5E75D9
 P 10000 3550
-F 0 "XT62" H 10000 3733 50  0000 C CNN
+F 0 "XT54" H 10000 3733 50  0000 C CNN
 F 1 "testpoint_cutline" H 10000 3700 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 10150 3550 50  0001 C CNN
 F 3 "" H 10150 3550 50  0001 C CNN
@@ -452,10 +440,10 @@ F 3 "" H 10150 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT58
+L WM1200:testpoint_cutline XT50
 U 1 1 5E5E7EC3
 P 10050 1550
-F 0 "XT58" H 10050 1733 50  0000 C CNN
+F 0 "XT50" H 10050 1733 50  0000 C CNN
 F 1 "testpoint_cutline" H 10050 1700 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 10200 1550 50  0001 C CNN
 F 3 "" H 10200 1550 50  0001 C CNN
@@ -664,10 +652,10 @@ Text Notes 2550 6750 0    50   ~ 0
 Connection ~ 8650 4350
 Connection ~ 8650 3850
 $Comp
-L Device:C C13
+L Device:C C23
 U 1 1 5E62A871
 P 2750 1750
-F 0 "C13" H 2635 1704 50  0000 R CNN
+F 0 "C23" H 2635 1704 50  0000 R CNN
 F 1 "0.1uF 35V" H 2750 1600 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2788 1600 50  0001 C CNN
 F 3 "~" H 2750 1750 50  0001 C CNN
@@ -675,10 +663,10 @@ F 3 "~" H 2750 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C15
+L Device:C C25
 U 1 1 5E62C766
 P 2750 3250
-F 0 "C15" H 2635 3204 50  0000 R CNN
+F 0 "C25" H 2635 3204 50  0000 R CNN
 F 1 "0.1uF 35V" H 2750 3100 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2788 3100 50  0001 C CNN
 F 3 "~" H 2750 3250 50  0001 C CNN
@@ -686,10 +674,10 @@ F 3 "~" H 2750 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C17
+L Device:C C27
 U 1 1 5E62F867
 P 2750 4750
-F 0 "C17" H 2635 4704 50  0000 R CNN
+F 0 "C27" H 2635 4704 50  0000 R CNN
 F 1 "0.1uF 35V" H 2750 4600 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2788 4600 50  0001 C CNN
 F 3 "~" H 2750 4750 50  0001 C CNN
@@ -697,10 +685,10 @@ F 3 "~" H 2750 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C18
+L Device:C C28
 U 1 1 5E632749
 P 2750 6250
-F 0 "C18" H 2635 6204 50  0000 R CNN
+F 0 "C28" H 2635 6204 50  0000 R CNN
 F 1 "0.1uF 35V" H 2750 6100 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2788 6100 50  0001 C CNN
 F 3 "~" H 2750 6250 50  0001 C CNN
@@ -708,10 +696,10 @@ F 3 "~" H 2750 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C26
 U 1 1 5E635911
 P 8250 4100
-F 0 "C16" H 8135 4054 50  0000 R CNN
+F 0 "C26" H 8135 4054 50  0000 R CNN
 F 1 "0.1uF 35V" H 8250 3950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 3950 50  0001 C CNN
 F 3 "~" H 8250 4100 50  0001 C CNN
@@ -719,10 +707,10 @@ F 3 "~" H 8250 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C14
+L Device:C C24
 U 1 1 5E6388BA
 P 8300 2100
-F 0 "C14" H 8185 2054 50  0000 R CNN
+F 0 "C24" H 8185 2054 50  0000 R CNN
 F 1 "0.1uF 35V" H 8300 1950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8338 1950 50  0001 C CNN
 F 3 "~" H 8300 2100 50  0001 C CNN
@@ -859,4 +847,16 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 76
 	1    7650 2100
 	0    1    1    0   
 $EndComp
+Text GLabel 10650 1500 2    50   BiDi ~ 0
+_BOSS
+Text GLabel 10600 3500 2    50   BiDi ~ 0
+_RST
+Text GLabel 5000 5650 2    50   BiDi ~ 0
+_OVR
+Text GLabel 5000 4150 2    50   BiDi ~ 0
+_INT2
+Text GLabel 5000 2650 2    50   BiDi ~ 0
+_INT6
+Text GLabel 5000 1150 2    50   BiDi ~ 0
+_HLT
 $EndSCHEMATC

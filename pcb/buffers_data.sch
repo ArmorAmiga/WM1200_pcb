@@ -174,17 +174,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 4600 9050 4600
 $Comp
-L Device:C C3
-U 1 1 5E91F423
-P 3250 5600
-F 0 "C3" V 3502 5600 50  0000 C CNN
-F 1 "1uF 35V" V 3411 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3288 5450 50  0001 C CNN
-F 3 "~" H 3250 5600 50  0001 C CNN
-	1    3250 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5E91F425
 P 3250 5200
@@ -195,36 +184,8 @@ F 3 "~" H 3250 5200 50  0001 C CNN
 	1    3250 5200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C4
-U 1 1 5E91F426
-P 8250 5600
-F 0 "C4" V 8502 5600 50  0000 C CNN
-F 1 "1uF 35V" V 8411 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8288 5450 50  0001 C CNN
-F 3 "~" H 8250 5600 50  0001 C CNN
-	1    8250 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5E79CB2C
-P 8250 5200
-F 0 "C2" V 8502 5200 50  0000 C CNN
-F 1 "0.1uF 35V" V 8411 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 5050 50  0001 C CNN
-F 3 "~" H 8250 5200 50  0001 C CNN
-	1    8250 5200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3100 5600 2450 5600
 Wire Wire Line
 	3400 5200 4050 5200
-Wire Wire Line
-	8100 5600 7450 5600
-Wire Wire Line
-	8400 5200 9050 5200
 Text Label 6900 3200 0    50   ~ 0
 D15
 Text Label 6900 3300 0    50   ~ 0
@@ -244,36 +205,36 @@ D8
 $Comp
 L Device:R R1
 U 1 1 5E7D2869
-P 3250 6600
-F 0 "R1" V 3043 6600 50  0000 C CNN
-F 1 "4.7k" V 3134 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 6600 50  0001 C CNN
-F 3 "~" H 3250 6600 50  0001 C CNN
-	1    3250 6600
+P 3300 7100
+F 0 "R1" V 3093 7100 50  0000 C CNN
+F 1 "4.7k" V 3184 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 7100 50  0001 C CNN
+F 3 "~" H 3300 7100 50  0001 C CNN
+	1    3300 7100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5E7D396E
-P 3250 7100
-F 0 "R2" V 3043 7100 50  0000 C CNN
-F 1 "4.7k" V 3134 7100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 7100 50  0001 C CNN
-F 3 "~" H 3250 7100 50  0001 C CNN
-	1    3250 7100
+P 3300 7600
+F 0 "R2" V 3093 7600 50  0000 C CNN
+F 1 "4.7k" V 3184 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 7600 50  0001 C CNN
+F 3 "~" H 3300 7600 50  0001 C CNN
+	1    3300 7600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 6600 3100 6600
+	2550 7100 3150 7100
 Wire Wire Line
-	3100 7100 2500 7100
+	3150 7600 2550 7600
 Wire Wire Line
-	3400 6600 3950 6600
+	3450 7100 4000 7100
 Wire Wire Line
-	3950 7100 3400 7100
-Text Notes 2850 6850 0    50   ~ 0
+	4000 7600 3450 7600
+Text Notes 2900 7350 0    50   ~ 0
 Disable OE by default
-Text Notes 2550 6350 0    50   ~ 0
+Text Notes 2600 6850 0    50   ~ 0
 Data direction is B -> A by default
 Text GLabel 2350 3200 0    50   BiDi ~ 0
 D31
@@ -432,32 +393,14 @@ Connection ~ 4050 5200
 Wire Wire Line
 	4050 5200 4050 5600
 Wire Wire Line
-	4050 5600 3400 5600
-Wire Wire Line
 	2450 5200 2450 5600
-Wire Wire Line
-	7450 4800 7450 5200
-Connection ~ 7450 4800
-Connection ~ 7450 5200
-Wire Wire Line
-	7450 5200 8100 5200
-Wire Wire Line
-	7450 5200 7450 5600
-Wire Wire Line
-	9050 4700 9050 5200
-Connection ~ 9050 4700
-Connection ~ 9050 5200
-Wire Wire Line
-	9050 5200 9050 5600
-Wire Wire Line
-	9050 5600 8400 5600
-Text GLabel 3950 7100 2    50   BiDi ~ 0
+Text GLabel 4000 7600 2    50   BiDi ~ 0
 +3V3_BUFFER
-Text GLabel 2500 6600 0    50   BiDi ~ 0
+Text GLabel 2550 7100 0    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
-Text GLabel 2500 7100 0    50   BiDi ~ 0
+Text GLabel 2550 7600 0    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
-Text GLabel 3950 6600 2    50   BiDi ~ 0
+Text GLabel 4000 7100 2    50   BiDi ~ 0
 GND
 Text GLabel 9150 4100 2    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
@@ -611,4 +554,145 @@ Text GLabel 4150 2650 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
 Text GLabel 4150 2550 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
+$Comp
+L Device:C C3
+U 1 1 5E765D5F
+P 3250 5600
+F 0 "C3" V 3502 5600 50  0000 C CNN
+F 1 "0.1uF 35V" V 3411 5600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 5450 50  0001 C CNN
+F 3 "~" H 3250 5600 50  0001 C CNN
+	1    3250 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 5600 4050 5600
+Wire Wire Line
+	2450 5600 3100 5600
+$Comp
+L Device:C C5
+U 1 1 5E76DAF4
+P 3250 6000
+F 0 "C5" V 3502 6000 50  0000 C CNN
+F 1 "0.1uF 35V" V 3411 6000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 5850 50  0001 C CNN
+F 3 "~" H 3250 6000 50  0001 C CNN
+	1    3250 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 6000 4050 6000
+Wire Wire Line
+	2450 6000 3100 6000
+$Comp
+L Device:C C7
+U 1 1 5E783C2B
+P 3250 6400
+F 0 "C7" V 3502 6400 50  0000 C CNN
+F 1 "0.1uF 35V" V 3411 6400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 6250 50  0001 C CNN
+F 3 "~" H 3250 6400 50  0001 C CNN
+	1    3250 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 6400 4050 6400
+Wire Wire Line
+	2450 6400 3100 6400
+Wire Wire Line
+	2450 6000 2450 5600
+Connection ~ 2450 5600
+Wire Wire Line
+	2450 6400 2450 6000
+Connection ~ 2450 6000
+Wire Wire Line
+	4050 6400 4050 6000
+Wire Wire Line
+	4050 6000 4050 5600
+Connection ~ 4050 6000
+Connection ~ 4050 5600
+Text Notes 4250 6050 0    50   ~ 0
+if there are multiple VCC pins, then 0.01μf or 0.022μf\nis recommended for each power pin\n(TI datasheet)
+$Comp
+L Device:C C2
+U 1 1 5E7C09E0
+P 8250 5200
+F 0 "C2" V 8502 5200 50  0000 C CNN
+F 1 "0.1uF 35V" V 8411 5200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 5050 50  0001 C CNN
+F 3 "~" H 8250 5200 50  0001 C CNN
+	1    8250 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 5200 9050 5200
+Wire Wire Line
+	7450 4800 7450 5200
+Connection ~ 7450 5200
+Wire Wire Line
+	7450 5200 8100 5200
+Wire Wire Line
+	9050 4700 9050 5200
+Connection ~ 9050 5200
+Wire Wire Line
+	9050 5200 9050 5600
+Wire Wire Line
+	7450 5200 7450 5600
+$Comp
+L Device:C C4
+U 1 1 5E7C09EE
+P 8250 5600
+F 0 "C4" V 8502 5600 50  0000 C CNN
+F 1 "0.1uF 35V" V 8411 5600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 5450 50  0001 C CNN
+F 3 "~" H 8250 5600 50  0001 C CNN
+	1    8250 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 5600 9050 5600
+Wire Wire Line
+	7450 5600 8100 5600
+$Comp
+L Device:C C6
+U 1 1 5E7C09F6
+P 8250 6000
+F 0 "C6" V 8502 6000 50  0000 C CNN
+F 1 "0.1uF 35V" V 8411 6000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 5850 50  0001 C CNN
+F 3 "~" H 8250 6000 50  0001 C CNN
+	1    8250 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 6000 9050 6000
+Wire Wire Line
+	7450 6000 8100 6000
+$Comp
+L Device:C C8
+U 1 1 5E7C09FE
+P 8250 6400
+F 0 "C8" V 8502 6400 50  0000 C CNN
+F 1 "0.1uF 35V" V 8411 6400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 6250 50  0001 C CNN
+F 3 "~" H 8250 6400 50  0001 C CNN
+	1    8250 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 6400 9050 6400
+Wire Wire Line
+	7450 6400 8100 6400
+Wire Wire Line
+	7450 6000 7450 5600
+Connection ~ 7450 5600
+Wire Wire Line
+	7450 6400 7450 6000
+Connection ~ 7450 6000
+Wire Wire Line
+	9050 6400 9050 6000
+Wire Wire Line
+	9050 6000 9050 5600
+Connection ~ 9050 6000
+Connection ~ 9050 5600
 $EndSCHEMATC

@@ -25,10 +25,10 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108
 	1    0    0    -1  
 $EndComp
 $Comp
-L WM1200:testpoint_cutline XT55
+L WM1200:testpoint_cutline XT47
 U 1 1 5E716612
 P 2300 2050
-F 0 "XT55" H 2300 2233 50  0000 C CNN
+F 0 "XT47" H 2300 2233 50  0000 C CNN
 F 1 "testpoint_cutline" H 2300 2200 50  0001 C CNN
 F 2 "WM1200:testpoint_cutline" H 2450 2050 50  0001 C CNN
 F 3 "" H 2450 2050 50  0001 C CNN
@@ -47,10 +47,10 @@ Connection ~ 3400 2000
 Wire Wire Line
 	3400 2000 3450 2000
 $Comp
-L Device:C C11
+L Device:C C21
 U 1 1 5E718DCB
 P 3000 2350
-F 0 "C11" H 3115 2396 50  0000 L CNN
+F 0 "C21" H 3115 2396 50  0000 L CNN
 F 1 "4.7uF 35V" H 3115 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3038 2200 50  0001 C CNN
 F 3 "~" H 3000 2350 50  0001 C CNN
@@ -67,10 +67,10 @@ Connection ~ 3000 2000
 Wire Wire Line
 	3000 2000 3400 2000
 $Comp
-L Device:C C12
+L Device:C C22
 U 1 1 5E71F97C
 P 5000 2350
-F 0 "C12" H 5115 2396 50  0000 L CNN
+F 0 "C22" H 5115 2396 50  0000 L CNN
 F 1 "10uF 35V" H 5115 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 5038 2200 50  0001 C CNN
 F 3 "~" H 5000 2350 50  0001 C CNN
