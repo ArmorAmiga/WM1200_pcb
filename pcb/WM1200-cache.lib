@@ -666,19 +666,6 @@ X AUDIO_L 9 -600 200 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# WM1200_testpoint
-#
-DEF WM1200_testpoint XT 0 40 Y Y 1 F N
-F0 "XT" 50 50 50 H V C CNN
-F1 "WM1200_testpoint" 0 150 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -150 100 150 0 0 1 0 f
-X tp 1 -250 50 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # WM1200_testpoint_cutline
 #
 DEF WM1200_testpoint_cutline XT 0 40 Y Y 1 F N
