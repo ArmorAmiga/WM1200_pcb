@@ -30,7 +30,7 @@ U 1 1 5E716612
 P 2300 2050
 F 0 "XT47" H 2300 2233 50  0000 C CNN
 F 1 "testpoint_cutline" H 2300 2200 50  0001 C CNN
-F 2 "WM1200:testpoint_cutline" H 2450 2050 50  0001 C CNN
+F 2 "WM1200:testpoint_cutline_fat" H 2450 2050 50  0001 C CNN
 F 3 "" H 2450 2050 50  0001 C CNN
 	1    2300 2050
 	1    0    0    -1  
