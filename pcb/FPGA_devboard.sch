@@ -358,101 +358,101 @@ Text GLabel 1800 2600 0    50   BiDi ~ 0
 FPGA_A10
 Text GLabel 1800 2700 0    50   BiDi ~ 0
 FPGA_A11
-Text GLabel 1800 2800 0    50   BiDi ~ 0
+Text GLabel 4600 2700 2    50   BiDi ~ 0
 FPGA_A12
-Text GLabel 4600 1600 2    50   BiDi ~ 0
+Text GLabel 4600 2600 2    50   BiDi ~ 0
 FPGA_A13
-Text GLabel 4600 1700 2    50   BiDi ~ 0
+Text GLabel 4600 2500 2    50   BiDi ~ 0
 FPGA_A14
-Text GLabel 4600 1800 2    50   BiDi ~ 0
+Text GLabel 4600 2400 2    50   BiDi ~ 0
 FPGA_A15
-Text GLabel 4600 1900 2    50   BiDi ~ 0
+Text GLabel 4600 2300 2    50   BiDi ~ 0
 FPGA_A16
-Text GLabel 4600 2000 2    50   BiDi ~ 0
+Text GLabel 4600 2200 2    50   BiDi ~ 0
 FPGA_A17
 Text GLabel 4600 2100 2    50   BiDi ~ 0
 FPGA_A18
-Text GLabel 4600 2200 2    50   BiDi ~ 0
+Text GLabel 4600 2000 2    50   BiDi ~ 0
 FPGA_A19
-Text GLabel 4600 2300 2    50   BiDi ~ 0
+Text GLabel 4600 1900 2    50   BiDi ~ 0
 FPGA_A20
-Text GLabel 4600 2400 2    50   BiDi ~ 0
+Text GLabel 4600 1800 2    50   BiDi ~ 0
 FPGA_A21
-Text GLabel 4600 2500 2    50   BiDi ~ 0
+Text GLabel 4600 1700 2    50   BiDi ~ 0
 FPGA_A22
-Text GLabel 4600 2600 2    50   BiDi ~ 0
+Text GLabel 4600 1600 2    50   BiDi ~ 0
 FPGA_A23
-Text GLabel 4650 2700 2    50   BiDi ~ 0
+Text GLabel 4600 2800 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
-Text GLabel 4650 2800 2    50   BiDi ~ 0
+Text GLabel 1800 2800 0    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
-Text GLabel 6800 1600 0    50   BiDi ~ 0
+Text GLabel 9600 2900 2    50   BiDi ~ 0
 FPGA_D0
-Text GLabel 6800 1700 0    50   BiDi ~ 0
-FPGA_D1
-Text GLabel 6800 1800 0    50   BiDi ~ 0
-FPGA_D2
-Text GLabel 6800 1900 0    50   BiDi ~ 0
-FPGA_D3
-Text GLabel 6800 2000 0    50   BiDi ~ 0
-FPGA_D4
-Text GLabel 6800 2100 0    50   BiDi ~ 0
-FPGA_D5
-Text GLabel 6800 2200 0    50   BiDi ~ 0
-FPGA_D6
-Text GLabel 6800 2300 0    50   BiDi ~ 0
-FPGA_D7
-Text GLabel 6800 2400 0    50   BiDi ~ 0
-FPGA_D8
-Text GLabel 6800 2500 0    50   BiDi ~ 0
-FPGA_D9
-Text GLabel 6800 2600 0    50   BiDi ~ 0
-FPGA_D10
-Text GLabel 6800 2700 0    50   BiDi ~ 0
-FPGA_D11
-Text GLabel 6800 2800 0    50   BiDi ~ 0
-FPGA_D12
 Text GLabel 6800 2900 0    50   BiDi ~ 0
-FPGA_D13
+FPGA_D1
+Text GLabel 9600 3000 2    50   BiDi ~ 0
+FPGA_D2
 Text GLabel 6800 3000 0    50   BiDi ~ 0
-FPGA_D14
+FPGA_D3
+Text GLabel 9600 3100 2    50   BiDi ~ 0
+FPGA_D4
 Text GLabel 6800 3100 0    50   BiDi ~ 0
-FPGA_D15
+FPGA_D5
+Text GLabel 9600 3200 2    50   BiDi ~ 0
+FPGA_D6
 Text GLabel 6800 3200 0    50   BiDi ~ 0
-FPGA_D16
+FPGA_D7
 Text GLabel 9600 1600 2    50   BiDi ~ 0
-FPGA_D17
+FPGA_D8
+Text GLabel 6800 1600 0    50   BiDi ~ 0
+FPGA_D9
 Text GLabel 9600 1700 2    50   BiDi ~ 0
-FPGA_D18
+FPGA_D10
+Text GLabel 6800 1700 0    50   BiDi ~ 0
+FPGA_D11
 Text GLabel 9600 1800 2    50   BiDi ~ 0
-FPGA_D19
+FPGA_D12
+Text GLabel 6800 1800 0    50   BiDi ~ 0
+FPGA_D13
 Text GLabel 9600 1900 2    50   BiDi ~ 0
-FPGA_D20
+FPGA_D14
+Text GLabel 6800 1900 0    50   BiDi ~ 0
+FPGA_D15
 Text GLabel 9600 2000 2    50   BiDi ~ 0
-FPGA_D21
+FPGA_D16
+Text GLabel 6800 2000 0    50   BiDi ~ 0
+FPGA_D17
 Text GLabel 9600 2100 2    50   BiDi ~ 0
-FPGA_D22
+FPGA_D18
+Text GLabel 6800 2100 0    50   BiDi ~ 0
+FPGA_D19
 Text GLabel 9600 2200 2    50   BiDi ~ 0
-FPGA_D23
+FPGA_D20
+Text GLabel 6800 2200 0    50   BiDi ~ 0
+FPGA_D21
 Text GLabel 9600 2300 2    50   BiDi ~ 0
-FPGA_D24
+FPGA_D22
+Text GLabel 6800 2300 0    50   BiDi ~ 0
+FPGA_D23
 Text GLabel 9600 2400 2    50   BiDi ~ 0
+FPGA_D24
+Text GLabel 6800 2400 0    50   BiDi ~ 0
 FPGA_D25
 Text GLabel 9600 2500 2    50   BiDi ~ 0
 FPGA_D26
-Text GLabel 9600 2600 2    50   BiDi ~ 0
+Text GLabel 6800 2500 0    50   BiDi ~ 0
 FPGA_D27
-Text GLabel 9600 2700 2    50   BiDi ~ 0
+Text GLabel 9600 2600 2    50   BiDi ~ 0
 FPGA_D28
-Text GLabel 9600 2800 2    50   BiDi ~ 0
+Text GLabel 6800 2600 0    50   BiDi ~ 0
 FPGA_D29
-Text GLabel 9600 2900 2    50   BiDi ~ 0
+Text GLabel 9600 2700 2    50   BiDi ~ 0
 FPGA_D30
-Text GLabel 9600 3000 2    50   BiDi ~ 0
+Text GLabel 6800 2700 0    50   BiDi ~ 0
 FPGA_D31
-Text GLabel 9650 3100 2    50   BiDi ~ 0
+Text GLabel 9600 2800 2    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
-Text GLabel 9650 3200 2    50   BiDi ~ 0
+Text GLabel 6800 2800 0    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
 Text GLabel 1800 4600 0    50   BiDi ~ 0
 FPGA_AUD_PWM_L
@@ -488,8 +488,6 @@ Text GLabel 2950 7200 0    50   BiDi ~ 0
 GND
 Text GLabel 3450 7100 2    50   BiDi ~ 0
 FPGA_VCC3V3
-Text GLabel 1800 3000 0    50   BiDi ~ 0
-FPGA_PS_MIO11
 Text GLabel 1800 3100 0    50   BiDi ~ 0
 FPGA_PS_MIO13
 Text GLabel 1800 3200 0    50   BiDi ~ 0
@@ -500,15 +498,15 @@ Text GLabel 4600 3100 2    50   BiDi ~ 0
 FPGA_PS_MIO15
 Text GLabel 4600 2900 2    50   BiDi ~ 0
 FPGA_PS_MIO14
-Text GLabel 2950 6800 0    50   BiDi ~ 0
-FPGA_PS_MIO10
-Text GLabel 3450 6800 2    50   BiDi ~ 0
-FPGA_PS_MIO11
-Text GLabel 2950 6900 0    50   BiDi ~ 0
-FPGA_PS_MIO12
-Text GLabel 3450 6900 2    50   BiDi ~ 0
-FPGA_PS_MIO13
 Text GLabel 2950 7000 0    50   BiDi ~ 0
+FPGA_PS_MIO10
+Text GLabel 3450 6900 2    50   BiDi ~ 0
+FPGA_PS_MIO11
+Text GLabel 2950 7100 0    50   BiDi ~ 0
+FPGA_PS_MIO12
+Text GLabel 2950 6900 0    50   BiDi ~ 0
+FPGA_PS_MIO13
+Text GLabel 2950 6800 0    50   BiDi ~ 0
 FPGA_PS_MIO14
 Text GLabel 3450 7000 2    50   BiDi ~ 0
 FPGA_PS_MIO15
@@ -548,10 +546,6 @@ Wire Notes Line
 	800  3950 800  3750
 Wire Notes Line
 	4600 3050 5250 3050
-Wire Notes Line
-	5250 3050 5250 2950
-Wire Notes Line
-	5250 2950 4600 2950
 Text GLabel 1800 6000 0    50   Output ~ 0
 FPGA_HDMI_D2+
 Text GLabel 1800 5900 0    50   Output ~ 0
@@ -600,8 +594,6 @@ Text GLabel 1800 5300 0    50   Output ~ 0
 FPGA_HDMI_CLK-
 Wire Wire Line
 	1800 2900 2100 2900
-Text GLabel 4600 3000 2    50   BiDi ~ 0
-_FPGA_KBRESET
 Wire Notes Line
 	4600 2950 4600 3050
 Wire Wire Line
@@ -631,10 +623,18 @@ Text GLabel 4600 5300 2    50   BiDi ~ 0
 FPGA_OC_INT2
 Wire Wire Line
 	4300 5500 4650 5500
-Text GLabel 2950 7100 0    50   BiDi ~ 0
+Text GLabel 3450 6800 2    50   BiDi ~ 0
 FPGA_PS_MIO9
 Text GLabel 1800 2900 0    50   BiDi ~ 0
 FPGA_PS_MIO9
 Wire Wire Line
 	4300 3000 4600 3000
+Text GLabel 1800 3000 0    50   BiDi ~ 0
+FPGA_PS_MIO11
+Text GLabel 4600 3000 2    50   BiDi ~ 0
+_FPGA_KBRESET
+Wire Notes Line
+	5250 2950 4600 2950
+Wire Notes Line
+	5250 3050 5250 2950
 $EndSCHEMATC

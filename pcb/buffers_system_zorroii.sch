@@ -345,9 +345,9 @@ Wire Wire Line
 	5100 4200 4800 4200
 Text GLabel 5100 4200 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
-Text GLabel 2400 3300 0    50   BiDi ~ 0
+Text GLabel 2500 3300 0    50   BiDi ~ 0
 _FPGA_DSACK0
-Text GLabel 2400 3200 0    50   BiDi ~ 0
+Text GLabel 2500 3200 0    50   BiDi ~ 0
 _FPGA_DSACK1
 Wire Wire Line
 	3350 4800 3500 4800
@@ -415,21 +415,21 @@ Connection ~ 3350 4100
 Wire Wire Line
 	5200 4400 4950 4400
 Connection ~ 4950 4400
-Text GLabel 6150 2050 2    50   BiDi ~ 0
+Text GLabel 6100 2050 2    50   BiDi ~ 0
 _FPGA_BERR
-Text GLabel 6150 2150 2    50   BiDi ~ 0
+Text GLabel 6100 2150 2    50   BiDi ~ 0
 FPGA_CPUCLK_A
-Text GLabel 6150 1950 2    50   BiDi ~ 0
+Text GLabel 6100 1950 2    50   BiDi ~ 0
 _FPGA_HLT
-Text GLabel 6150 1650 2    50   BiDi ~ 0
+Text GLabel 6100 1650 2    50   BiDi ~ 0
 _FPGA_IPL2
-Text GLabel 6150 1550 2    50   BiDi ~ 0
+Text GLabel 6100 1550 2    50   BiDi ~ 0
 _FPGA_IPL1
-Text GLabel 6150 1750 2    50   BiDi ~ 0
+Text GLabel 6100 1750 2    50   BiDi ~ 0
 _FPGA_IPL0
-Text GLabel 6150 1850 2    50   BiDi ~ 0
+Text GLabel 6100 1850 2    50   BiDi ~ 0
 _FPGA_RST
-Text GLabel 6150 2250 2    50   BiDi ~ 0
+Text GLabel 6100 2250 2    50   BiDi ~ 0
 _FPGA_KBRESET
 Text GLabel 5300 2550 2    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
