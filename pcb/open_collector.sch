@@ -276,17 +276,17 @@ Text GLabel 1150 5000 0    50   BiDi ~ 0
 GND
 Text GLabel 1150 6500 0    50   BiDi ~ 0
 GND
-Text GLabel 6650 1850 0    50   BiDi ~ 0
+Text GLabel 6700 1850 0    50   BiDi ~ 0
 FPGA_OC_BOSS
-Text GLabel 6600 3850 0    50   BiDi ~ 0
+Text GLabel 6650 3850 0    50   BiDi ~ 0
 FPGA_OC_RST
-Text GLabel 1100 1500 0    50   BiDi ~ 0
+Text GLabel 1150 1500 0    50   BiDi ~ 0
 FPGA_OC_HLT
-Text GLabel 1100 3000 0    50   BiDi ~ 0
+Text GLabel 1150 3000 0    50   BiDi ~ 0
 FPGA_OC_INT6
-Text GLabel 1100 4500 0    50   BiDi ~ 0
+Text GLabel 1150 4500 0    50   BiDi ~ 0
 FPGA_OC_INT2
-Text GLabel 1100 6000 0    50   BiDi ~ 0
+Text GLabel 1150 6000 0    50   BiDi ~ 0
 FPGA_OC_OVR
 $Comp
 L WM1200:testpoint_cutline XT59
