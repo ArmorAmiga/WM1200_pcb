@@ -112,8 +112,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 6000 4600 6000
 Wire Wire Line
-	5600 7350 5900 7350
-Wire Wire Line
 	6800 1800 7100 1800
 Wire Wire Line
 	6800 1900 7100 1900
@@ -122,29 +120,15 @@ Wire Wire Line
 Wire Wire Line
 	6800 2100 7100 2100
 Wire Wire Line
-	5600 6150 5900 6150
+	6800 2800 7100 2800
 Wire Wire Line
-	5600 6250 5900 6250
+	6800 2900 7100 2900
 Wire Wire Line
-	5600 6350 5900 6350
+	6800 3000 7100 3000
 Wire Wire Line
-	5600 6450 5900 6450
+	6800 3100 7100 3100
 Wire Wire Line
-	5600 6550 5900 6550
-Wire Wire Line
-	5600 6650 5900 6650
-Wire Wire Line
-	5600 6750 5900 6750
-Wire Wire Line
-	5600 6850 5900 6850
-Wire Wire Line
-	5600 6950 5900 6950
-Wire Wire Line
-	5600 7050 5900 7050
-Wire Wire Line
-	5600 7150 5900 7150
-Wire Wire Line
-	5600 7250 5900 7250
+	6800 3200 7100 3200
 Wire Wire Line
 	9300 1600 9600 1600
 Wire Wire Line
@@ -246,10 +230,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 5100 6950 5100
 Wire Wire Line
-	9300 4350 9500 4350
-Wire Wire Line
-	9300 4550 9500 4550
-Wire Wire Line
 	9300 4750 9500 4750
 Wire Wire Line
 	9300 4850 9500 4850
@@ -301,16 +281,6 @@ Wire Wire Line
 	6950 5200 7100 5200
 Text GLabel 9750 4350 2    50   BiDi ~ 0
 FPGA_VCC5V
-Wire Wire Line
-	9500 4350 9500 4450
-Connection ~ 9500 4350
-Wire Wire Line
-	9500 4350 9750 4350
-Connection ~ 9500 4450
-Wire Wire Line
-	9500 4450 9300 4450
-Wire Wire Line
-	9500 4450 9500 4550
 Wire Wire Line
 	9500 4750 9500 4850
 Connection ~ 9500 4750
@@ -382,85 +352,79 @@ Text GLabel 4600 1700 2    50   BiDi ~ 0
 FPGA_A22
 Text GLabel 4600 1600 2    50   BiDi ~ 0
 FPGA_A23
-Text GLabel 4600 2800 2    50   BiDi ~ 0
+Text GLabel 9600 3200 2    50   BiDi ~ 0
 FPGA_A_BUFF_DIR
-Text GLabel 1800 2800 0    50   BiDi ~ 0
+Text GLabel 6800 3200 0    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
-Text GLabel 6100 7450 2    50   BiDi ~ 0
+Text GLabel 9600 2800 2    50   BiDi ~ 0
 FPGA_D0
-Text GLabel 5600 7450 0    50   BiDi ~ 0
+Text GLabel 6800 2800 0    50   BiDi ~ 0
 FPGA_D1
-Text GLabel 6100 7550 2    50   BiDi ~ 0
+Text GLabel 9600 2900 2    50   BiDi ~ 0
 FPGA_D2
-Text GLabel 5600 7550 0    50   BiDi ~ 0
+Text GLabel 6800 2900 0    50   BiDi ~ 0
 FPGA_D3
-Text GLabel 6100 7650 2    50   BiDi ~ 0
+Text GLabel 9600 3000 2    50   BiDi ~ 0
 FPGA_D4
-Text GLabel 5600 7650 0    50   BiDi ~ 0
+Text GLabel 6800 3000 0    50   BiDi ~ 0
 FPGA_D5
-Text GLabel 9600 4300 2    50   BiDi ~ 0
+Text GLabel 9600 3100 2    50   BiDi ~ 0
 FPGA_D6
-Text GLabel 5600 7750 0    50   BiDi ~ 0
+Text GLabel 6800 3100 0    50   BiDi ~ 0
 FPGA_D7
-Text GLabel 6100 6150 2    50   BiDi ~ 0
+Text GLabel 1800 4400 0    50   BiDi ~ 0
 FPGA_D8
-Text GLabel 5600 6150 0    50   BiDi ~ 0
+Text GLabel 4600 4400 2    50   BiDi ~ 0
 FPGA_D9
-Text GLabel 6100 6250 2    50   BiDi ~ 0
+Text GLabel 1800 4500 0    50   BiDi ~ 0
 FPGA_D10
-Text GLabel 5600 6250 0    50   BiDi ~ 0
+Text GLabel 4600 4500 2    50   BiDi ~ 0
 FPGA_D11
-Text GLabel 6100 6350 2    50   BiDi ~ 0
+Text GLabel 1800 4600 0    50   BiDi ~ 0
 FPGA_D12
-Text GLabel 5600 6350 0    50   BiDi ~ 0
+Text GLabel 4600 4600 2    50   BiDi ~ 0
 FPGA_D13
-Text GLabel 6100 6450 2    50   BiDi ~ 0
+Text GLabel 1800 4700 0    50   BiDi ~ 0
 FPGA_D14
-Text GLabel 5600 6450 0    50   BiDi ~ 0
+Text GLabel 4600 4700 2    50   BiDi ~ 0
 FPGA_D15
-Text GLabel 6100 6550 2    50   BiDi ~ 0
+Text GLabel 1800 4800 0    50   BiDi ~ 0
 FPGA_D16
-Text GLabel 5600 6550 0    50   BiDi ~ 0
+Text GLabel 4600 4800 2    50   BiDi ~ 0
 FPGA_D17
-Text GLabel 6100 6650 2    50   BiDi ~ 0
+Text GLabel 1800 4900 0    50   BiDi ~ 0
 FPGA_D18
-Text GLabel 5600 6650 0    50   BiDi ~ 0
+Text GLabel 4600 4900 2    50   BiDi ~ 0
 FPGA_D19
-Text GLabel 6100 6750 2    50   BiDi ~ 0
+Text GLabel 1800 5000 0    50   BiDi ~ 0
 FPGA_D20
-Text GLabel 5600 6750 0    50   BiDi ~ 0
+Text GLabel 4600 5000 2    50   BiDi ~ 0
 FPGA_D21
-Text GLabel 6100 6850 2    50   BiDi ~ 0
+Text GLabel 1800 5100 0    50   BiDi ~ 0
 FPGA_D22
-Text GLabel 5600 6850 0    50   BiDi ~ 0
+Text GLabel 4600 5100 2    50   BiDi ~ 0
 FPGA_D23
-Text GLabel 6100 6950 2    50   BiDi ~ 0
+Text GLabel 1800 5300 0    50   BiDi ~ 0
 FPGA_D24
-Text GLabel 5600 6950 0    50   BiDi ~ 0
+Text GLabel 4600 5300 2    50   BiDi ~ 0
 FPGA_D25
-Text GLabel 6100 7050 2    50   BiDi ~ 0
+Text GLabel 1800 5400 0    50   BiDi ~ 0
 FPGA_D26
-Text GLabel 5600 7050 0    50   BiDi ~ 0
+Text GLabel 4600 5400 2    50   BiDi ~ 0
 FPGA_D27
-Text GLabel 6100 7150 2    50   BiDi ~ 0
+Text GLabel 4600 5900 2    50   BiDi ~ 0
 FPGA_D28
-Text GLabel 5600 7150 0    50   BiDi ~ 0
+Text GLabel 1800 5900 0    50   BiDi ~ 0
 FPGA_D29
-Text GLabel 6100 7250 2    50   BiDi ~ 0
+Text GLabel 4600 6000 2    50   BiDi ~ 0
 FPGA_D30
-Text GLabel 5600 7250 0    50   BiDi ~ 0
+Text GLabel 1800 6000 0    50   BiDi ~ 0
 FPGA_D31
-Text GLabel 6100 7350 2    50   BiDi ~ 0
+Text GLabel 1800 2800 0    50   BiDi ~ 0
 FPGA_D_BUFF_DIR
-Text GLabel 5600 7350 0    50   BiDi ~ 0
+Text GLabel 4600 2800 2    50   BiDi ~ 0
 _FPGA_D_BUFF_OE
-Text GLabel 9600 1900 2    50   BiDi ~ 0
-FPGA_AUD_PWM_L
-Text GLabel 9600 1800 2    50   BiDi ~ 0
-FPGA_AUD_PWM_R
-Text GLabel 9600 2000 2    50   BiDi ~ 0
-FPGA_AUD_SD
-Text GLabel 4000 6600 2    50   BiDi ~ 0
+Text GLabel 4600 5200 2    50   BiDi ~ 0
 FPGA_OC_RST
 Text GLabel 2950 7200 0    50   BiDi ~ 0
 GND
@@ -507,9 +471,9 @@ Wire Wire Line
 Wire Notes Line
 	450  5050 450  4750
 Wire Notes Line
-	450  5550 1200 5550
+	5350 5850 6100 5850
 Wire Notes Line
-	6600 3050 5850 3050
+	1150 4650 400  4650
 Wire Notes Line
 	6200 1650 6200 1750
 Wire Notes Line
@@ -518,37 +482,31 @@ Wire Notes Line
 	800  3950 800  3750
 Wire Notes Line
 	4600 3050 5250 3050
-Text GLabel 1800 5200 0    50   Output ~ 0
-FPGA_HDMI_D2+
-Text GLabel 4600 5300 2    50   Output ~ 0
-FPGA_HDMI_D2-
-Text GLabel 1800 5300 0    50   Output ~ 0
-FPGA_HDMI_D1+
-Text GLabel 1800 5400 0    50   Output ~ 0
-FPGA_HDMI_D0+
-Text GLabel 4600 5500 2    50   Output ~ 0
-FPGA_HDMI_D0-
-Text GLabel 4600 5400 2    50   Output ~ 0
-FPGA_HDMI_D1-
 Text GLabel 1800 5500 0    50   Output ~ 0
+FPGA_HDMI_D2+
+Text GLabel 4600 5500 2    50   Output ~ 0
+FPGA_HDMI_D2-
+Text GLabel 1800 5600 0    50   Output ~ 0
+FPGA_HDMI_D1+
+Text GLabel 1800 5700 0    50   Output ~ 0
+FPGA_HDMI_D0+
+Text GLabel 4600 5700 2    50   Output ~ 0
+FPGA_HDMI_D0-
+Text GLabel 4600 5600 2    50   Output ~ 0
+FPGA_HDMI_D1-
+Text GLabel 1800 5800 0    50   Output ~ 0
 FPGA_HDMI_CLK+
 Wire Notes Line
 	1800 3950 800  3950
 Wire Notes Line
 	800  3750 1800 3750
-Text GLabel 9600 2200 2    50   BiDi ~ 0
-_FPGA_AS
-Text GLabel 6800 2200 0    50   BiDi ~ 0
-FPGA_SIZE1
-Text GLabel 9600 2300 2    50   BiDi ~ 0
-FPGA_SIZE0
 Text GLabel 1800 3900 0    50   BiDi ~ 0
 FPGA_INONLY_BUFF_DIR
 Text GLabel 1800 3800 0    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
 Wire Notes Line
-	6600 2750 6600 3050
-Text GLabel 4600 5600 2    50   Output ~ 0
+	4850 4350 4850 4650
+Text GLabel 4600 5800 2    50   Output ~ 0
 FPGA_HDMI_CLK-
 Wire Wire Line
 	1800 2900 2100 2900
@@ -578,7 +536,7 @@ FPGA_HDMI_SDA
 Text GLabel 3700 4000 0    50   BiDi ~ 0
 FPGA_HDMI_HPD
 Wire Wire Line
-	4300 5500 4650 5500
+	4300 5500 4600 5500
 Text GLabel 3450 6800 2    50   BiDi ~ 0
 FPGA_PS_MIO9
 Text GLabel 1800 2900 0    50   BiDi ~ 0
@@ -601,32 +559,14 @@ Wire Notes Line
 	7050 1100 7700 1100
 Wire Notes Line
 	6850 1550 6200 1550
-Text GLabel 6800 2600 0    50   BiDi ~ 0
-_FPGA_IPL1
-Text GLabel 6800 2500 0    50   BiDi ~ 0
-_FPGA_IPL0
-Text GLabel 6800 2400 0    50   BiDi ~ 0
-_FPGA_HLT
-Text GLabel 6800 2700 0    50   BiDi ~ 0
-_FPGA_DSACK1
 Text GLabel 9600 1600 2    50   BiDi ~ 0
 FPGA_OC_OVR
 Text GLabel 6800 1700 0    50   BiDi ~ 0
 FPGA_OC_INT6
-Text GLabel 6100 5650 0    50   BiDi ~ 0
+Text GLabel 1800 5200 0    50   BiDi ~ 0
 FPGA_OC_HLT
 Text GLabel 6800 1600 0    50   BiDi ~ 0
 FPGA_OC_BOSS
-Text GLabel 6800 2100 0    50   BiDi ~ 0
-FPGA_R_W
-Text GLabel 6800 1800 0    50   BiDi ~ 0
-FPGA_FC0
-Text GLabel 6800 1900 0    50   BiDi ~ 0
-FPGA_FC1
-Text GLabel 6800 2000 0    50   BiDi ~ 0
-FPGA_FC2
-Text GLabel 9600 2100 2    50   BiDi ~ 0
-_FPGA_DS
 Wire Wire Line
 	6800 2200 7100 2200
 Wire Wire Line
@@ -643,14 +583,50 @@ Wire Wire Line
 	6800 1700 7100 1700
 Wire Wire Line
 	7100 2700 6800 2700
-Text GLabel 9600 2700 2    50   BiDi ~ 0
-_FPGA_DSACK0
-Text GLabel 9600 2600 2    50   BiDi ~ 0
-_FPGA_IPL2
-Text GLabel 9600 2500 2    50   BiDi ~ 0
-_FPGA_RST
-Text GLabel 9600 2400 2    50   BiDi ~ 0
-_FPGA_BERR
+Text GLabel 9750 4550 2    50   BiDi ~ 0
+FPGA_VCC5V
+Wire Wire Line
+	9300 4350 9750 4350
+Wire Wire Line
+	9300 4550 9750 4550
+Text GLabel 9600 2100 2    50   BiDi ~ 0
+_FPGA_DS
+Text GLabel 9600 2300 2    50   BiDi ~ 0
+FPGA_SIZE0
+Text GLabel 9600 2200 2    50   BiDi ~ 0
+_FPGA_AS
+Text GLabel 9600 2000 2    50   BiDi ~ 0
+FPGA_AUD_SD
+Text GLabel 9600 1800 2    50   BiDi ~ 0
+FPGA_AUD_PWM_R
+Text GLabel 9600 1900 2    50   BiDi ~ 0
+FPGA_AUD_PWM_L
+Text GLabel 6800 2000 0    50   BiDi ~ 0
+FPGA_FC2
+Text GLabel 6800 1900 0    50   BiDi ~ 0
+FPGA_FC1
+Text GLabel 6800 1800 0    50   BiDi ~ 0
+FPGA_FC0
+Text GLabel 6800 2100 0    50   BiDi ~ 0
+FPGA_R_W
+Text GLabel 6800 2200 0    50   BiDi ~ 0
+FPGA_SIZE1
 Text GLabel 6800 2300 0    50   BiDi ~ 0
 FPGA_CPUCLK_A
+Text GLabel 6800 2700 0    50   BiDi ~ 0
+_FPGA_DSACK1
+Text GLabel 6800 2400 0    50   BiDi ~ 0
+_FPGA_HLT
+Text GLabel 6800 2500 0    50   BiDi ~ 0
+_FPGA_IPL0
+Text GLabel 6800 2600 0    50   BiDi ~ 0
+_FPGA_IPL1
+Text GLabel 9600 2400 2    50   BiDi ~ 0
+_FPGA_BERR
+Text GLabel 9600 2500 2    50   BiDi ~ 0
+_FPGA_RST
+Text GLabel 9600 2600 2    50   BiDi ~ 0
+_FPGA_IPL2
+Text GLabel 9600 2700 2    50   BiDi ~ 0
+_FPGA_DSACK0
 $EndSCHEMATC
