@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 11
+Sheet 11 11
 Title "Wishmaster 1200"
 Date ""
 Rev "ES1"
@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 800  6300 1150
 Text GLabel 2700 800  0    50   Input ~ 0
-FPGA_VCC5V
+FPGA_VCC5V_1
 Text GLabel 2700 900  0    50   Input ~ 0
 FPGA_VCC3V3
 $Comp

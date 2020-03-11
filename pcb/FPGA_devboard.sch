@@ -280,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5200 7100 5200
 Text GLabel 9750 4350 2    50   BiDi ~ 0
-FPGA_VCC5V
+FPGA_VCC5V_1
 Wire Wire Line
 	9500 4750 9500 4850
 Connection ~ 9500 4750
@@ -584,7 +584,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2700 6800 2700
 Text GLabel 9750 4550 2    50   BiDi ~ 0
-FPGA_VCC5V
+FPGA_VCC5V_2
 Wire Wire Line
 	9300 4350 9750 4350
 Wire Wire Line

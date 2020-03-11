@@ -169,5 +169,5 @@ Text GLabel 1600 4500 0    50   BiDi ~ 0
 Text GLabel 6400 3500 2    50   BiDi ~ 0
 +3V3_BUFFER
 Text GLabel 6400 4500 2    50   BiDi ~ 0
-FPGA_VCC5V
+FPGA_VCC5V_2
 $EndSCHEMATC
