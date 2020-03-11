@@ -352,9 +352,9 @@ Text GLabel 4600 1700 2    50   BiDi ~ 0
 FPGA_A22
 Text GLabel 4600 1600 2    50   BiDi ~ 0
 FPGA_A23
-Text GLabel 9600 3200 2    50   BiDi ~ 0
-FPGA_A_BUFF_DIR
 Text GLabel 6800 3200 0    50   BiDi ~ 0
+FPGA_A_BUFF_DIR
+Text GLabel 9600 3200 2    50   BiDi ~ 0
 _FPGA_A_BUFF_OE
 Text GLabel 9600 2800 2    50   BiDi ~ 0
 FPGA_D0
