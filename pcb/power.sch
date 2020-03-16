@@ -19,7 +19,7 @@ U 1 1 5E713D7E
 P 3750 2100
 F 0 "U6" H 3750 2425 50  0000 C CNN
 F 1 "ADP2108AUJ-3.3" H 3750 2334 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 3800 1850 50  0001 L CNN
+F 2 "WM1200:TSOT-23-5" H 3800 1850 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf" H 3500 1750 50  0001 C CNN
 	1    3750 2100
 	1    0    0    -1  
