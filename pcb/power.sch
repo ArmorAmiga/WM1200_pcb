@@ -120,7 +120,7 @@ U 1 1 5E722973
 P 3900 3500
 F 0 "JP1" V 3854 3602 50  0000 L CNN
 F 1 "Jumper_NC_Dual" V 3945 3602 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3900 3500 50  0001 C CNN
+F 2 "WM1200:PinHeader_1x03_P2.54mm_Vertical" H 3900 3500 50  0001 C CNN
 F 3 "~" H 3900 3500 50  0001 C CNN
 	1    3900 3500
 	0    -1   -1   0   
@@ -141,7 +141,7 @@ U 1 1 5E7037DF
 P 3900 4500
 F 0 "JP2" H 3900 4764 50  0000 C CNN
 F 1 "Jumper" H 3900 4673 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3900 4500 50  0001 C CNN
+F 2 "WM1200:PinHeader_1x02_P2.54mm_Vertical" H 3900 4500 50  0001 C CNN
 F 3 "~" H 3900 4500 50  0001 C CNN
 	1    3900 4500
 	1    0    0    -1  

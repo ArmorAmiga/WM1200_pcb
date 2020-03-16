@@ -19,7 +19,7 @@ U 1 1 5EB21AAB
 P 3000 2700
 F 0 "X1" H 3000 3565 50  0000 C CNN
 F 1 "audio_expansion" H 3000 3474 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2400 2950 50  0001 C CNN
+F 2 "WM1200:PinHeader_2x06_P2.54mm_Vertical" H 2400 2950 50  0001 C CNN
 F 3 "" H 2400 2950 50  0001 C CNN
 	1    3000 2700
 	1    0    0    -1  

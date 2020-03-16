@@ -512,7 +512,7 @@ U 1 1 5E864C32
 P 3150 7000
 F 0 "X4" H 3200 7417 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 3200 7326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3150 7000 50  0001 C CNN
+F 2 "WM1200:PinHeader_2x05_P2.54mm_Vertical" H 3150 7000 50  0001 C CNN
 F 3 "~" H 3150 7000 50  0001 C CNN
 	1    3150 7000
 	1    0    0    -1  
