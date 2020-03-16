@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 3 10
 Title "Wishmaster 1200"
-Date ""
+Date "2020-03-16"
 Rev "ES1"
 Comp "Created by Konfusion in 2020"
 Comment1 "A1200 version (engineering prototype)"
@@ -683,18 +683,6 @@ Wire Wire Line
 	8700 3700 8950 3700
 Wire Wire Line
 	8950 3600 8700 3600
-Text Label 6700 3700 0    50   ~ 0
-D5
-Text Label 6700 3600 0    50   ~ 0
-D4
-Text Label 6700 3500 0    50   ~ 0
-D3
-Text Label 6700 3400 0    50   ~ 0
-D2
-Text Label 6700 3300 0    50   ~ 0
-D1
-Text Label 6700 3200 0    50   ~ 0
-D0
 Text GLabel 6650 3800 0    50   BiDi ~ 0
 D6
 Text GLabel 6650 3700 0    50   BiDi ~ 0
@@ -726,10 +714,6 @@ FPGA_D1
 Text GLabel 8950 3200 2    50   BiDi ~ 0
 FPGA_D0
 Text GLabel 6650 3900 0    50   BiDi ~ 0
-D7
-Text Label 6700 3800 0    50   ~ 0
-D6
-Text Label 6700 3900 0    50   ~ 0
 D7
 Wire Wire Line
 	7400 3900 6650 3900

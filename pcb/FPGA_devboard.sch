@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 9 10
 Title "Wishmaster 1200"
-Date ""
+Date "2020-03-16"
 Rev "ES1"
 Comp "Created by Konfusion in 2020"
 Comment1 "A1200 version (engineering prototype)"
@@ -469,14 +469,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 3200 4300 3200
 Wire Notes Line
-	450  5050 450  4750
-Wire Notes Line
-	5350 5850 6100 5850
-Wire Notes Line
-	1150 4650 400  4650
-Wire Notes Line
-	6200 1650 6200 1750
-Wire Notes Line
 	1800 3750 1800 3950
 Wire Notes Line
 	800  3950 800  3750
@@ -504,8 +496,6 @@ Text GLabel 1800 3900 0    50   BiDi ~ 0
 FPGA_INONLY_BUFF_DIR
 Text GLabel 1800 3800 0    50   BiDi ~ 0
 _FPGA_INONLY_BUFF_OE
-Wire Notes Line
-	4850 4350 4850 4650
 Text GLabel 4600 5800 2    50   Output ~ 0
 FPGA_HDMI_CLK-
 Wire Wire Line
@@ -553,12 +543,6 @@ Wire Notes Line
 	5250 3050 5250 2950
 Text GLabel 9600 1700 2    50   BiDi ~ 0
 FPGA_OC_INT2
-Wire Notes Line
-	6300 5550 6300 5450
-Wire Notes Line
-	7050 1100 7700 1100
-Wire Notes Line
-	6850 1550 6200 1550
 Text GLabel 9600 1600 2    50   BiDi ~ 0
 FPGA_OC_OVR
 Text GLabel 6800 1700 0    50   BiDi ~ 0

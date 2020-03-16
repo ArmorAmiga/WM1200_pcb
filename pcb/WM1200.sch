@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 10
 Title "Wishmaster 1200"
-Date ""
+Date "2020-03-16"
 Rev "ES1"
 Comp "Created by Konfusion in 2020"
 Comment1 "A1200 version (engineering prototype)"
@@ -13,12 +13,6 @@ Comment2 "Wishmaster ARM \\ JIT turbo board for Amiga"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 3500 2000 1500 500 
-U 5E5B86AA
-F0 "Testpoints" 50
-F1 "testpoints.sch" 50
-$EndSheet
 $Sheet
 S 6000 1500 1450 500 
 U 5E5B89F7
