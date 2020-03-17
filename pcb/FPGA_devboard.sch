@@ -613,4 +613,16 @@ Text GLabel 9600 2600 2    50   BiDi ~ 0
 _FPGA_IPL2
 Text GLabel 9600 2700 2    50   BiDi ~ 0
 _FPGA_DSACK0
+Text Notes 5850 1400 0    50   ~ 0
+FPGA_CPUCLK_A should be connected \nto clock capable pin
+Wire Notes Line
+	6100 2300 6100 1450
+Wire Notes Line
+	5750 1450 5750 1150
+Wire Notes Line
+	5750 1150 7350 1150
+Wire Notes Line
+	5750 1450 7350 1450
+Wire Notes Line
+	7350 1150 7350 1450
 $EndSCHEMATC
